@@ -144,14 +144,14 @@ span.name,
 	font-weight: 600;
 }
 
-#main_player .player_header span/*わからん*/ {
+#main_player .player_header span/*画面枠の上の選択されていないボタン(VIDEO,GUEUE,INFO,MOD?)/ {
 	border-radius: 2.0rem;
 	background: rgba(100,8,8,0.50);
 	font-weight: 600;
-	color: #F0F;
+	color: #FFF;
 }
 #room-info-display .room-info-display-wrapper h2 span i/*わからん*/ {
-	color: #AA74FE;
+	color: #00BFFF;
 }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん*/ {
 	#color: #42A5DC !important;
@@ -384,12 +384,12 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 */
 
-/* Settings *******************************************************************************************************/
+/* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #00BFFF;
 }
 
-/* Queue ****************************************************************************************************/
+/* Queue */
 #browser .browser-content .browser-content-header .close-browser,/*キューリストを閉じるV印*/
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*動画をキューに入れた時の成功した時の表示*/
