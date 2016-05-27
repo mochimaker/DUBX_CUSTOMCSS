@@ -7,7 +7,7 @@
 */
 
 #header-global/*メイン画面の一番上のバー*/ {
-	background: rgba(255,255,255,1.0)/*(100,8,8,0.50)*/;
+	background: rgba(100,8,8,0.50);
 }
 
 /* Main Menu (left) */
@@ -82,30 +82,30 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
 	color: #FF0000;
 }
-/*updubsの文字色**********************************************************************************************************/
-#player-controller .right ul li .dubup.voted {
+
+#player-controller .right ul li .dubup.voted/*updubsの文字色*/ {
 	background: #64FF64;
 }
-/*dubup押した後の色*******************************************************/
-#player-controller .right ul li .dubup .icon-arrow-up/*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
+
+#player-controller .right ul li .dubup .icon-arrow-up/*dubup押した後の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
 	color: #00FF00;
 }
-/*downdubの文字色*******************************************************/
-#player-controller .right ul li .dubdown.voted {
+
+#player-controller .right ul li .dubdown.voted/*downdubの文字*/ {
 	background: #6464FF;
 }
-/*downdub押した後の色***********************************************************************************************************************/
-#player-controller .right ul li .dubdown .icon-arrow-down/*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubdown .dub-counter */{
+
+#player-controller .right ul li .dubdown .icon-arrow-down/*downdub押した後の色*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubdown .dub-counter */{
 	color: #0000FF;
 }
-/*メイン画面の下のバーの色*********************************************************/
-#player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
+
+#player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right/*メイン画面の下のバーの色*/ {
 	background: rgba(100,8,8,0.25);
 }
 
-/* Add to Playlist ***************************************************************************/
+/* Add to Playlist */
 #addToPlaylistFloatContainer .playlist-list-action li:hover {
-	color: #AA74FE;
+	color: #00BFFF;
 }
 #addToPlaylistFloatContainer .create-playlist-input .icon-add {
 	background: #AA74FE;
