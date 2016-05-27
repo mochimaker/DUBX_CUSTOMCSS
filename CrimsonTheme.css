@@ -103,15 +103,15 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 	background: rgba(100,8,8,0.25);
 }
 
-/* Add to Playlist */
-#addToPlaylistFloatContainer .playlist-list-action li:hover {
+/* Add to Playlist *マイリスに追加する画面**/
+#addToPlaylistFloatContainer .playlist-list-action li:hover/*マイリス名にマウスを乗せたとき*/ {
 	color: #00BFFF;
 }
-#addToPlaylistFloatContainer .create-playlist-input .icon-add {
-	background: #AA74FE;
+#addToPlaylistFloatContainer .create-playlist-input .icon-add/*新しくリストを作るアイコン*/ {
+	background: #00BFFF;
 }
 
-/* Lobby */
+/* Lobby *ロビーの画面？*/
 span.name,
 #room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join/*ロビーの文字？*/ {
 	color: #FFFFFF;
@@ -138,7 +138,7 @@ span.name,
 	background: #FFFFFF;
 }
 /* Video Buttons (top) */
-#main_player .player_header span.active/*画面枠の上の選択されてるボタン*/ {
+#main_player .player_header span.active/*画面枠の上の選択されてるボタン(VIDEO,GUEUE,INFO,MOD?)*/ {
 	background: #F43254;
 	color: #000000;
 	font-weight: 600;
@@ -148,7 +148,7 @@ span.name,
 	border-radius: 2.0rem;
 	background: rgba(100,8,8,0.50);
 	font-weight: 600;
-	color: #FFF;
+	color: #F0F;
 }
 #room-info-display .room-info-display-wrapper h2 span i/*わからん*/ {
 	color: #AA74FE;
@@ -251,7 +251,7 @@ span.name,
 }
 */
 /** Admins **/
-/*わすれた
+/*忘れた
 #chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username,
 #chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username,
 #chat .chat-container ul.chat-main li.user-52d24bff4cf9670200000515 .activity-row .text p a.username,
