@@ -6,99 +6,99 @@
     https://dubtrack.fm/sinful
 */
 
-#header-global/*ƒƒCƒ“‰æ–Ê‚Ìˆê”Ôã‚Ìƒo[*/ {
+#header-global/*ãƒ¡ã‚¤ãƒ³ç”»é¢ã®ä¸€ç•ªä¸Šã®ãƒãƒ¼*/ {
 	background: rgba(100,8,8,0.50);
 }
 
 /* Main Menu (left) */
-#main-menu-left a.room-active-link /*¶‚Ìƒƒjƒ…[“à‚Ì•¶š*/{
+#main-menu-left a.room-active-link /*å·¦ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼å†…ã®æ–‡å­—*/{
 	color: #FFFFFF;
-    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*•¶š‚ğˆÍ‚ŞlŠp*/
+    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*æ–‡å­—ã‚’å›²ã‚€å››è§’*/
 }
 
-#header-global .header-left-navigation:after/*‚í‚©‚ç‚ñ*/ {
+#header-global .header-left-navigation:after/*ã‚ã‹ã‚‰ã‚“*/ {
 	color: #FFFFFF; !important;
 }
 /* Main Menu (right) */
-#header-global .header-right-navigation .user-info span/*‰Eã‚Ìƒ†[ƒUƒl[ƒ€*/ {
+#header-global .header-right-navigation .user-info span/*å³ä¸Šã®ãƒ¦ãƒ¼ã‚¶ãƒãƒ¼ãƒ */ {
 	color: #FFFFFF;
 }
 
 /* Top Header */
-a, a:active, a:focus, a:hover,/*ƒAƒNƒeƒBƒuHŠî–{‚ÌH‚í‚©‚ç‚ñ*/
+a, a:active, a:focus, a:hover,/*ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ï¼ŸåŸºæœ¬ã®ï¼Ÿã‚ã‹ã‚‰ã‚“*/
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
-	color: #FFFFFF;/*ƒƒr[‚Æ•”‰®–¼Ainfo‚ÌURLƒŠƒ“ƒNAƒŠƒNƒGƒXƒg”‚Æƒ}ƒCƒŠƒX”AƒLƒ…[‚Ìˆê——‚Ìƒ~ƒLƒT[AƒLƒ…[ƒI[ƒ‹Aƒ|[ƒYAƒNƒŠƒAAƒSƒ~” ‚Æªˆó‚ÌF‚Æ‘¼H*/
+	color: #FFFFFF;/*ãƒ­ãƒ“ãƒ¼ã¨éƒ¨å±‹åã€infoã®URLãƒªãƒ³ã‚¯ã€ãƒªã‚¯ã‚¨ã‚¹ãƒˆæ•°ã¨ãƒã‚¤ãƒªã‚¹æ•°ã€ã‚­ãƒ¥ãƒ¼ã®ä¸€è¦§ã®ãƒŸã‚­ã‚µãƒ¼ã€ã‚­ãƒ¥ãƒ¼ã‚ªãƒ¼ãƒ«ã€ãƒãƒ¼ã‚ºã€ã‚¯ãƒªã‚¢ã€ã‚´ãƒŸç®±ã¨â†‘å°ã®è‰²ã¨ä»–ï¼Ÿ*/
 }
 
-#main-loading/*ƒƒr[‚Éo‚é‚Æ‚«‚Ìƒ[ƒh•\¦*/ {
+#main-loading/*ãƒ­ãƒ“ãƒ¼ã«å‡ºã‚‹ã¨ãã®ãƒ­ãƒ¼ãƒ‰è¡¨ç¤º*/ {
 	background: #B81A3E;
 }
 
-#header-global .header-right-navigation .user-messages .message-counter/*‚í‚©‚ç‚ñ*/ {
+#header-global .header-right-navigation .user-messages .message-counter/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #FFFFFF;
 }
 
-/* Private Messages ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒWŠÖ˜AH*/
+/* Private Messages ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒ¡ãƒƒã‚»ãƒ¼ã‚¸é–¢é€£ï¼Ÿ*/
 #private-messages .main-message-list ul.message-list li.message-item .message-content h3, #private-messages .message-details ul.message-list li.message-item .message-content h3,
 #private-messages .main-message-list .message-header a, #private-messages .message-details .message-header a,
 #private-messages .message-details ul.message-list li.message-item .message-content h3,
 #private-messages .private-message-details-info, #private-messages .private-message-info {
 	color: #FFFFFF;
 }
-#private-messages .loading/*ƒ[ƒh•\¦*/ {
+#private-messages .loading/*ãƒ­ãƒ¼ãƒ‰è¡¨ç¤º*/ {
 	background: #B81A3E;
 }
-#private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before/*‚í‚©‚ç‚ñ*/ {
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #AA74FE;
 }
-#private-messages .main-message-list, #private-messages .message-details/*”wŒi*/ {
+#private-messages .main-message-list, #private-messages .message-details/*èƒŒæ™¯*/ {
 	background: #5C484D;
 }
 
 /* DubX Menu */
-.for_content/*dubX‚Ìƒƒjƒ…[‚Ì”wŒi*/ {
+.for_content/*dubXã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®èƒŒæ™¯*/ {
 	background: #5C484D !important;
 }
-.for_content_off/*dubX‚Ì•¶š‚Ì¶‚Ìƒ}[ƒN*/ {
+.for_content_off/*dubXã®æ–‡å­—ã®å·¦ã®ãƒãƒ¼ã‚¯*/ {
 	color: #FF3300 !important;
 }
-.for_content_version, .for_content_p/*dubX‚Ì•¶š*/ {
+.for_content_version, .for_content_p/*dubXã®æ–‡å­—*/ {
 	color: #FFFFFF  !important;
 }
 
 /** DubX Feature Menus **/
-.onErr .container .control .confirm/*dubX‚Ì“ü—Í‰æ–Ê‚ÌOkay‚Ì”wŒi*/ {
+.onErr .container .control .confirm/*dubXã®å…¥åŠ›ç”»é¢ã®Okayã®èƒŒæ™¯*/ {
 	background: #CD3740 !important;
 }
-.for_content_c/*‚í‚©‚ç‚ñ*/ {
+.for_content_c/*ã‚ã‹ã‚‰ã‚“*/ {
 	#color: #AA74FE !important;
 }
 
 /* Bottom Header */
-#player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*Ä¶ŠÔ‚Ìƒo[‚ÌF*/ {
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*å†ç”Ÿæ™‚é–“ã®ãƒãƒ¼ã®è‰²*/ {
 	background:  #C41A41;
 	/*border-radius: 2.0rem;*/
 }
-/*ƒ}ƒCƒŠƒX‚ÌƒAƒCƒRƒ“‚¾‚¯‚ğ•Ï‚¦‚½‚©‚Á‚½‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
+/*ãƒã‚¤ãƒªã‚¹ã®ã‚¢ã‚¤ã‚³ãƒ³ã ã‘ã‚’å¤‰ãˆãŸã‹ã£ãŸã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆ.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
 	color: #FF0000;
 }
-/*updubs‚Ì•¶šF**********************************************************************************************************/
+/*updubsã®æ–‡å­—è‰²**********************************************************************************************************/
 #player-controller .right ul li .dubup.voted {
 	background: #64FF64;
 }
-/*dubup‰Ÿ‚µ‚½Œã‚ÌF*******************************************************/
-#player-controller .right ul li .dubup .icon-arrow-up/*”š‚ÌF‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg, #player-controller .right ul li .dubup .dub-counter*/ {
+/*dubupæŠ¼ã—ãŸå¾Œã®è‰²*******************************************************/
+#player-controller .right ul li .dubup .icon-arrow-up/*æ•°å­—ã®è‰²ã¯å¤‰ãˆãŸããªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆ, #player-controller .right ul li .dubup .dub-counter*/ {
 	color: #00FF00;
 }
-/*downdub‚Ì•¶šF*******************************************************/
+/*downdubã®æ–‡å­—è‰²*******************************************************/
 #player-controller .right ul li .dubdown.voted {
 	background: #6464FF;
 }
-/*downdub‰Ÿ‚µ‚½Œã‚ÌF***********************************************************************************************************************/
-#player-controller .right ul li .dubdown .icon-arrow-down/*”š‚ÌF‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg, #player-controller .right ul li .dubdown .dub-counter */{
+/*downdubæŠ¼ã—ãŸå¾Œã®è‰²***********************************************************************************************************************/
+#player-controller .right ul li .dubdown .icon-arrow-down/*æ•°å­—ã®è‰²ã¯å¤‰ãˆãŸããªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆ, #player-controller .right ul li .dubdown .dub-counter */{
 	color: #0000FF;
 }
-/*ƒƒCƒ“‰æ–Ê‚Ì‰º‚Ìƒo[‚ÌF*********************************************************/
+/*ãƒ¡ã‚¤ãƒ³ç”»é¢ã®ä¸‹ã®ãƒãƒ¼ã®è‰²*********************************************************/
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, #player-controller .left, #player-controller .right {
 	background: rgba(100,8,8,0.25);
 }
@@ -113,52 +113,52 @@ a, a:active, a:focus, a:hover,/*ƒAƒNƒeƒBƒuHŠî–{‚ÌH‚í‚©‚ç‚ñ*/
 
 /* Lobby */
 span.name,
-#room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join/*ƒƒr[‚Ì•¶šH*/ {
+#room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join/*ãƒ­ãƒ“ãƒ¼ã®æ–‡å­—ï¼Ÿ*/ {
 	color: #FFFFFF;
 	opacity: 0.7;
 }
-#room-list #container-room-list .room-item .roomImage .join/*‚í‚©‚ç‚ñ*/ {
+#room-list #container-room-list .room-item .roomImage .join/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #AA74FE;
 }
-#warning/*‚í‚©‚ç‚ñ*/ {
+#warning/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #AA74FE;
 	opacity: 0.90;
 }
 
 /* Video Player */
-#main_player/*“®‰æ‚Ì˜g*/ {
+#main_player/*å‹•ç”»ã®æ */ {
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-#main_player #custom_iframe_embed_error, #main_player .playbtn-el/*‚í‚©‚ç‚ñ*/ {
+#main_player #custom_iframe_embed_error, #main_player .playbtn-el/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #AA74FE;
 }
 
-#ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min/*‚í‚©‚ç‚ñ*/ {
+#ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #FFFFFF;
 }
 /* Video Buttons (top) */
-#main_player .player_header span.active/*‰æ–Ê˜g‚Ìã‚Ì‘I‘ğ‚³‚ê‚Ä‚éƒ{ƒ^ƒ“*/ {
+#main_player .player_header span.active/*ç”»é¢æ ã®ä¸Šã®é¸æŠã•ã‚Œã¦ã‚‹ãƒœã‚¿ãƒ³*/ {
 	background: #F43254;
 	color: #000000;
 	font-weight: 600;
 }
 
-#main_player .player_header span/*‚í‚©‚ç‚ñ*/ {
+#main_player .player_header span/*ã‚ã‹ã‚‰ã‚“*/ {
 	border-radius: 2.0rem;
 	background: rgba(100,8,8,0.50);
 	font-weight: 600;
 	color: #FFF;
 }
-#room-info-display .room-info-display-wrapper h2 span i/*‚í‚©‚ç‚ñ*/ {
+#room-info-display .room-info-display-wrapper h2 span i/*ã‚ã‹ã‚‰ã‚“*/ {
 	color: #AA74FE;
 }
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*‚í‚©‚ç‚ñ*/ {
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*ã‚ã‹ã‚‰ã‚“*/ {
 	#color: #42A5DC !important;
 }
 
 /* Video Buttons (bottom) */
-#main_player .play-song-link/*‚í‚©‚ç‚ñ*/ {
+#main_player .play-song-link/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: rgba(200,8,8,0.50);
 	border-radius: 2.0rem;
 }
@@ -168,37 +168,37 @@ span.name,
 }
 
 /* Chat */
-#main-room .right_section, #profileMainSection/*ƒ`ƒƒƒbƒg‚Ì˜g*/ {
+#main-room .right_section, #profileMainSection/*ãƒãƒ£ãƒƒãƒˆã®æ */ {
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
 
 }
 
-#chat .chat_tools span:hover/*ƒ`ƒƒƒbƒg‚Ìã‚ÌƒAƒCƒRƒ“‚Éƒ}ƒEƒX‚ğæ‚¹‚½*/ {
+#chat .chat_tools span:hover/*ãƒãƒ£ãƒƒãƒˆã®ä¸Šã®ã‚¢ã‚¤ã‚³ãƒ³ã«ãƒã‚¦ã‚¹ã‚’ä¹—ã›ãŸæ™‚*/ {
 	color:  #FFFFFF;
 }
 
-#chat .chat_tools span:after /*ƒ`ƒƒƒbƒg‚Ìã‚ÌƒAƒCƒRƒ“‚Ì‰º‚Ìü*/{
+#chat .chat_tools span:after /*ãƒãƒ£ãƒƒãƒˆã®ä¸Šã®ã‚¢ã‚¤ã‚³ãƒ³ã®ä¸‹ã®ç·š*/{
 	border-color: #991C38;
 }
 
-#chat .pusher-chat-widget-input #new-messages-counter/*V‚µ‚¢ƒRƒƒ“ƒg‚Ì’Ê’m*/ {
+#chat .pusher-chat-widget-input #new-messages-counter/*æ–°ã—ã„ã‚³ãƒ¡ãƒ³ãƒˆã®é€šçŸ¥*/ {
 	background: #B40926;
 }
 
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*‚í‚©‚ç‚ñ*/ {
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*ã‚ã‹ã‚‰ã‚“*/ {
 	color: rgb(170, 170, 170);
 }
 
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*‚í‚©‚ç‚ñ*/ {
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ã‚ã‹ã‚‰ã‚“*/ {
     color: #FFDD6F !important;
 }
-#chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error/*‚í‚©‚ç‚ñ*/ {
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error/*ã‚ã‹ã‚‰ã‚“*/ {
 	font-size: 14px;
 }
 
-/*Owner‚Ìƒ†[ƒU[–¼‚Ì•¶š*/
+/*Ownerã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—*/
 /*
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
@@ -206,7 +206,7 @@ span.name,
     color: #C892FE !important;
 }
 */
-/*Co-owner‚Ìƒ†[ƒU[–¼‚Ì•¶šFH*/
+/*Co-ownerã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—è‰²ï¼Ÿ*/
 /*
 #chat .chat-main .isCo-owner .username,
 #chat .chat-main .isCo-owner .username:hover,
@@ -214,7 +214,7 @@ span.name,
     color: #C892FE !important;
 }
 */
-/*Manager‚Ìƒ†[ƒU[–¼‚Ì•¶šFH*/
+/*Managerã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—è‰²ï¼Ÿ*/
 /*
 #chat .chat-main .isManager .username,
 #chat .chat-main .isManager .username:hover,
@@ -222,7 +222,7 @@ span.name,
     color: #C892FE !important;
 }
 */
-/*Mod‚Ìƒ†[ƒU[–¼‚Ì•¶šFH*/
+/*Modã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—è‰²ï¼Ÿ*/
 /*
 #chat .chat-main .isMod .username,
 #chat .chat-main .isMod .username:hover,
@@ -230,7 +230,7 @@ span.name,
     color: #C892FE !important;
 }
 */
-/*Resident-dj‚Ìƒ†[ƒU[–¼‚Ì•¶šFH*/
+/*Resident-djã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—è‰²ï¼Ÿ*/
 /*
 #chat .chat-main .isResident-dj .username,
 #chat .chat-main .isResident-dj .username:hover,
@@ -238,7 +238,7 @@ span.name,
     color: #C892FE !important;
 }
 */
-/*Vip‚Ìƒ†[ƒU[–¼‚Ì•¶šFH*/
+/*Vipã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®æ–‡å­—è‰²ï¼Ÿ*/
 /*
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
@@ -247,7 +247,7 @@ span.name,
 }
 */
 /** Admins **/
-/*‚í‚·‚ê‚½
+/*ã‚ã™ã‚ŒãŸ
 #chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username,
 #chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username,
 #chat .chat-container ul.chat-main li.user-52d24bff4cf9670200000515 .activity-row .text p a.username,
@@ -285,7 +285,7 @@ span.name,
 */
 
 /** Moderators **/
-/*ƒ†[ƒU[ƒŠƒXƒg‚ÌŒ ŒÀ‚ğ‚Á‚Ä‚¢‚éƒ†[ƒU[* ƒ†[ƒU[–¼‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg
+/*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®æ¨©é™ã‚’æŒã£ã¦ã„ã‚‹ãƒ¦ãƒ¼ã‚¶ãƒ¼* ãƒ¦ãƒ¼ã‚¶ãƒ¼åã¯å¤‰ãˆãŸããªã„ã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆ
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
@@ -293,7 +293,7 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
 */
-/*ƒ†[ƒU[–¼‚ÌŒã‚ÌŒ —˜–¼‚ÌF*/
+/*ãƒ¦ãƒ¼ã‚¶ãƒ¼åã®å¾Œã®æ¨©åˆ©åã®è‰²*/
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #FF0080;
 }
@@ -314,30 +314,30 @@ span.name,
 }
 
 /** Current DJ **/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,*ƒ†[ƒU[ƒŠƒXƒg‚Ì¡,A‹È‚ğ—¬‚µ‚Ä‚¢‚él‚Ì–¼‘O*/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ƒ†[ƒU[ƒŠƒXƒg‚Ì¡,A‹È‚ğ—¬‚µ‚Ä‚¢‚él‚Ì–¼‘O‚ÌŒã‚ÌDJ*/ {
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®ä»Š,ã€æ›²ã‚’æµã—ã¦ã„ã‚‹äººã®åå‰*/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®ä»Š,ã€æ›²ã‚’æµã—ã¦ã„ã‚‹äººã®åå‰ã®å¾Œã®DJ*/ {
 	color: #0FF;
 }
 
 /** Users **/
-#main_avatar_room #main-user-list-room #avatar-list li p/*‚í‚·‚ê‚½*/ {
+#main_avatar_room #main-user-list-room #avatar-list li p/*ã‚ã™ã‚ŒãŸ*/ {
 	color: #FFFFFF;
 }
 
 /** Upvote/Downvote **/
-ul.avatar-list li.updub/*ƒ†[ƒU[ƒŠƒXƒg‚Ìupdub‚ğ‰Ÿ‚µ‚½l*/ {
+ul.avatar-list li.updub/*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®updubã‚’æŠ¼ã—ãŸäºº*/ {
 	background: rgba(255,21,22,0.2);
 	padding-left: 5px;
 	padding-right: 5px;
 }
-ul.avatar-list li.downdub/*ƒ†[ƒU[ƒŠƒXƒg‚Ìdowndub‚ğ‰Ÿ‚µ‚½l*/ {
+ul.avatar-list li.downdub/*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®downdubã‚’æŠ¼ã—ãŸäºº*/ {
 	background: rgba(22,21,255,0.2);
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 /** Team **/
-/*DubX‚ÌŠJ”­ÒŠÖ˜A‚È‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒgi‚½‚Ô‚ñ‚¢‚ç‚È‚¢j
+/*DubXã®é–‹ç™ºè€…é–¢é€£ãªã®ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆï¼ˆãŸã¶ã‚“ã„ã‚‰ãªã„ï¼‰
 ul.avatar-list li.user-kris p.dubs:before,
 ul.avatar-list li.user-al3366 p.dubs:before,
 ul.avatar-list li.user-ciscog p.dubs:before {
@@ -380,19 +380,19 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 */
 
 /* Settings *******************************************************************************************************/
-#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*İ’è‚É‚ ‚éƒ{ƒ^ƒ“‚Éƒ}ƒEƒX‚ğæ‚¹‚½‚Ì*/ {
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*è¨­å®šã«ã‚ã‚‹ãƒœã‚¿ãƒ³ã«ãƒã‚¦ã‚¹ã‚’ä¹—ã›ãŸæ™‚ã®*/ {
 	color: #00BFFF;
 }
 
 /* Queue ****************************************************************************************************/
-#browser .browser-content .browser-content-header .close-browser,/*ƒLƒ…[ƒŠƒXƒg‚ğ•Â‚¶‚éVˆó*/
-#browser .browser-content .browser-content-main .nano .loading,/*ƒLƒ…[ƒŠƒXƒg‚Ìƒ[ƒh•\¦*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*“®‰æ‚ğƒLƒ…[‚É“ü‚ê‚½‚Ì¬Œ÷‚µ‚½‚Ì•\¦*/
-#browser .browser-content #import-playlist-container .close-import-playlist/*ƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg‰æ–Ê‚Ì•Â‚¶‚é~ˆó*/ {
+#browser .browser-content .browser-content-header .close-browser,/*ã‚­ãƒ¥ãƒ¼ãƒªã‚¹ãƒˆã‚’é–‰ã˜ã‚‹Vå°*/
+#browser .browser-content .browser-content-main .nano .loading,/*ã‚­ãƒ¥ãƒ¼ãƒªã‚¹ãƒˆã®ãƒ­ãƒ¼ãƒ‰è¡¨ç¤º*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*å‹•ç”»ã‚’ã‚­ãƒ¥ãƒ¼ã«å…¥ã‚ŒãŸæ™‚ã®æˆåŠŸã—ãŸæ™‚ã®è¡¨ç¤º*/
+#browser .browser-content #import-playlist-container .close-import-playlist/*ã‚¤ãƒ³ãƒãƒ¼ãƒˆãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆç”»é¢ã®é–‰ã˜ã‚‹Ã—å°*/ {
 	background: #BE003F;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
-#import-playlist-container .import-playlist-youtube span/*‚í‚©‚ç‚ñ*/ {
+#import-playlist-container .import-playlist-youtube span/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #fff;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
@@ -407,61 +407,61 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview,
-#browser .browser-content .browser-content-main .sidebar .import-playlist span,/*ƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg‚ÌƒAƒCƒRƒ“*/
-#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,/*ƒNƒŠƒG[ƒgƒvƒŒƒCƒŠƒXƒg‚ÌƒAƒCƒRƒ“*/
+#browser .browser-content .browser-content-main .sidebar .import-playlist span,/*ã‚¤ãƒ³ãƒãƒ¼ãƒˆãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,/*ã‚¯ãƒªã‚¨ãƒ¼ãƒˆãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
 #browser .browser-content #import-playlist-container .playlist-type-select span:hover {
 	color: #00BFFF;
 }
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*ƒLƒ…[‚Ì’†‚Ì“®‰æ‚ğ‘I‘ğ‚µ‚½‚Ìü‚è‚Ìü*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected/*ƒvƒŒƒCƒŠƒXƒg‚Ì’†‚Ì“®‰æ‚ğ‘I‘ğ‚µ‚½‚Ìü‚è‚Ìü*/ {
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*ã‚­ãƒ¥ãƒ¼ã®ä¸­ã®å‹•ç”»ã‚’é¸æŠã—ãŸæ™‚ã®å‘¨ã‚Šã®ç·š*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected/*ãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆã®ä¸­ã®å‹•ç”»ã‚’é¸æŠã—ãŸæ™‚ã®å‘¨ã‚Šã®ç·š*/ {
 	border: 1px solid  #F0435A;
 }
 
 /* Preview */
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
-.playerPreview .ui-slider-range /*‚í‚©‚ç‚ñ*/{
+.playerPreview .ui-slider-range /*ã‚ã‹ã‚‰ã‚“*/{
 	background: #AA74FE;
 }
 
-.playerPreview .ui-slider-handle/*‚í‚©‚ç‚ñ*/ {
+.playerPreview .ui-slider-handle/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: #AA74FE;
 }
 
 /* Room Info */
-#roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a/*‚í‚©‚ç‚ñ*/ {
+#roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a/*ã‚ã‹ã‚‰ã‚“*/ {
 	color: #AA74FE;
 }
 
 /* User */
-span.usernameContainer, .followers-counter/*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ÌƒtƒHƒƒ[”*/,
-#profileMainSection .profileView .header .pictureContainer .updatePictureGif/*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚Ìƒ†[ƒU[–¼H*/ {
+span.usernameContainer, .followers-counter/*ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã®ãƒ•ã‚©ãƒ­ãƒ¯ãƒ¼æ•°*/,
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif/*ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã®ãƒ¦ãƒ¼ã‚¶ãƒ¼åï¼Ÿ*/ {
 	color: #FFFFFF;
 }
-#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn /*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ÌƒtƒHƒ[‚·‚éƒ{ƒ^ƒ“*/{
+#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn /*ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã®ãƒ•ã‚©ãƒ­ãƒ¼ã™ã‚‹ãƒœã‚¿ãƒ³*/{
 	color: #FFFFFF;
-	border: 2px solid #FFFFFF;/*ƒ{ƒ^ƒ“‚ÌŠO˜g*/
+	border: 2px solid #FFFFFF;/*ãƒœã‚¿ãƒ³ã®å¤–æ */
 }
 
-#profileMainSection .profileView .header .pictureContainer .updatePictureGif /*‚í‚©‚ç‚ñ*/{
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif /*ã‚ã‹ã‚‰ã‚“*/{
 	width: 101%;
 	height 101%;
 	background: #AA74FE;
 }
 
-#user_popover .actions, #user_popover .global-actions, #user_popover/*ƒAƒoƒ^[‚ğƒNƒŠƒbƒN‚µ‚½‚Æ‚«‚ÌƒvƒƒtƒB[ƒ‹‰æ–Ê‚Ì*/ {
+#user_popover .actions, #user_popover .global-actions, #user_popover/*ã‚¢ãƒã‚¿ãƒ¼ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã¨ãã®ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã®*/ {
 	background: #FFFFFF;
 	opacity: .95;
 }
-#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3/*¬‚³‚¢ƒvƒƒtƒB[ƒ‹‰æ–Ê‚Ì•¶š‚ÆƒAƒCƒRƒ“*/ {
+#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3/*å°ã•ã„ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã®æ–‡å­—ã¨ã‚¢ã‚¤ã‚³ãƒ³*/ {
 	color: #393A39;
 }
-#user_popover .global-actions a/*¬‚³‚¢ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ğ‹æØ‚éü*/ {
+#user_popover .global-actions a/*å°ã•ã„ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ç”»é¢ã‚’åŒºåˆ‡ã‚‹ç·š*/ {
 	outline: 1px solid #393A39;
 }
-#user_popover .actions a/*‚í‚©‚ç‚ñ*/ {
+#user_popover .actions a/*ã‚ã‹ã‚‰ã‚“*/ {
 	color: #3D3C43;
 	outline: 1px solid #3D3C43;
 }
-#user_popover .actions a input/*‚í‚©‚ç‚ñ*/ {
+#user_popover .actions a input/*ã‚ã‹ã‚‰ã‚“*/ {
 	background: rgba(61, 60, 67, 0.69);
 }
