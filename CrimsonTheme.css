@@ -144,7 +144,7 @@ span.name,
 	font-weight: 600;
 }
 
-#main_player .player_header span/*画面枠の上の選択されていないボタン(VIDEO,GUEUE,INFO,MOD?)/ {
+#main_player .player_header span/*画面枠の上の選択されていないボタン(VIDEO,GUEUE,INFO,MOD?)*/ {
 	border-radius: 2.0rem;
 	background: rgba(100,8,8,0.50);
 	font-weight: 600;
