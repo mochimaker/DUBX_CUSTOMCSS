@@ -20,7 +20,7 @@
 	color: #FFFFFF; !important;
 }
 /* Main Menu (right) */
-#header-global .header-right-navigation .user-info span/*右上のユーザネーム*/ {
+#header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ {
 	color: #FFFFFF;
 }
 
@@ -151,7 +151,7 @@ span.name,
 	color: #FFF;
 }
 #room-info-display .room-info-display-wrapper h2 span i/*わからん*/ {
-	color: #00BFFF;
+	color: #FF00FF;
 }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん*/ {
 	#color: #42A5DC !important;
