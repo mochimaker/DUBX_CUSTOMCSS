@@ -214,6 +214,16 @@ span.name,
 	border-color: #FFFFFF;
 }
 
+#chat .chat-container .chat-messages .chat-main li.chat-system-grabbed,
+#chat .chat-container .chat-messages .chat-main li.chat-system-joined, 
+#chat .chat-container .chat-messages .chat-main li.chat-system-left, 
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, 
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message, 
+#chat .chat-container .chat-messages .chat-main li.system, #chat 
+.chat-container .chat-messages .chat-main li.system-error {
+    color: #DCDCDC;
+}
+
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
 }
