@@ -428,12 +428,12 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
 }
-#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span {
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
 	color: #F0F0F0;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
-	background: #BE003F;
+	background: #5C484D;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
