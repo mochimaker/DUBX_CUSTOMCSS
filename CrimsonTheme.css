@@ -150,7 +150,7 @@ span.name,
 	color: #FFF;
 }
 #room-info-display .room-info-display-wrapper h2 span i/*INFOの中のホスト名*/ {
-	color: #FF00FF;
+	color: #BE003F;
 }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
 	#color: #42A5DC !important;
@@ -162,8 +162,8 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
-#main_player .play-song-link .queue-info {
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/,
+#main_player .play-song-link .queue-info/*わからん*/ {
 	background: #C41A41;
 }
 
@@ -177,16 +177,19 @@ span.name,
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
 	color:  #FFFFFF;
-	border-bottom: 1px solid #FFFFFF !important;
 }
 #chat .pusher-chat-widget-input	/*チャットを入力するところ*/ {
 	border-top: 1px solid #FFFFFF;
 }
-#chat .chat_tools span {
+#chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/ {
 	color: #c8c8c8;
 }
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/ {
 	color:  #FFFFFF;
+}
+
+#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings {
+    color: #c8c8c8;
 }
 
 #chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
