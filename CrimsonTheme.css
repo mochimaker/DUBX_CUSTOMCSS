@@ -443,7 +443,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 
 /* Preview */
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded/*プレビューのロードしたバー*/, 
-.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress/*プレビューの再生時間のバー*/ {
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress/*プレビューの再生時間のバー*/,
+.playerPreview .player-preview-container-wrapper .ui-slider-range,
+.playerPreview .player-preview-container-wrapper .ui-slider-handle {
 	background: #C41A41;/*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
 }
 /*
