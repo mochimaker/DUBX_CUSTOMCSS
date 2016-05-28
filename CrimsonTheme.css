@@ -180,7 +180,7 @@ span.name,
 	color:  #FFFFFF;
 }
 #chat .chat_tools span {
-	color: #c8c8c8;
+	color: #c8c8c8 !important;
 }
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/ {
 	color:  #FFFFFF;
