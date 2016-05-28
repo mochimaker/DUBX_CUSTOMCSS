@@ -177,6 +177,10 @@ span.name,
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
 	color:  #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+#chat .pusher-chat-widget-input	/*チャットを入力するところ*/{
+	border-top: 1px solid #FFFFFF;
 }
 #chat .chat_tools span {
 	color: #c8c8c8;
@@ -185,7 +189,7 @@ span.name,
 	color:  #FFFFFF;
 }
 
-#chat .chat_tools span:after /*チャットの上のアイコンの下の線*/{
+#chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
 	border-color: #991C38;
 }
 
