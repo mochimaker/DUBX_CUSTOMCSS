@@ -175,9 +175,13 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-.ps-container .ps-scrollbar-y {
+.ps-container .ps-scrollbar-y/*スクロールできる場所にマウスを置いた時のスクロールバー*/ {
     background-color: rgba(255, 255, 0, 0.50);
 }
+body, button, input, select, textarea {
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+   
 }
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
