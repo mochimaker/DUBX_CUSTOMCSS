@@ -475,6 +475,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
+#browser .browser-content .browser-content-main .nano .content-videos {
+	background: #58333D;
+}
+
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
