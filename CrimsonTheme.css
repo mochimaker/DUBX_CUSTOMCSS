@@ -444,7 +444,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
     background: #C41A41;
     color: #FFFFFF;
 }
-#playlists-scroll {
+#playlists-scroll/*左のリストの背景*/ {
 	background: #5C484D;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
@@ -455,10 +455,17 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #7A7A7A;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*キューを止めていると出てくる帯*/ {
-    background: #C41A41;
-    color: #FFFFFF;
+#browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
+#browser .browser-content .browser-content-main .sidebar .import-playlist/*左のリストのインポートプレイリスト*/ {
+	background: #5C484D;
+	color: #fff;
+	border-top: 1px solid #7B3746;
+}
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
+	background: #C41A41;
+	color: #FFFFFF;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
@@ -494,7 +501,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/ {
 	background: #C41A41;
 }
-/*
+/*恐らく古いプレビューの設定なのでコメントアウト
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
 .playerPreview .ui-slider-range {
 	background: #AA74FE;
