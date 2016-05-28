@@ -7,7 +7,7 @@
 */
 /*
 このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変して作られています
-*
+*/
 #header-global/*メイン画面の一番上のバー*/ {
 	background: rgba(100,8,8,0.50);
 }
@@ -450,6 +450,13 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
 	background: #7A7A7A;
 }
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*キューを止めていると出てくる帯*/ {
+   
+    background: #C41A41;
+    color: #FFFFFF;
+}
+
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
