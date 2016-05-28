@@ -337,7 +337,7 @@ span.name,
 }
 
 /** Users **/
-#main_avatar_room #main-user-list-room #avatar-list li p/*わすれた*/ {
+#main_avatar_room #main-user-list-room #avatar-list li p/*ユーザーリストのユーザー名？*/ {
 	color: #FFFFFF;
 }
 
@@ -399,6 +399,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /* Settings */
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #00BFFF;
+}
+
+#chat .chat-options .chat-option-header {
+	color: #FFFFFF;
 }
 
 /* Queue */
