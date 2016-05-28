@@ -183,14 +183,14 @@ span.name,
 }
 
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
-#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
-#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms, #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
+#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings, #chat .display-room-users,/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
 	color: #c8c8c8;
 }
 
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
-#main-room.display-users-rooms:hover #chat .display-chat:hover, #main-room.display-users-rooms:hover #chat .display-chat-settings:hover/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
-#main-room.display-chat-settings:hover #chat .display-chat:hover, #main-room.display-chat-settings:hover #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+#main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
+#main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
 	color:  #FFFFFF;
 }
 
@@ -311,22 +311,22 @@ span.name,
 */
 /*ユーザー名の後の権利名の色*/
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
-	color: #FF0080;
+	color: #C73C2E;/*緋色*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-	color: #8000FF;
+	color: #134A63;/*藍色*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
-	color: #0080FF;
+	color: #ECDB71;/*刈安色*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
-	color: #00FF80;
+	color: #007655;/*蒼色*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
-	color: #80FF00;
+	color: #00A37E;/*若竹色*/
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-	color: #FF8000;
+	color: #714C99;/*菫色*/
 }
 
 /** Current DJ **/
