@@ -77,7 +77,6 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 /* Bottom Header */
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*再生時間のバーの色*/ {
 	background:  #C41A41;
-	/*border-radius: 2.0rem;*/
 }
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
 	color: #FF0000;
@@ -165,7 +164,7 @@ span.name,
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
 #main_player .play-song-link .queue-info {
-	background: #AA74FE;
+	background: #C41A41;
 }
 
 /* Chat */
