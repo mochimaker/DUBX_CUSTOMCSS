@@ -440,8 +440,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
 }
-#browser .browser-content .browser-content-main .sidebar .display-sidebar {
-    
+#browser .browser-content .browser-content-main .sidebar .display-sidebar/*小さい画面にすると出てくるリストを開くボタン*/ {
     background: #C41A41;
     color: #FFFFFF;
 }
@@ -456,8 +455,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #7A7A7A;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*キューを止めていると出てくる帯*/ {
-   
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*キューを止めていると出てくる帯*/ {
     background: #C41A41;
     color: #FFFFFF;
 }
