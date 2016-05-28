@@ -78,7 +78,7 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 }
 
 /* Bottom Header */
-#player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*再生時間のバーの色*/ {
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*再生時間のバー*/ {
 	background:  #C41A41;
 }
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
@@ -442,15 +442,20 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /* Preview */
-.playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
-.playerPreview .ui-slider-range /*わからん*/{
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded, 
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress {
 	background: #C41A41;
 }
-
-.playerPreview .ui-slider-handle/*わからん*/ {
+/*
+.playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
+.playerPreview .ui-slider-range {
 	background: #AA74FE;
 }
 
+.playerPreview .ui-slider-handle {
+	background: #AA74FE;
+}
+*/
 /* Room Info */
 #roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a/*わからん*/ {
 	color: #AA74FE;
