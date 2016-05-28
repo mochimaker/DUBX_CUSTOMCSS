@@ -158,8 +158,7 @@ span.name,
 }
 
 /* Video Buttons (bottom) */
-/*#main_player .play-song-link/*わからん*/
-#play-song-link-browser {
+#main_player .play-song-link-container .play-song-link-browser/*わからん*/ {
 	background: rgba(200,8,8,0.50);
 	border-radius: 2.0rem;
 }
