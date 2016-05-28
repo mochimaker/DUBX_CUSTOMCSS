@@ -165,17 +165,18 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-#main_player .play-song-link-container .play-song-link-browser i, #main_player .play-song-link-container .play-song-link i {
-	color: #A01C38;
+#main_player .play-song-link-container .play-song-link-browser i, #main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ {
+	color: #F0F0F0;
 }
 
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/,
-/*#main_player .play-song-link-container .queue-info/*わからん*/ {
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/
+/*,#main_player .play-song-link-container .queue-info/*わからん*/ {
 	background: #C41A41;
 }
+
 /**スクロールバー**/
 .ps-container .ps-scrollbar-y/*スクロールできる場所にマウスを置いた時のスクロールバー*/ {
-    background-color: rgba(255, 239, 32, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover/*スクロールバーにマウスを置いた時のレール*/ {
     background-color: rgba(0, 0, 0, 0.50);
@@ -426,6 +427,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*動画をキューに入れた時の成功した時の表示*/
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span {
+	color: #F0F0F0;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span/*わからん*/ {
