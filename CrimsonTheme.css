@@ -188,7 +188,8 @@ span.name,
 	color:  #FFFFFF;
 }
 
-#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings {
+#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
+#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
     color: #c8c8c8;
 }
 
