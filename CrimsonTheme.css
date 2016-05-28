@@ -150,15 +150,15 @@ span.name,
 	font-weight: 600;
 	color: #FFF;
 }
-#room-info-display .room-info-display-wrapper h2 span i/*わからん*/ {
+#room-info-display .room-info-display-wrapper h2 span i/*INFOの中のホスト名*/ {
 	color: #FF00FF;
 }
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん*/ {
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
 	#color: #42A5DC !important;
 }
 
 /* Video Buttons (bottom) */
-#main_player .play-song-link/*わからん*/ {
+#main_player .play-song-link-browser/*わからん*/ {
 	background: rgba(200,8,8,0.50);
 	border-radius: 2.0rem;
 }
