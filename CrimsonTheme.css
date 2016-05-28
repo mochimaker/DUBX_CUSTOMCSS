@@ -5,7 +5,9 @@
     https://dubtrack.fm/kris
     https://dubtrack.fm/sinful
 */
-
+/*
+このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変して作られています
+*
 #header-global/*メイン画面の一番上のバー*/ {
 	background: rgba(100,8,8,0.50);
 }
@@ -437,6 +439,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*動画をキューに入れた時の成功した時の表示*/
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
+}
+#playlists-scroll {
+	background: #5C484D;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
 	color: #A0A0A0;
