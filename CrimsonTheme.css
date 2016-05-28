@@ -175,7 +175,10 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-
+.ps-container .ps-scrollbar-y {
+    
+    background-color: rgba(51, 51, 51, 0.75);
+}
 }
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
@@ -444,13 +447,13 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /* Preview */
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded/*プレビューのロードしたバー*/, 
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress/*プレビューの再生時間のバー*/,
-.playerPreview .player-preview-container-wrapper .ui-slider-range/*プレビューの音量のバー*/,
+.playerPreview .player-preview-container-wrapper .ui-slider-range/*プレビューの音量のバー*/,/*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
 .playerPreview .player-preview-container-wrapper .ui-slider-handle/*プレビューの音量をつかむところ*/,
-.playerPreview .player-preview-container-wrapper .buffering/**/,
-.playerPreview .player-preview-container-wrapper .error/**/,
-.playerPreview .player-preview-container-wrapper .loading/**/,
-.playerPreview .player-preview-container-wrapper .replay/**/ {
-	background: #C41A41;/*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
+.playerPreview .player-preview-container-wrapper .buffering/*プレビューのバッファリング表示*/,
+.playerPreview .player-preview-container-wrapper .error/*プレビューのエラー表示*/,
+.playerPreview .player-preview-container-wrapper .loading/*プレビューのロード表示*/,
+.playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/ {
+	background: #C41A41;
 }
 /*
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
