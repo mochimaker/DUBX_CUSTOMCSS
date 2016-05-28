@@ -165,9 +165,23 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
+#main_player .play-song-link-container .play-song-link-browser i, #main_player .play-song-link-container .play-song-link i {
+	color: #A01C38;
+}
+
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/,
-#main_player .play-song-link-container .queue-info/*わからん*/ {
+/*#main_player .play-song-link-container .queue-info/*わからん*/ {
 	background: #C41A41;
+}
+/**スクロールバー**/
+.ps-container .ps-scrollbar-y/*スクロールできる場所にマウスを置いた時のスクロールバー*/ {
+    background-color: rgba(255, 239, 32, 0.6);
+}
+.ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover/*スクロールバーにマウスを置いた時のレール*/ {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y/*スクロールバーにマウスを置いた時のスクロールバー*/ {
+    background-color: rgba(226, 38, 58, 0.90);
 }
 
 /* Chat */
@@ -175,15 +189,7 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
-.ps-container .ps-scrollbar-y/*スクロールできる場所にマウスを置いた時のスクロールバー*/ {
-    background-color: rgba(48, 126, 184, 0.5);
-}
-.ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover {
-    background-color: rgba(0, 0, 0, 0.50);
-}
-.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
-    background-color: rgba(226, 38, 58, 0.90);
-}
+
 #chat .chat_tools/*チャットの上のアイコン？*/ {
 	color:  #FFFFFF;
 }
