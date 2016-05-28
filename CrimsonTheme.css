@@ -82,7 +82,7 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 	color: #FF0000;
 }
 
-#player-controller .right ul li .dubup.voted/*updubsの文字色*/ {
+#player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
 	background: #64FF64;
 }
 
@@ -90,7 +90,7 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 	color: #00FF00;
 }
 
-#player-controller .right ul li .dubdown.voted/*downdubの文字*/ {
+#player-controller .right ul li .dubdown.voted/*downdubの文字？*/ {
 	background: #6464FF;
 }
 
@@ -185,7 +185,7 @@ span.name,
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
 #main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
 #main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
-	color: #c8c8c8;
+	color: #AEDFDF;
 }
 
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
@@ -195,7 +195,7 @@ span.name,
 }
 
 #chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
-	border-color: #991C38;
+	border-color: #FFFFFF;
 }
 
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
@@ -206,7 +206,7 @@ span.name,
 	color: rgb(170, 170, 170);
 }
 
-#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*わからん*/ {
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ダイレクトメッセージ（＠）*/ {
     color: #FFDD6F !important;
 }
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error/*わからん*/ {
