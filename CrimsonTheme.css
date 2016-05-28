@@ -158,8 +158,9 @@ span.name,
 }
 
 /* Video Buttons (bottom) */
-#main_player .play-song-link-container .play-song-link-browser/*わからん*/ {
-	background: rgba(200,8,8,0.50);
+#main_player .play-song-link-container .play-song-link-browser/*画面枠下のQueue a songボタン*/,
+#main_player .play-song-link-container .active-queue-display leave-button{
+	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min,
