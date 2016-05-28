@@ -166,7 +166,7 @@ span.name,
 	border-radius: 2.0rem;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/,
-#main_player .play-song-link .queue-info/*わからん*/ {
+#main_player .play-song-link-container .queue-info/*わからん*/ {
 	background: #C41A41;
 }
 
@@ -444,7 +444,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /* Preview */
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
 .playerPreview .ui-slider-range /*わからん*/{
-	background: #AA74FE;
+	background: #C41A41;
 }
 
 .playerPreview .ui-slider-handle/*わからん*/ {
