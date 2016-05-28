@@ -11,6 +11,9 @@
 }
 
 /* Main Menu (left) */
+#main-menu-left {
+	color: #5C484D;
+}
 #main-menu-left a.room-active-link /*左のメニュー内の文字*/{
 	color: #FFFFFF;
     box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角*/
@@ -401,7 +404,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #00BFFF;
 }
 
-#chat .chat-options .chat-option-header {
+#chat .chat-options .chat-option-header/*設定の文字*/ {
 	color: #FFFFFF;
 }
 
