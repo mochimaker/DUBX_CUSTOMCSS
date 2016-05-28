@@ -176,13 +176,13 @@ span.name,
 	border-radius: 2.0rem;
 }
 .ps-container .ps-scrollbar-y/*スクロールできる場所にマウスを置いた時のスクロールバー*/ {
-    background-color: rgba(255, 255, 0, 0.50);
+    background-color: rgba(226, 38, 58, 0.50);
 }
 .ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover {
-    background-color: rgba(0, 255, 255, 0.50);
+    background-color: rgba(0, 0, 0, 0.50);
 }
 .ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
-    background-color: rgba(255, 0, 255, 0.50);
+    background-color: rgba(226, 38, 58, 0.50);
 }
 #chat .chat_tools/*チャットの上のアイコン？*/ {
 	color:  #FFFFFF;
