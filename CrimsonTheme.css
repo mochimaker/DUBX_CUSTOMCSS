@@ -184,7 +184,7 @@ span.name,
 
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
 #main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms, #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
-#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings, #chat .display-room-users,/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings, #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
 	color: #c8c8c8;
 }
 
@@ -309,24 +309,25 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
 */
+
 /*ユーザー名の後の権利名の色*/
-#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
-	color: #C73C2E;/*緋色*/
-}
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-	color: #134A63;/*藍色*/
+	color: #7C4B8D;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
+	color: #006FAB;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
-	color: #ECDB71;/*刈安色*/
+	color: #00FFFF;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
-	color: #007655;/*蒼色*/
+	color: #009A57;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
-	color: #00A37E;/*若竹色*/
+	color: #F4D500;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
-	color: #714C99;/*菫色*/
+	color: #FF8300;
 }
 
 /** Current DJ **/
