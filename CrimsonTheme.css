@@ -181,16 +181,17 @@ span.name,
 #chat .pusher-chat-widget-input	/*チャットを入力するところ*/ {
 	border-top: 1px solid #FFFFFF;
 }
-#chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/ {
-	color: #c8c8c8;
-}
-#chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/ {
-	color:  #FFFFFF;
-}
 
+#chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/ 
 #main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
 #main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
-    color: #c8c8c8;
+	color: #c8c8c8;
+}
+
+#chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/
+#main-room.display-users-rooms:hover #chat .display-chat:hover, #main-room.display-users-rooms:hover #chat .display-chat-settings:hover/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
+#main-room.display-chat-settings:hover #chat .display-chat:hover, #main-room.display-chat-settings:hover #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+	color:  #FFFFFF;
 }
 
 #chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
