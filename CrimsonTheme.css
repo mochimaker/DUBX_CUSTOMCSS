@@ -442,9 +442,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /* Preview */
-.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded, 
-.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress {
-	background: #C41A41;
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded/*プレビューのロードしたバー*/, 
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress/*プレビューの再生時間のバー*/ {
+	background: #C41A41;/*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
 }
 /*
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
