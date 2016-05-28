@@ -177,9 +177,9 @@ span.name,
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
 	color:  #FFFFFF;
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF !important;
 }
-#chat .pusher-chat-widget-input	/*チャットを入力するところ*/{
+#chat .pusher-chat-widget-input	/*チャットを入力するところ*/ {
 	border-top: 1px solid #FFFFFF;
 }
 #chat .chat_tools span {
