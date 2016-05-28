@@ -185,7 +185,7 @@ span.name,
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
 #main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
 #main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
-	color: #AEDFDF;
+	color: #DCDCDC;
 }
 
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
