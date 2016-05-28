@@ -429,7 +429,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #BE003F;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
-	color: #F0F0F0;
+	color: #A0A0A0;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
