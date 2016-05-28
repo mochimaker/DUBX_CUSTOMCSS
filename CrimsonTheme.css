@@ -466,6 +466,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	/*border-top: 1px solid #7B3746;*/
 }
 
+#browser .browser-content .browser-content-header .form {
+	background: #432F34;
+}
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background: #C41A41;
