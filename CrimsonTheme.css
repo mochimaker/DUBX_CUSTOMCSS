@@ -360,7 +360,7 @@ span.name,
 
 /*ユーザー名の後の権利名の色*/
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-	color: #7C4B8D;
+	color: #7C4B8D !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #006FAB;
