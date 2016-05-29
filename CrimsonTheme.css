@@ -459,19 +459,23 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 
 /* Queue */
 #browser .browser-content .browser-content-header .close-browser,/*キューリストを閉じるV印*/
-#browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*動画をキューに入れた時の成功した時の表示*/
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
 }
 
+#browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*動画をキューに入れた時の成功した時の表示*/
+{
+	background: #B81A3E;
+	color: #FFF;
+}
 #browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
     background: #523E43;
     color: #FFF;
 }
 #browser .browser-content .browser-content-main .sidebar .display-sidebar/*小さい画面にすると出てくるリストを開くボタン*/ {
     background: #C41A41;
-    color: #FFFFFF;
+    color: #FFF;
 }
 #playlists-scroll/*左のリストの背景*/ {
 	background: #5C484D;
