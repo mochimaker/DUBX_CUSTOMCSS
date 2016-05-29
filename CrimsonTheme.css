@@ -19,7 +19,7 @@
 }
 #main-menu-left a.room-active-link /*左のメニュー内の文字*/{
 	color: #FFF;
-    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線*/
+    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線）*/
 }
 
 #header-global .header-left-navigation:before/*header-left-navigationの前の要素（オリジナルのcssでも何も入っていない）*/ {
@@ -35,7 +35,8 @@ a, a:active, a:focus, a:hover/*リンクの文字*/
 {
 	color: #FFF;
 }
-/*#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,*/
+
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover
 {
 	color: #FF00FF;
@@ -175,8 +176,14 @@ span.name,
 	font-weight: 600;
 	color: #FFF;
 }
+
 #room-info-display .room-info-display-wrapper h2 span i/*INFOの中のホスト名（部屋を作ったユーザー名）*/ {
 	color: #00BFFF;
+}
+
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a:hover
+{
+	color: #00FFFF;
 }
 
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
