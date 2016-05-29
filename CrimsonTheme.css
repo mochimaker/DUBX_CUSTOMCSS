@@ -480,8 +480,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
-	background: #5C484D;
-	opacity: 0.7;
+	/*background: #5C484D;*/
+	background: rgba(92, 72, 77, 0.5);
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
