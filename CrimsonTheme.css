@@ -181,7 +181,7 @@ span.name,
 	color: #00BFFF;
 }
 
-#room-info-display .room-info-display-wrapper .room-info-display-container .description a:hover
+#room-info-display .room-info-display-wrapper .room-info-display-container a.description:hover
 {
 	color: #00FFFF !important;
 }
