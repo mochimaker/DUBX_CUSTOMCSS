@@ -475,8 +475,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos/*動画のカードを表示する背景？*/ {
-	background: #58333D;
+#browser .browser-content .browser-content-main .nano .content-videos/*リスト内検索と動画のカードを表示する背景？*/ {
+	background: #432F34;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
