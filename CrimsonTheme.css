@@ -126,7 +126,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字。変えたくないのでコ
 {
     background: #5C484D;
 }
-#room-list #container-room-list .room-item {
+
+#room-list #container-room-list .room-item {/*ロビーの部屋名の背景*/
     background: #5C484D;
 }
 span.name,
@@ -181,6 +182,7 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 2.0rem;
 }
+
 #main_player .play-song-link-container .play-song-link-browser i, #main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ {
 	color: #F0F0F0;
 }
@@ -521,7 +523,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos,/*リスト内検索と動画のカードを表示する背景？*/
-#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a /*ミキサーのボタン*/
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a, /*ミキサーのボタン*/
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a,
 {
 	background: #432F34;
 }
@@ -575,6 +578,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .loading/*プレビューのロード表示*/,
 .playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/ {
 	background: #C41A41;
+	color: #FFF;
 }
 /*恐らく古いプレビューの設定なのでコメントアウト
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
