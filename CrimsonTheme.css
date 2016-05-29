@@ -19,10 +19,10 @@
 }
 #main-menu-left a.room-active-link /*左のメニュー内の文字*/{
 	color: #FFFFFF;
-    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角*/
+    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線*/
 }
 
-#header-global .header-left-navigation:after/*わからん*/ {
+#header-global .header-left-navigation:before/*わからん*/ {
 	color: #FF00FF !important;
 }
 /* Main Menu (right) */
