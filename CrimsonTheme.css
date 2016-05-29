@@ -466,7 +466,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	/*border-top: 1px solid #7B3746;*/
 }
 
-#browser .browser-content .browser-content-header .form {
+#browser .browser-content .browser-content-header .form/*リストの上の検索する枠*/ {
 	background: #432F34;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
@@ -475,11 +475,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos {
+#browser .browser-content .browser-content-main .nano .content-videos/*動画のカードを表示する背景？*/ {
 	background: #58333D;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos .result-videos .result_video_api .browserPlaylistItems .queue-item {
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description {
 	background: #FFFFFF;
 }
 
