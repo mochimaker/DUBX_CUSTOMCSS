@@ -492,7 +492,6 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .playedby,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .dubs-display,
@@ -505,7 +504,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
- #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview {
  	color: #EF454A;
  }
