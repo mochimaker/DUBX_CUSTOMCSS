@@ -93,6 +93,10 @@
 	color: #FF0000;
 }
 
+player-controller .right .display-browser .display-browser:hover
+{
+	color: #CD3740;
+}
 #player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
 	background: #64FF64;
 }
