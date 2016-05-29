@@ -36,7 +36,7 @@ a:active { color: #ff8000 !important; }
 }
 
 /* Top Header */
-a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
+/*a, a:active, a:focus, a:hover,*//*アクティブ？基本の？わからん*/
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
 	color: #FFFFFF;/*ロビーと部屋名、infoのURLリンク、リクエスト数とマイリス数、キューの一覧のミキサー、キューオール、ポーズ、クリア、ゴミ箱と↑印の色と他？*/
 }
