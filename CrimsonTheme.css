@@ -516,7 +516,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos/*リスト内検索と動画のカードを表示する背景？*/ {
+#browser .browser-content .browser-content-main .nano .content-videos,/*リスト内検索と動画のカードを表示する背景？*/
+#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a /*ミキサーのボタン*/
+{
 	background: #432F34;
 }
 
