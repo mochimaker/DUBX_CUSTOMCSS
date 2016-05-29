@@ -502,10 +502,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #00BFFF;
 }
 
- #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
- #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
- #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
- #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview {
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview {
  	color: #EF454A;
  }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
