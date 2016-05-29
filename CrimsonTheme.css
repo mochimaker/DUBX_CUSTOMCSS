@@ -480,8 +480,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item,/*マイキューとルームキューの動画のカード*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item,/*履歴の動画のカード*/
-{
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item,/*履歴の動画のカード*/ {
 	/*background: #5C484D;*/
 	background: rgba(92, 72, 77, 0.5);
 }
