@@ -53,13 +53,18 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 #private-messages .loading/*ロード表示*/ {
 	background: #B81A3E;
 }
-#private-messages .main-message-list ul.message-list li.message-item.new-message:before, #private-messages .message-details ul.message-list li.message-item.new-message:before/*わからん*/ {
+
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
+#private-messages .message-details ul.message-list li.message-item.new-message:before/*わからん*/ {
 	background: #AA74FE;
 }
+
 #private-messages .main-message-list, #private-messages .message-details/*背景*/ {
 	background: #5C484D;
 }
-
+#private-messages .message-details ul.message-list li.message-item .message-content p {
+    color: #C8C8C8;
+}
 /* DubX Menu */
 .for_content/*dubXのメニューの背景*/ {
 	background: #5C484D !important;
