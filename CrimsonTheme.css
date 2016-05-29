@@ -457,10 +457,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #A0A0A0;
 }
 
-#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
-#import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*左のリストを選択したいるとき*/
+#import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background: #B30F3A;
 	color: #FFF;
+	border-radius: 2.0rem;
 }
 
 #browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
