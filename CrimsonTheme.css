@@ -8,12 +8,7 @@
 /*
 このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変+追記して作られています
 */
-/*
-a:link { color: #0000ff !important; }
-a:visited { color: #000080 !important; }
-a:hover { color: #ff0000 !important; }
-a:active { color: #ff8000 !important; }
-*/
+
 #header-global/*メイン画面の一番上のバー*/ {
 	background: rgba(100,8,8,0.50);
 }
@@ -36,7 +31,7 @@ a:active { color: #ff8000 !important; }
 }
 
 /* Top Header */
-/*a, a:active, a:focus, a:hover,*//*アクティブ？基本の？わからん*/
+/*a, a:active, a:focus, a:hover,*//*リンクの文字。変えたくないのでコメントアウト*/
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron, #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover {
 	color: #FFFFFF;/*ロビーと部屋名、infoのURLリンク、リクエスト数とマイリス数、キューの一覧のミキサー、キューオール、ポーズ、クリア、ゴミ箱と↑印の色と他？*/
 }
@@ -171,11 +166,6 @@ span.name,
 #room-info-display .room-info-display-wrapper h2 span i/*INFOの中のホスト名（部屋を作ったユーザー名）*/ {
 	color: #00BFFF;
 }
-
-#room-info-display .room-info-display-wrapper .room-info-display-container .description .a:link { color: #0000cd !important }
-#room-info-display .room-info-display-wrapper .room-info-display-container .description .a:linkvisited { color: #800080 !important }
-#room-info-display .room-info-display-wrapper .room-info-display-container .description .a:hover { color: #fffacd !important; background-color: #8fbc8f !important }
-#room-info-display .room-info-display-wrapper .room-info-display-container .description .a:active { color: #ffffff !important }
 
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
 	#color: #42A5DC !important;
@@ -360,7 +350,7 @@ span.name,
 
 /*ユーザー名の後の権利名の色*/
 #main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {
-	color: #7C4B8D !important;
+	color: #CC66FF !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #006FAB;
