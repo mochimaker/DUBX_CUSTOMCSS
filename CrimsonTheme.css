@@ -172,10 +172,10 @@ span.name,
 	color: #00BFFF;
 }
 
-#room-info-display-wrapper ps-container ps-theme-default ps-active-y. a:link {color: #0000cd }
-#room-info-display-wrapper ps-container ps-theme-default ps-active-y. a:linkvisited { color: #800080 }
-#room-info-display-wrapper ps-container ps-theme-default ps-active-y. a:hover { color: #fffacd; background-color: #8fbc8f }
-#room-info-display-wrapper ps-container ps-theme-default ps-active-y. a:active { color: #ffffff }
+#room-info-display .room-info-display-wrapper. a:link {color: #0000cd }
+#room-info-display .room-info-display-wrapper. a:linkvisited { color: #800080 }
+#room-info-display .room-info-display-wrapper. a:hover { color: #fffacd; background-color: #8fbc8f }
+#room-info-display .room-info-display-wrapper. a:active { color: #ffffff }
 
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
 	#color: #42A5DC !important;
