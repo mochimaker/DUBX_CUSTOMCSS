@@ -480,8 +480,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,/*左のクリエートプレイリストを作成するボタンのアイコン*/
-/*#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist */
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,
+#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist
 {
     background: #CD3740;
 }
