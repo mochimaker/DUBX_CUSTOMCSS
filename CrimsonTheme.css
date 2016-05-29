@@ -479,7 +479,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #58333D;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos ps-container ps-theme-default ps-active-y .result-videos .result_vodeo_api .browserPlaylistItems ui-sortable {
+#browser .browser-content .browser-content-main .nano .content-videos .result-videos .result_video_api .browserPlaylistItems {
 	background: #FFFFFF;
 }
 
