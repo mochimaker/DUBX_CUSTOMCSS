@@ -8,6 +8,12 @@
 /*
 このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変+追記して作られています
 */
+
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
 #header-global/*メイン画面の一番上のバー*/ {
 	background: rgba(100,8,8,0.50);
 }
