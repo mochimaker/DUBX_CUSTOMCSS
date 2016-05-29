@@ -495,7 +495,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,/*クリエートプレイリストのボタンのアイコン*/
 #browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist
 {
     background: #CD3740;
@@ -544,9 +544,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
  	color: #EF454A;
  }
  
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubの数*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
-	color: #FFF;
+	color: #C8C8C8;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
