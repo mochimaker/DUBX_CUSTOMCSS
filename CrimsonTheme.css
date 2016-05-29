@@ -451,6 +451,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 #playlists-scroll/*左のリストの背景*/ {
 	background: #5C484D;
+	color: #C8C8C8;
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
 	color: #A0A0A0;
@@ -459,6 +460,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
 	background: #B30F3A;
+	color: #FFF;
 }
 
 #browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
@@ -489,7 +491,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-header .form/*リストの上の検索する枠*/ {
-	background: #432F34;
+	background: #523E43;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
