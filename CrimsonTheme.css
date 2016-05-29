@@ -9,10 +9,10 @@
 このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変+追記して作られています
 */
 
-a:link { color: #0000ff; }
-a:visited { color: #000080; }
-a:hover { color: #ff0000; }
-a:active { color: #ff8000; }
+a:link { color: #0000ff !important; }
+a:visited { color: #000080 !important; }
+a:hover { color: #ff0000 !important; }
+a:active { color: #ff8000 !important; }
 
 #header-global/*メイン画面の一番上のバー*/ {
 	background: rgba(100,8,8,0.50);
@@ -28,7 +28,7 @@ a:active { color: #ff8000; }
 }
 
 #header-global .header-left-navigation:after/*わからん*/ {
-	color: #FFFFFF; !important;
+	color: #FFFFFF !important;
 }
 /* Main Menu (right) */
 #header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ {
