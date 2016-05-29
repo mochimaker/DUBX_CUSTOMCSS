@@ -548,7 +548,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
 {
-	border-radius: 0.2rem;
+	border-radius: 0.5rem;
 }
 
 /**動画のカードのプレビューの色を纏めて変更**/
