@@ -31,7 +31,7 @@
 }
 
 /* Top Header */
-a, a:active, a:focus, a:hover,/*リンクの文字*/
+a, a:active, a:focus, a:hover/*リンクの文字*/
 {
 	color: #FFFFFF;
 }
