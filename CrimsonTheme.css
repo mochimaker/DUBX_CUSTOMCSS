@@ -474,7 +474,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content #import-playlist-container .import-playlist-soundcloud span,/*サウンドクラウドのimportボタン*/
-#browser .browser-content #import-playlist-container .import-playlist-youtube span/*ユーチューブのimportボタン*/
+#browser .browser-content #import-playlist-container .import-playlist-youtube span,/*ユーチューブのimportボタン*/
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,
+#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist
 {
 	background: #CD3740;
 	color: #FFFFFF;
