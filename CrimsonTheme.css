@@ -31,6 +31,11 @@
 }
 
 /* Top Header */
+#room-info-display .room-info-display-wrapper .room-info-display-container a.description:hover
+{
+	color: #00FFFF !important;
+}
+
 a, a:active, a:focus, a:hover/*リンクの文字*/
 {
 	color: #FFF;
@@ -181,10 +186,7 @@ span.name,
 	color: #00BFFF;
 }
 
-#room-info-display .room-info-display-wrapper .room-info-display-container a.description:hover
-{
-	color: #00FFFF !important;
-}
+
 
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
 	#color: #42A5DC !important;
