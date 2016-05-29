@@ -522,19 +522,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFFFFF;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos,/*リスト内検索と動画のカードを表示する背景？*/
-#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a /*ミキサーのボタン*/
-/*#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a*/
-{
-	background: #432F34;
-}
-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .queue-item,/*マイキューとルームキューの動画のカード*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item,/*履歴の動画のカード*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item,/*プレイリストの動画のカード*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
-	/*background: #5C484D;*/
 	background: rgba(92, 72, 77, 0.5);
 }
 
@@ -550,12 +542,13 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #00BFFF;
 }
 
+/*動画のサムネ*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
 {
-	border-radius: 1.0rem;
+	border-radius: 0.2rem;
 }
 
 /**動画のカードのプレビューの色を纏めて変更**/
