@@ -93,7 +93,7 @@
 	color: #FF0000;
 }
 
-player-controller .right .display-browser .display-browser .a:hover
+#player-controller .right .display-browser .display-browser .a:hover
 {
 	color: #CD3740 !important;
 }
@@ -138,7 +138,7 @@ span.name,
 #room-list #container-room-list .room-item .roomImage .join/*ルーム一覧でマウスを部屋の上に持ってきたときの*/ {
 	background: #C41A41;
 }
-#warning/*わからん*/ {
+#warning/*警告？*/ {
 	background: #AA74FE;
 	opacity: 0.90;
 }
