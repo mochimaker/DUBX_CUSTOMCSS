@@ -44,6 +44,7 @@ a, a:active, a:focus, a:hover/*リンクの文字*/
 	color: #FF00FF;
 }
 
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink,
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover
 {
 	color: #00FFFF !important;
