@@ -38,6 +38,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字。変えたくないのでコ
 
 #main-loading/*ロビーに出るときのロード表示*/ {
 	background: #B81A3E;
+	color: #FFF;
 }
 
 #header-global .header-right-navigation .user-messages .message-counter/*わからん*/ {
@@ -53,6 +54,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字。変えたくないのでコ
 }
 #private-messages .loading/*ロード表示*/ {
 	background: #B81A3E;
+	color: #FFF;
 }
 
 #private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
@@ -188,7 +190,7 @@ span.name,
 }
 
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/
-/*,#main_player .play-song-link-container .queue-info/*わからん*/ {
+/*,#main_player .play-song-link-container .queue-info/*古い記述？*/ {
 	background: #C41A41;
 }
 
@@ -244,6 +246,7 @@ span.name,
 
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
+	color: #FFF;
 }
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*わからん*/ {
@@ -527,7 +530,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item,/*プレイリストの動画のカード*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
-	background: rgba(92, 72, 77, 0.5);
+	/*background: rgba(92, 72, 77, 0.5);*/
+	background: rgba(100,8,8,0.50);
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
@@ -548,7 +552,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
 {
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 }
 
 /**動画のカードのプレビューの色を纏めて変更**/
