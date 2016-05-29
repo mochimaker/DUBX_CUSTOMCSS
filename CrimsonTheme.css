@@ -441,8 +441,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #BE003F;
 }
 
-#browser .browser-content .browser-content-main .sidebar {
-    background: #7B3746;
+#browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
+    background: #523E43;
+    color: #FFF;
 }
 #browser .browser-content .browser-content-main .sidebar .display-sidebar/*小さい画面にすると出てくるリストを開くボタン*/ {
     background: #C41A41;
@@ -454,9 +455,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
 	color: #A0A0A0;
 }
+
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,
 #import-playlist-container .import-playlist-youtube span/*左の今選択している項目*/ {
-	background: #7A7A7A;
+	background: #B30F3A;
 }
 
 #browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
