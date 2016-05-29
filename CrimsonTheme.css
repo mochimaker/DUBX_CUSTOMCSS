@@ -6,7 +6,7 @@
     https://dubtrack.fm/sinful
 */
 /*
-このCSSはplugDJ(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)のCSSを改変+追記して作られています
+このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 */
 
 #header-global/*メイン画面の一番上のバー*/ {
@@ -23,7 +23,7 @@
 }
 
 #header-global .header-left-navigation:after/*わからん*/ {
-	color: #FFFFFF !important;
+	color: #FF00FF !important;
 }
 /* Main Menu (right) */
 #header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ {
@@ -52,6 +52,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字*/
 #private-messages .private-message-details-info, #private-messages .private-message-info {
 	color: #FFFFFF;
 }
+
 #private-messages .loading/*ロード表示*/ {
 	background: #B81A3E;
 	color: #FFF;
