@@ -127,13 +127,16 @@ a, a:active, a:focus, a:hover,/*アクティブ？基本の？わからん*/
 }
 
 /* Lobby *ロビーの画面？*/
+#room-list #container-room-list .room-item {
+    background: #5C484D;
+}
 span.name,
 #room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join/*ロビーの文字？*/ {
 	color: #FFFFFF;
 	opacity: 0.7;
 }
-#room-list #container-room-list .room-item .roomImage .join/*わからん*/ {
-	background: #AA74FE;
+#room-list #container-room-list .room-item .roomImage .join/*ルーム一覧でマウスを部屋の上に持ってきたときの*/ {
+	background: #C41A41;
 }
 #warning/*わからん*/ {
 	background: #AA74FE;
