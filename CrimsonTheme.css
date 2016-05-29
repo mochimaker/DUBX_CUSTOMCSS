@@ -122,6 +122,10 @@ a, a:active, a:focus, a:hover,/*リンクの文字。変えたくないのでコ
 }
 
 /* Lobby *ロビーの画面？*/
+#room-list .room-lobby-header/*ロビーのヘッダー*/
+{
+    background: #5C484D;
+}
 #room-list #container-room-list .room-item {
     background: #5C484D;
 }
