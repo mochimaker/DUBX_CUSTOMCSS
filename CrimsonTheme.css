@@ -38,7 +38,11 @@ a, a:active, a:focus, a:hover/*リンクの文字*/
 	color: #FFF;
 }
 
-#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron
+{
+	color: #FFF;
+}
+
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover
 {
 	color: #FF00FF;
