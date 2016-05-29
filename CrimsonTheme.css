@@ -465,6 +465,12 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #fff;
 	/*border-top: 1px solid #7B3746;*/
 }
+#browser .browser-content .browser-content-main .sidebar .import-playlist span,/*インポートプレイリストのアイコン*/
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,/*クリエートプレイリストのアイコン*/
+#browser .browser-content #import-playlist-container .playlist-type-select span:hover/*インポートプレイリストのリストタイプを選ぶところにマウスを乗せたとき*/
+{
+	color: #FF3300;
+}
 
 #browser .browser-content .browser-content-header .form/*リストの上の検索する枠*/ {
 	background: #432F34;
@@ -496,12 +502,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .playedby,
-#browser .browser-content .browser-content-main .sidebar .import-playlist span,/*インポートプレイリストのアイコン*/
-#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,/*クリエートプレイリストのアイコン*/
-#browser .browser-content #import-playlist-container .playlist-type-select span:hover {
+{
 	color: #00BFFF;
 }
 
+/**動画のカードのプレビューの色を纏めて変更**/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
