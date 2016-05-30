@@ -7,6 +7,7 @@
 */
 /*
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
+
 */
 
 #header-global/*メイン画面の一番上のバー*/ 
@@ -672,7 +673,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .buffering/*プレビューのバッファリング表示*/,
 .playerPreview .player-preview-container-wrapper .error/*プレビューのエラー表示*/,
 .playerPreview .player-preview-container-wrapper .loading/*プレビューのロード表示*/,
-.playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/ {
+.playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/
+{
 	background: #C41A41;
 	color: #FFF;
 }
