@@ -42,14 +42,17 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link/*INFOの中のリンク*/
 {
-	/*color: #0091ff !important;*/
-	color: #ff2b30 !important;
+	color: #FFF !important;
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover/*INFOの中のリンクにマウスを乗せたとき*/
 {
-	/*color: #32C3FF !important;*/
-	color: #F19483 !important;
+	color: #FF2B30 !important;
+}
+
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited/*INFOの中の閲覧済みのリンク*/
+{
+	color: #C8C8C8 !important;
 }
 
 #main-loading/*ロビーに出るときのロード表示*/ {
