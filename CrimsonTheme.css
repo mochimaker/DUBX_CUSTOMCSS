@@ -307,7 +307,7 @@ span.name,
 {
 	background-image: url("lily_spring.gif");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: right center;
 }
 
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
