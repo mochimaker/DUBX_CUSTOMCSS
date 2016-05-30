@@ -9,24 +9,30 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 */
 
-#header-global/*メイン画面の一番上のバー*/ {
+#header-global/*メイン画面の一番上のバー*/ 
+{
 	background: rgba(100,8,8,0.50);
 }
 
 /* Main Menu (left) */
-#main-menu-left/*左のメニュー*/ {
+#main-menu-left/*左のメニュー*/ 
+{
 	background: #5C484D;
 }
-#main-menu-left a.room-active-link /*左のメニュー内の文字*/{
+
+#main-menu-left a.room-active-link /*左のメニュー内の文字*/
+{
 	color: #FFF;
-    box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線）*/
+	box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線）*/
 }
 
-#header-global .header-left-navigation:before/*header-left-navigationの前の要素（オリジナルのcssでも何も入っていない）*/ {
+#header-global .header-left-navigation:before/*header-left-navigationの前の要素（オリジナルのcssでも何も入っていない）*/ 
+{
 	color: #FFF !important;
 }
 /* Main Menu (right) */
-#header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ {
+#header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ 
+{
 	color: #FFF;
 }
 
@@ -51,9 +57,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	color: #FF2B30 !important;
 }
-
-#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited/*INFOの中の閲覧済みのリンク*/
 /*#chat .chat-container .chat-messages a.autolink:visited*/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited/*INFOの中の閲覧済みのリンク*/
 {
 	color: #C8C8C8 !important;
 }
@@ -245,14 +250,16 @@ span.name,
 }
 
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
-#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
-#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings,/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/
+#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ 
+{
 	color: #DCDCDC;
 }
 
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
-#main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/,
-#main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/ {
+#main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover,/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/
+#main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/
+{
 	color:  #FFFFFF;
 }
 
