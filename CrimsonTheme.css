@@ -42,12 +42,12 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link
 {
-	color: #AAFFFF !important;
+	color: #00FFFF !important;
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover
 {
-	color: #00FFFF !important;
+	color: #0091FF !important;
 }
 
 #main-loading/*ロビーに出るときのロード表示*/ {
