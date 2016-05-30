@@ -138,9 +138,17 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f002" !important;
+	content: "\e800" !important;
 	/*color: #FF0000;*/
 	color: #FFFF00;
+}
+#player-controller .right ul li .dubup .icon-arrow-up
+{
+	content: "\e801" !important;
+}
+#player-controller .right ul li .dubup .icon-arrow-up
+{
+	content: "\e802" !important;
 }
 /*
 \e802	下＞
