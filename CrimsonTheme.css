@@ -142,7 +142,10 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
-
+/*
+802	下＞
+803	ハート
+*/
 #player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
 	background: #64FF64;
 }
