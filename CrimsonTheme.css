@@ -1,3 +1,4 @@
+@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/animation.css");
 /*
     Custom CSS for Dubtrack.fm
     Plug Theme and UI improvements
@@ -9,7 +10,7 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 
 */
-@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/animation.css");
+
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
