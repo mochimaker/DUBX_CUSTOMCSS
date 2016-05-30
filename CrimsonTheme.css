@@ -507,6 +507,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 */
 
 /* Settings */
+#chat .chat-options 
+{
+	background-image: url(/3106744i.jpg);
+}
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #FF3300;
 }
