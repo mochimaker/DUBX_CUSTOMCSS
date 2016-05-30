@@ -618,7 +618,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
 	background: rgba(92, 72, 77, 0.5);
-	border-radius: 1.0rem 0rem 0rem 1.0rem;
+	border-radius: 1.0rem;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
