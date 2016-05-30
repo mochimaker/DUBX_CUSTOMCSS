@@ -40,17 +40,20 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	color: #FFF;
 }
 
-#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link/*INFOの中のリンク*/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link,/*INFOの中のリンク*/
+#chat .chat-container .chat-messages a.autolink:link
 {
 	color: #FFF !important;
 }
 
-#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover/*INFOの中のリンクにマウスを乗せたとき*/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFOの中のリンクにマウスを乗せたとき*/
+#chat .chat-container .chat-messages a.autolink:hover
 {
 	color: #FF2B30 !important;
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited/*INFOの中の閲覧済みのリンク*/
+#chat .chat-container .chat-messages a.autolink:visited
 {
 	color: #C8C8C8 !important;
 }
