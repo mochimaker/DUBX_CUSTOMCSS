@@ -247,11 +247,12 @@ span.name,
 {
 	color: #F0F0F0;
 }
-#main_player .placeholder
+
+#main_player .player_container
 {
 	background-image: url("lily_spring.gif");
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: center center;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/
 /*,#main_player .play-song-link-container .queue-info/*古い記述？*/ {
