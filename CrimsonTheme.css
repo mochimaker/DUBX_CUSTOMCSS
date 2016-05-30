@@ -9,7 +9,7 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 
 */
-<link rel="stylesheet" href="{{site.github.url}}fontello-icon_fonts_generator/css/animation.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/animation.css">
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -143,11 +143,11 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
-#player-controller .right ul li .dubup .icon-arrow-up
+.icon-arrow-up:before
 {
 	content: "\e951" !important;
 }
-#player-controller .right ul li .dubup .icon-arrow-up
+.icon-arrow-down:before
 {
 	content: "\e952" !important;
 }
