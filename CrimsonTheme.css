@@ -507,7 +507,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 */
 
 /* Settings */
-#chat .chat-options 
+#chat
 {
 	background-image: url("3106744i.jpg");
 }
@@ -532,18 +532,22 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #FFF;
 	border-radius: 0rem 0rem 0.7rem 0.7rem;/*下の左右の角だけ円く面取り*/
 }
+
 #browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
     background: #523E43;
     color: #FFF;
 }
+
 #browser .browser-content .browser-content-main .sidebar .display-sidebar/*小さい画面にすると出てくるリストを開くボタン*/ {
     background: #C41A41;
     color: #FFF;
 }
+
 #playlists-scroll/*左のリストの背景*/ {
 	background: #5C484D;
 	color: #C8C8C8;
 }
+
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*左のリストのアイコンと再生リストの動画数*/{
 	color: #A0A0A0;
 }
