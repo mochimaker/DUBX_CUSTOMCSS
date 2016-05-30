@@ -1,4 +1,4 @@
-@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/animation.css");
+@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/octicons/octicons.css");
 /*
     Custom CSS for Dubtrack.fm
     Plug Theme and UI improvements
@@ -140,17 +140,17 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\0xe950" !important;
+	content: "\f02a" !important;
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
 .icon-arrow-up:before
 {
-	content: "\0xe951" !important;
+	content: "\f0da" !important;
 }
 .icon-arrow-down:before
 {
-	content: "\0xe952" !important;
+	content: "\f0db" !important;
 }
 /*
 \e802	下＞
