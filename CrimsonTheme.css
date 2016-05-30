@@ -229,10 +229,9 @@ span.name,
 	color: #00BFFF;
 }
 
-
-
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ {
-	#color: #FF2B30 !important;
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ 
+{
+	color: #FF2B30 !important;
 }
 
 /* Video Buttons (bottom) */
