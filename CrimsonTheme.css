@@ -47,19 +47,22 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link,/*INFOの中のリンク*/
-#chat .chat-container .chat-messages a.autolink:link/*チャットの中のリンク*/
+#chat .chat-container .chat-messages a.autolink:link,/*チャットの中のリンク*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:link
 {
 	color: #FFF !important;
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFOの中のリンクにマウスを乗せたとき*/
-#chat .chat-container .chat-messages a.autolink:hover/*チャットの中のリンクにマウスを乗せたとき*/
+#chat .chat-container .chat-messages a.autolink:hover,/*チャットの中のリンクにマウスを乗せたとき*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:hover
 {
 	color: #FF2B30 !important;
 }
 
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited,/*INFOの中の閲覧済みのリンク*/
-#chat .chat-container .chat-messages a.autolink:visited/*チャットの中のリンクにマウスを乗せたとき*/
+#chat .chat-container .chat-messages a.autolink:visited,/*チャットの中のリンクにマウスを乗せたとき*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:visited
 {
 	color: #DCBEBE!important;
 }
