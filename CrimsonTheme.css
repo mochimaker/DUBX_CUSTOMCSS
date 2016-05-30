@@ -133,7 +133,10 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*再生時間のバー*/ {
 	background:  #C41A41;
 }
-/*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */.icon-heart:before {
+/*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
+.icon-heart:before
+{
+	content: "\e803";
 	color: #FF0000;
 }
 
