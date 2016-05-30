@@ -9,6 +9,7 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 
 */
+<link rel="stylesheet" href="fontello-icon_fonts_generator/css/animation.css">
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -138,7 +139,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\2605" !important;
+	content: "0xe950" !important;
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
