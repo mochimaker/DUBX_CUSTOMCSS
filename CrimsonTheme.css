@@ -94,9 +94,13 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #private-messages .main-message-list, #private-messages .message-details/*背景*/ {
 	background: #5C484D;
 }
-#private-messages .message-details ul.message-list li.message-item .message-content p {
-    color: #C8C8C8;
+
+#private-messages .main-message-list ul.message-list li.message-item .message-content p,/*メッセージ一覧*/
+#private-messages .message-details ul.message-list li.message-item .message-content p/*メッセージ*/
+{
+    color: #DCDCDC;
 }
+
 /* DubX Menu */
 .for_content/*dubXのメニューの背景*/ {
 	background: #5C484D !important;
