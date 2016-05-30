@@ -46,6 +46,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	color: #FFF;
 }
 
+/**INFOの中とチャット内とプライベートメッセージのリンクの文字**/
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link,/*INFOの中のリンク*/
 #private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:link,/*プライベートメッセージ内のリンク*/
 #chat .chat-container .chat-messages a.autolink:link/*チャットの中のリンク*/
@@ -67,6 +68,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	color: #DCBEBE!important;
 }
 
+
 #main-loading/*ロビーに出るときのロード表示*/ {
 	background: #B81A3E;
 	color: #FFF;
@@ -77,10 +79,14 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 }
 
 /* Private Messages プライベートメッセージ関連？*/
-#private-messages .main-message-list ul.message-list li.message-item .message-content h3, #private-messages .message-details ul.message-list li.message-item .message-content h3,
-#private-messages .main-message-list .message-header a, #private-messages .message-details .message-header a,
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3,
 #private-messages .message-details ul.message-list li.message-item .message-content h3,
-#private-messages .private-message-details-info, #private-messages .private-message-info {
+#private-messages .main-message-list .message-header a, 
+#private-messages .message-details .message-header a,
+#private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .private-message-details-info,
+#private-messages .private-message-info 
+{
 	color: #FFFFFF;
 }
 
@@ -158,8 +164,9 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #addToPlaylistFloatContainer .create-playlist-header .icon-close
 {
 	color: #FFF;
-	margin-left: auto !important;
 	margin-right: 0px !important;
+	margin-left: auto !important;
+	
 }
 
 #addToPlaylistFloatContainer .playlist-list-action li:hover/*マイリス名にマウスを乗せたとき*/ {
