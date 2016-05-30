@@ -86,7 +86,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #private-messages .loading/*ロード表示*/ {
 	background: #B81A3E;
-	color: #FFF;
+	color: #FFF !important;
 }
 
 #private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
@@ -201,7 +201,7 @@ span.name,
 }
 
 #main_player .player_header span/*画面枠の上の選択されていないボタン(VIDEO,GUEUE,INFO,MOD?)*/ {
-	border-radius: 2.0rem;
+	border-radius: 1.0rem;
 	background: rgba(100,8,8,0.50);
 	font-weight: 600;
 	color: #FFF;
@@ -509,7 +509,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 {
 	background: #B81A3E;
 	color: #FFF;
-	border-radius: 0.2, 0.5, 0.7, 0.9;
+	border-radius: 0.2rem, 0.5rem, 0.7rem, 0.9rem;
 }
 #browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
     background: #523E43;
@@ -531,7 +531,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background: #B30F3A;
 	color: #FFF;
-	border-radius: 2.0rem;
+	border-radius: 1.0rem;
 }
 
 #browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
