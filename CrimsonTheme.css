@@ -203,6 +203,7 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 1.0rem;
 }
+
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el/*わからん*/ {
 	background: #AA74FE;
 }
@@ -241,10 +242,17 @@ span.name,
 	border-radius: 1.0rem;
 }
 
-#main_player .play-song-link-container .play-song-link-browser i, #main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ {
+#main_player .play-song-link-container .play-song-link-browser i,
+#main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ 
+{
 	color: #F0F0F0;
 }
-
+#main_player .placeholder
+{
+	background-image: url("lily_spring.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*音量の色？*/
 /*,#main_player .play-song-link-container .queue-info/*古い記述？*/ {
 	background: #C41A41;
