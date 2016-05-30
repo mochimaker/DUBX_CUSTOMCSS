@@ -509,7 +509,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 {
 	background: #B81A3E;
 	color: #FFF;
-	border-radius: 0.2rem, 0.5rem, 0.7rem, 0.9rem;
+	border-radius: 0.2rem 0.5rem 0.7rem 0.9rem;
 }
 #browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
     background: #523E43;
