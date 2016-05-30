@@ -152,6 +152,12 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 }
 
 /* Add to Playlist *マイリスに追加する画面**/
+#addToPlaylistFloatContainer .create-playlist-header .icon-close
+{
+	color: #FFF;
+	margin-left: auto; margin-right: 0px;
+}
+
 #addToPlaylistFloatContainer .playlist-list-action li:hover/*マイリス名にマウスを乗せたとき*/ {
 	color: #FF3300;
 }
