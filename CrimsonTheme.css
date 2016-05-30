@@ -302,12 +302,14 @@ span.name,
     color: #DCDCDC;
 }
 /*Gif画像の表示テスト***************************************************************************************************/
-/*
+
 #chat .chat-container .chat-messages
 {
 	background-image: url("lily_spring.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
 }
-*/
+
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
 	color: #FFF;
