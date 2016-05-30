@@ -139,17 +139,17 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\0xe950" !important;
+	content: "\e950" !important;
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
 #player-controller .right ul li .dubup .icon-arrow-up
 {
-	content: "\0xe951" !important;
+	content: "\e951" !important;
 }
 #player-controller .right ul li .dubup .icon-arrow-up
 {
-	content: "\0xe952" !important;
+	content: "\e952" !important;
 }
 /*
 \e802	下＞
