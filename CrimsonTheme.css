@@ -61,7 +61,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited,/*INFOの中の閲覧済みのリンク*/
 #chat .chat-container .chat-messages a.autolink:visited/*チャットの中のリンクにマウスを乗せたとき*/
 {
-	color: #967878 !important;
+	color: #C8AAAA!important;
 }
 
 #main-loading/*ロビーに出るときのロード表示*/ {
