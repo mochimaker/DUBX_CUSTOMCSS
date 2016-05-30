@@ -137,7 +137,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 .icon-heart:before
 {
 	content: "\e803" !important;
-	color: #FF0000;
+	/*color: #FF0000;*/
+	color: #FFFF00;
 }
 
 #player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
