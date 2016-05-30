@@ -8,11 +8,7 @@
 /*
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 */
-#main-section
-{
-	/*width: 100%;*/
-	background: url(../DUBX_CUSTOMCSS/29380896_p0.jpg);
-}
+
 #header-global/*メイン画面の一番上のバー*/ 
 {
 	background: rgba(100,8,8,0.50);
