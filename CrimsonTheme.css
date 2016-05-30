@@ -138,13 +138,15 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\e804" !important;
+	content: "\e805" !important;
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
 /*
 802	下＞
 803	ハート
+804	しゃべってる吹き出し
+805
 */
 #player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
 	background: #64FF64;
