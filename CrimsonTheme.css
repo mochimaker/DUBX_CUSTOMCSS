@@ -168,11 +168,11 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 \e809	再生三角
 */
 #player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
-	background: #64FF64;
+	background: #FF6464;
 }
 
 #player-controller .right ul li .dubup .icon-arrow-up/*dubup押した後の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
-	color: #00FF00;
+	color: #FF0000;
 }
 
 #player-controller .right ul li .dubdown.voted/*downdubの文字？*/ {
