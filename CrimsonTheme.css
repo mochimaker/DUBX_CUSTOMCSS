@@ -10,7 +10,7 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 
 */
-/*別のフォルダのWebフォントセットcss*/
+/*別のフォルダのWebフォントセットcss、今のところ意味はない*/
 /*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
 
 #header-global/*メイン画面の一番上のバー*/ 
@@ -184,6 +184,12 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	color: #0000FF;
 }
 
+#player-controller .right ul li .add-to-playlist-button.grabbed,
+#player-controller .right ul li .add-to-playlist-button.voted, 
+#player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted 
+{
+    background: #f0f;
+}
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
 #player-controller .left, #player-controller .right/*メイン画面の下のバーの色*/ 
 {
@@ -362,7 +368,15 @@ span.name,
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ダイレクトメッセージ（＠）*/ {
     color: #FFDD6F !important;
 }
-#chat .chat-container .chat-messages .chat-main li.chat-system-loading, #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, #chat .chat-container .chat-messages .chat-main li.system, #chat .chat-container .chat-messages .chat-main li.system-error/*わからん*/ {
+#chat .chat-container .chat-messages .chat-main li .activity-row .text p.deleted
+{
+	color: #C8C8C8;
+}
+
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading,
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message, 
+#chat .chat-container .chat-messages .chat-main li.system, 
+#chat .chat-container .chat-messages .chat-main li.system-error/*わからん*/ {
 	font-size: 14px;
 }
 
