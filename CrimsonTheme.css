@@ -150,15 +150,15 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 .icon-arrow-up:before
 {
 	content: "\e951" !important;
-	font-family: fontello;
+	/*font-family: fontello;*/
 }
 .icon-arrow-down:before
 {
 	content: "\e952" !important;
-	font-family: fontello;
+	/*font-family: fontello;*/
 }
 
-/*
+/*dubtrackで用意してあるwebフォント（未確認有）
 \e802	下＞
 \e803	ハート
 \e804	しゃべってる吹き出し
