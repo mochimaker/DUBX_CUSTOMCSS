@@ -149,12 +149,12 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 .icon-arrow-up:before
 {
-	content: "\e950" !important;
+	content: "\e951" !important;
 	font-family: fontello;
 }
 .icon-arrow-down:before
 {
-	content: "\e950" !important;
+	content: "\e952" !important;
 	font-family: fontello;
 }
 
