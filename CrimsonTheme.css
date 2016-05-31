@@ -11,7 +11,7 @@
 
 */
 /*別のフォルダのWebフォントセットcss、今のところ意味はない*/
-/*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
+@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -141,23 +141,26 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f1ee" !important; /*フォントを文字コードで指定*/
-	font-family: foundation-icons;/*フォントのセットの名前*/
+	
+	/*content: "\f1ee" !important; /*フォントを文字コードで指定*/
+	/*font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
+	content: "\f800" !important; /*フォントを文字コードで指定*/
+	font-family: fontello;
 	color: #FFFF00;
+	
 }
 
 .icon-arrow-up:before
 {
 	content: "\f164" !important;
 	font-family: foundation-icons;
-	font-size: 32px;
-	
+	/*font-size: 24px;*/
 }
 .icon-arrow-down:before
 {
 	content: "\f140" !important;
 	font-family: foundation-icons;
-	font-size: 32px;
+	/*font-size: 24px;*/
 
 }
 
@@ -168,19 +171,19 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 \e805	歯車
 \e809	再生三角
 */
-#player-controller .right ul li .dubup.voted/*updubsの文字？*/ {
+#player-controller .right ul li .dubup.voted/*updubsを押した後のボタン*/ {
 	background: #FF6464;
 }
 
-#player-controller .right ul li .dubup .icon-arrow-up/*dubup押した後の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
+#player-controller .right ul li .dubup .icon-arrow-up/*dubup押す前の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
 	color: #FF0000;
 }
 
-#player-controller .right ul li .dubdown.voted/*downdubの文字？*/ {
+#player-controller .right ul li .dubdown.voted/*downdubを押した後のボタン*/ {
 	background: #6464FF;
 }
 
-#player-controller .right ul li .dubdown .icon-arrow-down/*downdub押した後の色*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubdown .dub-counter */
+#player-controller .right ul li .dubdown .icon-arrow-down/*downdub押す前の色*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubdown .dub-counter */
 {
 	color: #0000FF;
 }
@@ -369,7 +372,8 @@ span.name,
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ダイレクトメッセージ（＠）*/ {
     color: #FFDD6F !important;
 }
-#chat .chat-container .chat-messages .chat-main li .activity-row .text p.deleted
+
+#chat .chat-container .chat-messages .chat-main li .activity-row .text p.deleted/*チャットを消した時の文字*/
 {
 	color: #C8C8C8;
 }
