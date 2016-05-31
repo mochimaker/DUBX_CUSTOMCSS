@@ -150,11 +150,13 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 .icon-arrow-up:before
 {
 	content: "\f199" !important;
+	font-family: foundation-icons;
 	/*font-family: fontello;*/
 }
 .icon-arrow-down:before
 {
 	content: "\f176" !important;
+	font-family: foundation-icons;
 	/*font-family: fontello;*/
 }
 
