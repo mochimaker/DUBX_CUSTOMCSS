@@ -11,7 +11,7 @@
 
 */
 /*別のフォルダのWebフォントセットcss*/
-@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");
+/*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -141,8 +141,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\e950" !important; /*フォントを文字コードで指定*/
-	font-family: fontello;/*フォントのセットの名前*/
+	content: "\f1ee" !important; /*フォントを文字コードで指定*/
+	/*font-family: fontello;/*フォントのセットの名前*/
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
