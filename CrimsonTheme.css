@@ -143,7 +143,6 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	content: "\f1ee" !important; /*フォントを文字コードで指定*/
 	font-family: foundation-icons;/*フォントのセットの名前*/
-	/*color: #FF0000;*/
 	color: #FFFF00;
 }
 
@@ -151,12 +150,14 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	content: "\f164" !important;
 	font-family: foundation-icons;
+	font-size: 32px;
 	
 }
 .icon-arrow-down:before
 {
 	content: "\f140" !important;
 	font-family: foundation-icons;
+	font-size: 32px;
 
 }
 
