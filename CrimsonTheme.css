@@ -161,7 +161,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	content: "\f140" !important;
 	font-family: foundation-icons;
-	/*font-size: 24px;*/
+	font-size: 24px;
 
 }
 
