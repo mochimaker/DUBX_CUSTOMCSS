@@ -140,10 +140,11 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f02a" !important;
+	/*content: "\f02a" !important;*/
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
+/*
 .icon-arrow-up:before
 {
 	content: "\f0da" !important;
@@ -152,6 +153,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	content: "\f0db" !important;
 }
+*/
 /*
 \e802	下＞
 \e803	ハート
