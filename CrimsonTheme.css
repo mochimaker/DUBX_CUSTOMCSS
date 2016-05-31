@@ -11,7 +11,8 @@
 
 */
 /*別のフォルダのWebフォントセットcss、今のところ意味はない*/
-@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");
+/*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
+@import url("/master/fontello-icon_fonts_generator/css/fontello.css");
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
