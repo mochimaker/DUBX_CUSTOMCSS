@@ -10,8 +10,8 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 
 */
-/*githubのWebフォントセットcss*/
-@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/octicons/octicons.css");
+/*別のフォルダのWebフォントセットcss*/
+@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -141,21 +141,21 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f02a" !important; /*フォントを文字コードで指定*/
-	font-family: octicons;/*フォントのセットの名前*/
+	content: "\e950" !important; /*フォントを文字コードで指定*/
+	font-family: fontello;/*フォントのセットの名前*/
 	/*color: #FF0000;*/
 	color: #FFFF00;
 }
 
 .icon-arrow-up:before
 {
-	content: "\f0da" !important;
-	font-family: octicons;
+	content: "\e950" !important;
+	font-family: fontello;
 }
 .icon-arrow-down:before
 {
-	content: "\f0db" !important;
-	font-family: octicons;
+	content: "\e950" !important;
+	font-family: fontello;
 }
 
 /*
