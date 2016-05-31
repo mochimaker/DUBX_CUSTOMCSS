@@ -6,7 +6,7 @@
        url('../font/fontello.woff?79291628') format('woff'),
        url('../font/fontello.ttf?79291628') format('truetype'),
        url('../font/fontello.svg?79291628#fontello') format('svg');
-  	uncord-range: U+f800-f802;
+  uncord-range: U+f800-f802;
   font-weight: normal;
   font-style: normal;
 }
