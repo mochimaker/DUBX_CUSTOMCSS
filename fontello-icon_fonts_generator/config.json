@@ -9,19 +9,19 @@
     {
       "uid": "84cf1fcc3fec556e7eaeb19679ca2dc9",
       "css": "star-half-alt",
-      "code": 59728,
+      "code": 63488,
       "src": "fontawesome"
     },
     {
       "uid": "5e2ab018e3044337bcef5f7e94098ea1",
       "css": "thumbs-up-alt",
-      "code": 59729,
+      "code": 63489,
       "src": "fontawesome"
     },
     {
       "uid": "ddcd918b502642705838815d40aea9e3",
       "css": "thumbs-down-alt",
-      "code": 59730,
+      "code": 63490,
       "src": "fontawesome"
     }
   ]
