@@ -151,13 +151,13 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
 	content: "\f10c" !important;
 	font-family: foundation-icons;
-	/*font-family: fontello;*/
+	
 }
 .icon-arrow-down:before
 {
-	content: "\f109;" !important;
+	content: "\f109" !important;
 	font-family: foundation-icons;
-	/*font-family: fontello;*/
+
 }
 
 /*dubtrackで用意してあるwebフォント（未確認有）
