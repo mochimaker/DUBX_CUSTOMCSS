@@ -8,7 +8,8 @@
 */
 /*
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
-
+素人が作っているのでおかしい場所や見え辛い部位があるかもしれないです。
+なにか要望や意見がありましたらkuzumochiが居るときにコメントやプライベートメッセージで教えてください
 */
 /*別のフォルダのWebフォントセットcss、今のところ意味はない*/
 /*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
@@ -147,7 +148,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	/*font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
 	content: "\f800"; /*フォントを文字コードで指定*/
 	font-family: foundation-icons;
-	uncord-range: f800;
+	uncord-range: \f800;
 	color: #FFFF00;
 	
 }
