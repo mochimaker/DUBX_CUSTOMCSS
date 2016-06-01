@@ -593,15 +593,6 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #BE003F;
 }
 
-/*動画検索枠の面取りを指定*/
-#browser .browser-content .browser-content-header .form input
-{
-	border-radius: 1.0rem 0.0rem 0.0rem 1.0rem;
-}
-/*リストの枠の面取りを指定*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api{
-	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
-}
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success/*プレイリストから動画をキューに入れた時の成功した時の表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success/*検索結果から動画をキューに入れた時の成功した時の表示*/
@@ -667,7 +658,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-header .form/*リストの上の検索する枠*/ {
 	background: #523E43;
 }
-
+/*動画検索枠の面取りを指定*/
+#browser .browser-content .browser-content-header .form input
+{
+	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
+}
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background: #C41A41;
@@ -684,6 +679,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	border-radius: 1.0rem;
 }
 
+/*動画のカードのユーザー名周りを纏めて指定*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .dubs-display,
