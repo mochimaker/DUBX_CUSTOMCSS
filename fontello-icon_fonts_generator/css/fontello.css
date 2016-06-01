@@ -9,7 +9,7 @@
   
   font-weight: normal;
   font-style: normal;
-  unicord-range: U+f800, U+f801, U+f802;
+  unicode-range: U+f800, U+f801, U+f802;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
