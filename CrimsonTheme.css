@@ -592,6 +592,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content #import-playlist-container .close-import-playlist/*インポートプレイリスト画面の閉じる×印*/ {
 	background: #BE003F;
 }
+#browser .browser-content .browser-content-header .form input {
+	border-radius: 1.0rem 0.0rem 0.0rem 1.0rem;
+}
 
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success/*プレイリストから動画をキューに入れた時の成功した時の表示*/
