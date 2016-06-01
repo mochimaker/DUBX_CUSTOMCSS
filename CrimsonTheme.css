@@ -147,7 +147,6 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
 	color: #FFFF00;
 	font-size: 24px;
-	
 }
 
 .icon-arrow-up:before
@@ -161,7 +160,6 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	content: "\f140" !important;
 	font-family: foundation-icons;
 	font-size: 24px;
-
 }
 
 /*dubtrackで用意してあるwebフォント（未確認有）
@@ -262,7 +260,7 @@ span.name,
 }
 
 #ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min/*わからん*/ {
-	background: #FFFFFF;
+	background: #C41A41;
 }
 /* Video Buttons (top) */
 #main_player .player_header span.active/*画面枠の上の選択されてるボタン(VIDEO,GUEUE,INFO,MOD?)*/ {
