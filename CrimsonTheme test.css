@@ -10,10 +10,10 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 素人目で作っているのでおかしい場所や見え辛い部位があるかもしれないです。
 なにか要望や意見がありましたらkuzumochiが居るときにコメントやプライベートメッセージで教えてください
+ただ変更してから反映が遅いのでcssをデフォルトに戻してからキャッシュを消して再びcssを読み込んでも駄目だったらしばらく時間を置いてください
 */
 /*別のフォルダのWebフォントセットcss、今のところ意味はない*/
-/*@import url("https://cdn.rawgit.com/mochimaker/DUBX_CUSTOMCSS/master/fontello-icon_fonts_generator/css/fontello.css");*/
-import url("fontello-icon_fonts_generator/css/fontello.css");
+/*@import url("fontello-icon_fonts_generator/css/fontello.css");*/
 
 #header-global/*メイン画面の一番上のバー*/ 
 {
@@ -32,7 +32,7 @@ import url("fontello-icon_fonts_generator/css/fontello.css");
 	box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線）*/
 }
 
-#header-global .header-left-navigation:before/*header-left-navigationの前の要素（オリジナルのcssでも何も入っていない）*/ 
+#header-global .header-left-navigation:before/*header-left-navigationの前の要素（何も入っていない？）*/ 
 {
 	color: #FFF !important;
 }
@@ -143,14 +143,10 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	
-	/*content: "\f1ee" !important; /*フォントを文字コードで指定*/
-	/*font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
-	content: "\f800"; /*フォントを文字コードで指定*/
-	font-family: foundation-icons;
-	uncord-range: U+f800;
+	content: "\f1ee" !important; /*フォントを文字コードで指定*/
+	font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
 	color: #FFFF00;
-	
+	font-size: 22px;
 }
 
 .icon-arrow-up:before
@@ -193,7 +189,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #player-controller .right ul li .add-to-playlist-button.grabbed,
 #player-controller .right ul li .add-to-playlist-button.voted, 
-#player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted 
+#player-controller .right ul li .dubdown.grabbed, 
+#player-controller .right ul li .dubdown.voted 
 {
     background: #f0f;
 }
@@ -204,7 +201,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 }
 
 /* Add to Playlist *マイリスに追加する画面**/
-#addToPlaylistFloatContainer .create-playlist-header .icon-close
+#addToPlaylistFloatContainer .create-playlist-header .icon-close/*閉じる×印*/
 {
 	color: #FFF;
 	/*margin-left: auto !important;*/
@@ -237,7 +234,8 @@ span.name,
 	background: #C41A41;
 }
 #warning/*警告？*/ {
-	background: #AA74FE;
+	background: #B81A3E;
+	color: #FFF;
 	opacity: 0.90;
 }
 
