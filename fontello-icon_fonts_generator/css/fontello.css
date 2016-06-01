@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'foundation-icons';unicode-range: U+f800;
+  font-family: 'fontello';unicode-range: U+f800;
   src: url('../font/fontello.eot?79291628');
   src: url('../font/fontello.eot?79291628#iefix') format('embedded-opentype'),
        url('../font/fontello.woff2?79291628') format('woff2'),
@@ -23,7 +23,7 @@
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "foundation-icons";
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
