@@ -1,6 +1,5 @@
 @font-face {
-  font-family: 'fontello';
-  /*font-family: 'proxima-nova,sans-serif';*/
+  font-family: 'foundation-icons';
   src: url('../font/fontello.eot?79291628');
   src: url('../font/fontello.eot?79291628#iefix') format('embedded-opentype'),
        url('../font/fontello.woff2?79291628') format('woff2'),
@@ -24,7 +23,7 @@
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "foundation-icons";
   font-style: normal;
   font-weight: normal;
   speak: none;
