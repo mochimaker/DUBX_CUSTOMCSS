@@ -195,14 +195,17 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 {
     background: #f0f;
 }
+
+/*マイリスのボタンにマウスを乗せたときのを纏めて記述*/
 #player-controller .right ul li .add-to-playlist-button:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .queue-item .actions .img_bg:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item .actions .img_bg:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .search-item .actions .img_bg:hover .icon-heart
 {
-	text-shadow: 0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00/*,0 0 26px #FFFF00*/;
+	text-shadow: 0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00;/*黄色にぼやける*/
 }
+
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
 #player-controller .left, #player-controller .right/*メイン画面の下のバーの色*/ 
 {
