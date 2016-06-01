@@ -626,16 +626,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #B30F3A;
 	color: #FFF;
 	text-shadow:
-	0 1px #bbb,
-	0 2px #aaa,
-	0 3px #999,
-	0 4px #888,
-	0 5px #777,
-	0 6px #666,
-	0 7px #555,
-	0 8px #444,
-	0 9px #333,
-	0 10px 8px #000;
+	0 1px #aaa,
+	0 2px #888,
+	0 3px #666,
+	0 4px #444,
+	0 5px 4px #000;
 	border-radius: 1.0rem;
 }
 
