@@ -592,7 +592,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success/*動画をキューに入れた時の成功した時の表示*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success/*プレイリストから動画をキューに入れた時の成功した時の表示*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success/*検索結果から動画をキューに入れた時の成功した時の表示*/
 {
 	background: #B81A3E;
 	color: #FFF;
