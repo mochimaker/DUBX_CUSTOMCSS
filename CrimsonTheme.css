@@ -594,8 +594,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /*動画検索枠の面取りを指定*/
-#browser .browser-content .browser-content-header .form input,
-
+#browser .browser-content .browser-content-header .form input
 {
 	border-radius: 1.0rem 0.0rem 0.0rem 1.0rem;
 }
