@@ -206,7 +206,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	text-shadow: text-shadow:
 	0 0 25px #edf8ff,
 	0 0 20px #edf8ff,
-	0 0 0.40px #edf8ff;/*0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00;/*黄色にぼやける*/
+	0 0 0.40px #edf8ff;/*0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00;黄色にぼやける*/
 }
 
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
