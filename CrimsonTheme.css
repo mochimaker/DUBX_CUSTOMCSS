@@ -593,14 +593,16 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: #BE003F;
 }
 
-/*動画検索枠とリスト内検索の面取りを纏めて指定*/
+/*動画検索枠の面取りを指定*/
 #browser .browser-content .browser-content-header .form input,
-#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .description,
-#browser .browser-content .browser-content-main .nano .content-videos .queue_info .description
+
 {
 	border-radius: 1.0rem 0.0rem 0.0rem 1.0rem;
 }
-
+/*リストの枠の面取りを指定*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api{
+	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
+}
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success/*プレイリストから動画をキューに入れた時の成功した時の表示*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success/*検索結果から動画をキューに入れた時の成功した時の表示*/
