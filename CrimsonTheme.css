@@ -10,6 +10,7 @@
 このCSSはDubXのPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)を改変＋追記して作られています
 素人目で作っているのでおかしい場所や見え辛い部位があるかもしれないです。
 なにか要望や意見がありましたらkuzumochiが居るときにコメントやプライベートメッセージで教えてください
+ただ変更してから反映が遅いのでcssをデフォルトに戻してからキャッシュを消して再びcssを読み込んでも駄目だったらしばらく時間を置いてください
 */
 /*別のフォルダのWebフォントセットcss、今のところ意味はない*/
 /*@import url("fontello-icon_fonts_generator/css/fontello.css");*/
