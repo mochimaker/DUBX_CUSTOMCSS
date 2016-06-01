@@ -31,7 +31,7 @@
 	box-shadow: inset 8px 0px 0px 0px #CC2C37;/*文字を囲む四角（左だけに8pxの赤い線）*/
 }
 
-#header-global .header-left-navigation:before/*header-left-navigationの前の要素（オリジナルのcssでも何も入っていない）*/ 
+#header-global .header-left-navigation:before/*header-left-navigationの前の要素（何も入っていない？）*/ 
 {
 	color: #FFF !important;
 }
@@ -188,7 +188,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #player-controller .right ul li .add-to-playlist-button.grabbed,
 #player-controller .right ul li .add-to-playlist-button.voted, 
-#player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted 
+#player-controller .right ul li .dubdown.grabbed, 
+#player-controller .right ul li .dubdown.voted 
 {
     background: #f0f;
 }
@@ -199,7 +200,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 }
 
 /* Add to Playlist *マイリスに追加する画面**/
-#addToPlaylistFloatContainer .create-playlist-header .icon-close
+#addToPlaylistFloatContainer .create-playlist-header .icon-close/*閉じる×印*/
 {
 	color: #FFF;
 	/*margin-left: auto !important;*/
@@ -232,7 +233,8 @@ span.name,
 	background: #C41A41;
 }
 #warning/*警告？*/ {
-	background: #AA74FE;
+	background: #B81A3E;
+	color: #FFF;
 	opacity: 0.90;
 }
 
