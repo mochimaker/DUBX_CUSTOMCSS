@@ -621,10 +621,21 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #A0A0A0;
 }
 
-#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*左のリストを選択したいるとき*/
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*左のキューリストを選択したいるとき*/
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background: #B30F3A;
 	color: #FFF;
+	text-shadow:
+	0 1px #bbb,
+	0 2px #aaa,
+	0 3px #999,
+	0 4px #888,
+	0 5px #777,
+	0 6px #666,
+	0 7px #555,
+	0 8px #444,
+	0 9px #333,
+	0 10px 8px #000;
 	border-radius: 1.0rem;
 }
 
