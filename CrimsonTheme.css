@@ -149,10 +149,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	font-size: 24px;
 	
 }
-.icon-heart:before:hover
-{
-	text-shadow: 0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00/*,0 0 26px #FFFF00*/;
-}
+
 .icon-arrow-up:before
 {
 	content: "\f164" !important;
@@ -181,7 +178,9 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #player-controller .right ul li .dubup .icon-arrow-up/*dubup押す前の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
 	color: #FF0000;
 }
-
+#player-controller .right ul li .dubup .icon-arrow-up:hover/*dubup押す前にマウスを乗せたとき*/{
+	text-shadow: 0 0 2.5px #fff,0 0 5px #fff,0 0 7.5px #fff,0 0 10px #FFFF00,0 0 15px #FFFF00,0 0 20px #FFFF00,0 0 30px #FFFF00/*,0 0 26px #FFFF00*/;
+}
 #player-controller .right ul li .dubdown.voted/*downdubを押した後のボタン*/ {
 	background: #6464FF;
 }
