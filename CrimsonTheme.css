@@ -638,7 +638,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content #import-playlist-container .import-playlist-youtube span/*ユーチューブのimportボタン*/
 {
 	background: #CD3740;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 #browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,/*クリエートプレイリストのボタンのアイコン*/
@@ -707,10 +707,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	color: #C8C8C8;
 }
 
-/*動画のカードにマウスを乗せたときのを纏めて記述*/
+/*キューとプレイリストの動画のカードにマウスを乗せたときのを纏めて記述*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover {
-    border: 1px solid #C8C8C8;
+    border: 1px solid #989898;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
@@ -749,11 +749,11 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /* User */
 span.usernameContainer, .followers-counter/*プロフィール画面のフォロワー数*/,
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif/*プロフィール画面のユーザー名？*/ {
-	color: #FFFFFF;
+	color: #FFF;
 }
 #profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn /*プロフィール画面のフォローするボタン*/{
-	color: #FFFFFF;
-	border: 2px solid #FFFFFF;/*ボタンの外枠*/
+	color: #FFF;
+	border: 2px solid #FFF;/*ボタンの外枠*/
 }
 
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif /*わからん*/{
@@ -763,7 +763,7 @@ span.usernameContainer, .followers-counter/*プロフィール画面のフォロ
 }
 
 #user_popover .actions, #user_popover .global-actions, #user_popover/*アバターをクリックしたときのプロフィール画面の*/ {
-	background: #FFFFFF;
+	background: #FFF;
 	opacity: .95;
 }
 #user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3/*小さいプロフィール画面の文字とアイコン*/ {
