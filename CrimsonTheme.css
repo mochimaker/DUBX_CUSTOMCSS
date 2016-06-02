@@ -78,8 +78,8 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 	color: #FFF;
 }
 
-#header-global .header-right-navigation .user-messages .message-counter/*わからん*/ {
-	background: #FFFFFF;
+#header-global .header-right-navigation .user-messages .message-counter/*新しいプライベートメッセージの表示？*/ {
+	background: #F43254;
 }
 
 /* Private Messages プライベートメッセージ関連？*/
