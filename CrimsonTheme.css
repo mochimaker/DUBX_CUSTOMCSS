@@ -584,14 +584,21 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #browser .browser-content .browser-content-main .nano .loading,/*キューリストのロード表示*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*プレイリストから動画をキューに入れた時の成功した時の表示*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success/*検索結果から動画をキューに入れた時の成功した時の表示*/
 {
 	background: #B81A3E;
 	color: #FFF;
 	border-radius: 0rem 0rem 0.7rem 0.7rem;/*下の左右の角だけ円く面取り*/
 }
 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*プレイリストから動画をキューに入れた時の成功した時の表示*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success/*検索結果から動画をキューに入れた時の成功した時の表示*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .display-error,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-error, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .display-error, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-error 
+{
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
 #browser .browser-content .browser-content-main .sidebar {/*左のリストの「YOUR PLAYLIST」の文字の背景*/
     background: #523E43;
     color: #FFF;
