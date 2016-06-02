@@ -653,6 +653,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 {
 	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
 }
+
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background: #C41A41;
@@ -660,16 +661,24 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	border-radius: 1.0rem 0rem 0rem 1.0rem;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .queue-item,/*マイキューとルームキューの動画のカード*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item,/*履歴の動画のカード*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item,/*プレイリストの動画のカード*/
+/*動画のカード*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item,/*マイキューとルームキューの動画のカード*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item,/*履歴の動画のカード*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item,/*プレイリストの動画のカード*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
 	background: rgba(92, 72, 77, 0.5);
 	border-radius: 1.0rem;
 	border: 1px solid #111;
 }
-
+/*動画のカードにマウスを乗せたときのを纏めて記述*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item:hover
+{
+    border: 1px solid #888888;
+}
 /*動画のカードのユーザー名周りを纏めて指定*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
@@ -696,19 +705,14 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview {
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
+{
  	color: #EF454A;
- }
+}
  
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
 	color: #C8C8C8;
-}
-
-/*キューとプレイリストの動画のカードにマウスを乗せたときのを纏めて記述*/
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item:hover,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover {
-    border: 1px solid #888888;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
