@@ -354,15 +354,7 @@ span.name,
 .chat-container .chat-messages .chat-main li.system-error {
     color: #DCDCDC;
 }
-/*Gif画像の表示テスト***************************************************************************************************/
-/*
-#chat .chat-container .chat-messages
-{
-	background-image: url("lily_spring.gif");
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-*/
+
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
 	color: #FFF;
@@ -625,12 +617,6 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background: #B30F3A;
 	color: #FFF;
-	text-shadow:
-	0 1px #aaa,
-	0 2px #888,
-	0 3px #666,
-	0 4px #444,
-	0 5px 4px #000;
 	border-radius: 1.0rem;
 }
 
