@@ -576,7 +576,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 #chat .chat-options .chat-option-header/*設定の文字*/ {
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 /* Queue */
@@ -710,7 +710,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /*動画のカードにマウスを乗せたときのを纏めて記述*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover {
-    border: 1px solid #333;
+    border: 1px solid #888;
 }
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
