@@ -1,0 +1,19 @@
+.icon-heart:before
+{
+	content: "\f1ee" !important; 
+	font-family: foundation-icons;
+	color: #FFFF00;
+	font-size: 22px;
+}
+.icon-arrow-up:before
+{
+	content: "\f164" !important;
+	font-family: foundation-icons;
+	font-size: 24px;
+}
+.icon-arrow-down:before
+{
+	content: "\f140" !important;
+	font-family: foundation-icons;
+	font-size: 24px;
+}
