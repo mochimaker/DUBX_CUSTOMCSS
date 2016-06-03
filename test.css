@@ -1,5 +1,14 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
 
+.icon-play:before {
+    content: "\8698";
+    font-family: foundation-icons;
+}
+
+.icon-playlist:before {
+    content: "\f168";
+    font-family: foundation-icons;
+}
 .icon-heart:before
 {
 	content: "\f800" !important; 
