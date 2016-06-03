@@ -1,7 +1,7 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
 
 .icon-play:before {
-    content: "\8698";
+    content: "\f198";
     font-family: foundation-icons;
 }
 
