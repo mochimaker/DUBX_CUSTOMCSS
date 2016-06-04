@@ -33,10 +33,13 @@
 .icon-chatsettings:before {
 	content: "\f214";
 	font-family: foundation-icons;
-	font-weight: normal;
-	font-style: normal;
+	font-size: 50%;
 }
 .icon-volume-high:before {
+	content: "\f211";
+	font-family: foundation-icons;
+}
+.icon-volume-mute:before {
 	content: "\f211";
 	font-family: foundation-icons;
 }
