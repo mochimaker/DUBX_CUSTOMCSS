@@ -1,5 +1,7 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
-
+.icon-chatsettings:before {
+    content: "\e805";
+}
 .icon-play:before {
     content: "\f198";
     font-family: foundation-icons;
@@ -11,9 +13,14 @@
 }
 .icon-heart:before
 {
+	/*
 	content: "\f800" !important; 
 	font-family: fontello;
-	color: #FFFF00;
+	color: #FFFF00;*/
+	content: "Admin";
+	font-weight: 700;
+	font-family: proxima-nova,sans-serif;
+	font-size: 10px;
 }
 .icon-arrow-up:before
 {
