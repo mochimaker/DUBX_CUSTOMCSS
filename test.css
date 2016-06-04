@@ -1,8 +1,8 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
 
 .icon-playlist:before {
-    content: "\f168";
-    font-family: foundation-icons;
+	content: "\f168";
+	font-family: foundation-icons;
 }
 .icon-heart:before
 {
@@ -21,18 +21,38 @@
 	font-family: foundation-icons;
 }
 .icon-message:before {
-	content: "\f16b";
+	content: "\f16d";
 	font-family: foundation-icons;
 }
 .icon-chevron:before {
-    content: "\f10b";
+	content: "\f10b";
 	font-family: foundation-icons;
 }
 .icon-chatsettings:before {
-    content: "\f214";
+	content: "\f214";
 	font-family: foundation-icons;
 }
 .icon-play:before {
-    content: "\f198";
-    font-family: foundation-icons;
+	content: "\f198";
+	font-family: foundation-icons;
+}
+.icon-chat:before {
+	content: "\f132";
+	font-family: foundation-icons;
+}
+.icon-people:before {
+	content: "\f1a6";
+	font-family: foundation-icons;
+}
+.icon-facebook:before {
+	content: "\f1c4";
+	font-family: foundation-icons;
+}
+.icon-twitter:before {
+	content: "\f1e4";
+	font-family: foundation-icons;
+}
+.icon-history:before {
+	content: "\f12b";
+	font-family: foundation-icons;
 }
