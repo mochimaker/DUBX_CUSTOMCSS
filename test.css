@@ -76,3 +76,43 @@
 	content: "\f16b";
 	font-family: foundation-icons;
 }
+.icon-camera:before {
+	content: "\f1cd";
+	font-family: foundation-icons;
+}
+#browser .browser-content .browser-content-header .close-browser{
+	content: "\f109";
+	font-family: foundation-icons;
+}
+.icon-youtube:before {
+	content: "\f1ea";
+	font-family: foundation-icons;
+}
+.icon-soundcloud:before {
+	content: "\f12d";
+	font-family: foundation-icons;
+}
+.icon-inbox:before {
+	content: "\f143";
+	font-family: foundation-icons;
+}
+.icon-createplaylist:before {
+	content: "\f14e";
+	font-family: foundation-icons;
+}
+.icon-shuffle:before {
+	content: "\f1b2";
+	font-family: foundation-icons;
+}
+.icon-angle-double-up:before {
+	content: "\f10c";
+	font-family: foundation-icons;
+}
+.icon-trash:before {
+	content: "\f204";
+	font-family: foundation-icons;
+}
+.icon-close:before {
+	content: "\f217";
+	font-family: foundation-icons;
+}
