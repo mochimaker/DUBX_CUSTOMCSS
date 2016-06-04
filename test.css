@@ -56,3 +56,23 @@
 	content: "\f12b";
 	font-family: foundation-icons;
 }
+.icon-sound-alt:before {
+	content: "\f211";
+	font-family: foundation-icons;
+}
+.icon-mute:before {
+	content: "\f210";
+	font-family: foundation-icons;
+}
+#main_player .player_container #room-main-player-container:before, .icon-eye-blocked:before {
+	content: "\f216";
+	font-family: foundation-icons;
+}
+.icon-eye-unblocked:before {
+	content: "\f147";
+	font-family: foundation-icons;
+}
+.icon-reload:before {
+	content: "\f16b";
+	font-family: foundation-icons;
+}
