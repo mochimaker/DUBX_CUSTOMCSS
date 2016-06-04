@@ -1,14 +1,4 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
-.icon-chevron:before {
-    content: "\f10b";
-}
-.icon-chatsettings:before {
-    content: "\f214";
-}
-.icon-play:before {
-    content: "\f198";
-    font-family: foundation-icons;
-}
 
 .icon-playlist:before {
     content: "\f168";
@@ -29,4 +19,17 @@
 {
 	content: "\f140" !important;
 	font-family: foundation-icons;
+}
+.icon-message:before {
+    content: "\f16b";
+}
+.icon-chevron:before {
+    content: "\f10b";
+}
+.icon-chatsettings:before {
+    content: "\f214";
+}
+.icon-play:before {
+    content: "\f198";
+    font-family: foundation-icons;
 }
