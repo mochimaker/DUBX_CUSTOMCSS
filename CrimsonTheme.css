@@ -200,7 +200,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item .actions .img_bg:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .search-item .actions .img_bg:hover .icon-heart
 {
-	 text-shadow: 0 0 15px #FF0000, 0 0 10px #FF0000,0 0 5px #fff;/*赤色にぼやける*/
+	 text-shadow: 0 0 5px #fff, 0 0 10px #FF0000, 0 0 15px #880000,;/*赤色にぼやける*/
 }
 
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
