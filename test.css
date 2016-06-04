@@ -19,7 +19,7 @@
 }
 .icon-arrow-down:before
 {
-	content: "\f140";
+	content: "\f140" !important;
 	font-family: foundation-icons;
 }
 .icon-message:before {
@@ -34,6 +34,7 @@
 	content: "\f214";
 	font-family: foundation-icons;
 	font-size: 50%;
+	vertical-align: middle;
 }
 .icon-volume-high:before {
 	content: "\f211";
@@ -123,6 +124,10 @@
 }
 .icon-angle-double-up:before {
 	content: "\f10c";
+	font-family: foundation-icons;
+}
+.icon-editplaylist:before {
+	content: "\f1ac";
 	font-family: foundation-icons;
 }
 .icon-trash:before {
