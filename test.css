@@ -31,7 +31,7 @@
 .icon-chatsettings:before {
 	content: "\f214";
 	font-family: foundation-icons;
-	font-size: 1em;
+	font-size: 100%;
 }
 .icon-volume-high:before {
 	content: "\f211";
