@@ -142,10 +142,10 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 /*マイリスのアイコンだけを変えたかったのでコメントアウト.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f1ee" !important; /*フォントを文字コードで指定*/
-	font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
-	color: #FFFF00;
-	font-size: 22px;
+	/*content: "\f1ee" !important; /*フォントを文字コードで指定*/
+	/*font-family: foundation-icons;/*フォントのセットの名前*//*dubtrackがfoundation-iconsをすでに読み込んでいるので特にcssの読み込みは必要ない*/
+	/*font-size: 22px;*/
+	color: #FF0000;
 }
 
 .icon-arrow-up:before
@@ -169,11 +169,11 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 \e809	再生三角
 */
 #player-controller .right ul li .dubup.voted/*updubsを押した後のボタン*/ {
-	background: #FF6464;
+	background: #64FF64;
 }
 
 #player-controller .right ul li .dubup .icon-arrow-up/*dubup押す前の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
-	color: #FF0000;
+	color: #00FF00;
 }
 
 #player-controller .right ul li .dubdown.voted/*downdubを押した後のボタン*/ {
@@ -200,7 +200,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item .actions .img_bg:hover .icon-heart,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .search-item .actions .img_bg:hover .icon-heart
 {
-	 text-shadow: 0 0 15px #ffdd65, 0 0 10px #ffdd65,0 0 5px #fff;/*黄色にぼやける*/
+	 text-shadow: 0 0 15px #FF0000, 0 0 10px #FF0000,0 0 5px #fff;/*赤色にぼやける*/
 }
 
 #player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
