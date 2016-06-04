@@ -3,21 +3,23 @@
 .icon-playlist:before {
 	content: "\f168";
 	font-family: foundation-icons;
+	font-weight: normal;
+	font-style: normal;
 }
 .icon-heart:before
 {
-	content: "\f800" !important; 
+	content: "\f800"; 
 	font-family: fontello;
 	color: #FFFF00;
 }
 .icon-arrow-up:before
 {
-	content: "\f164" !important;
+	content: "\f164";
 	font-family: foundation-icons;
 }
 .icon-arrow-down:before
 {
-	content: "\f140" !important;
+	content: "\f140";
 	font-family: foundation-icons;
 }
 .icon-message:before {
@@ -31,7 +33,8 @@
 .icon-chatsettings:before {
 	content: "\f214";
 	font-family: foundation-icons;
-	font-size: 50%;
+	font-weight: normal;
+	font-style: normal;
 }
 .icon-volume-high:before {
 	content: "\f211";
