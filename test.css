@@ -33,6 +33,10 @@
 	font-family: foundation-icons;
 	font-size: 24px;
 }
+.icon-volume-high:before {
+	content: "\f211";
+	font-family: foundation-icons;
+}
 .icon-play:before {
 	content: "\f198";
 	font-family: foundation-icons;
