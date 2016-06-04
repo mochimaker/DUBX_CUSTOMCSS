@@ -81,7 +81,7 @@
 	font-family: foundation-icons;
 }
 #browser .browser-content .browser-content-header .close-browser{
-	content: "\f109";
+	content: "\f109" !important;
 	font-family: foundation-icons;
 }
 .icon-youtube:before {
@@ -90,6 +90,10 @@
 }
 .icon-soundcloud:before {
 	content: "\f12d";
+	font-family: foundation-icons;
+}
+.icon-arrow-dropdown:before {
+	content: "\f109";
 	font-family: foundation-icons;
 }
 .icon-inbox:before {
