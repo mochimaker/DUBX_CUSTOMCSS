@@ -735,7 +735,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,/*プレビューのロードしたバー*/ /*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress,/*プレビューの再生時間のバー*/
 .playerPreview .player-preview-container-wrapper .ui-slider-range,/*プレビューの音量のバー*/
-/*.playerPreview .player-preview-container-wrapper .ui-slider-handle,/*プレビューの音量をつかむところ*/
+.playerPreview .player-preview-container-wrapper .ui-slider-handle,/*プレビューの音量をつかむところ*/
 .playerPreview .player-preview-container-wrapper .buffering,/*プレビューのバッファリング表示*/
 .playerPreview .player-preview-container-wrapper .error,/*プレビューのエラー表示*/
 .playerPreview .player-preview-container-wrapper .loading,/*プレビューのロード表示*/
