@@ -3,8 +3,6 @@
 .icon-playlist:before {
 	content: "\f168";
 	font-family: foundation-icons;
-	font-weight: normal;
-	font-style: normal;
 }
 .icon-heart:before
 {
@@ -30,11 +28,9 @@
 	content: "\f10b";
 	font-family: foundation-icons;
 }
-.icon-chatsettings:before {
+.icon-chatsettings:before {font-size: 50%;
 	content: "\f214";
 	font-family: foundation-icons;
-	font-size: 50%;
-	vertical-align: middle;
 }
 .icon-volume-high:before {
 	content: "\f211";
