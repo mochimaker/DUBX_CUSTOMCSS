@@ -628,7 +628,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	border-radius: 1.0rem;
 }
 
-#browser .browser-content .browser-content-main .sidebar .create-playlist/*左のリストのクリエートプレイリスト*/,
+#browser .browser-content .browser-content-main .sidebar .create-playlist,/*左のリストのクリエートプレイリスト*/
 #browser .browser-content .browser-content-main .sidebar .import-playlist/*左のリストのインポートプレイリスト*/ {
 	background: #5C484D;
 	color: #fff;
@@ -664,7 +664,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
 }
 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info/*マイキューでキューを止めていると出てくる帯*/, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*マイキューでキューを止めていると出てくる帯*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background: #C41A41;
 	color: #FFFFFF;
@@ -732,13 +732,13 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /* Preview */
-.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded/*プレビューのロードしたバー*/, /*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
-.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress/*プレビューの再生時間のバー*/,
-.playerPreview .player-preview-container-wrapper .ui-slider-range/*プレビューの音量のバー*/,
-/*.playerPreview .player-preview-container-wrapper .ui-slider-handle/*プレビューの音量をつかむところ*/,
-.playerPreview .player-preview-container-wrapper .buffering/*プレビューのバッファリング表示*/,
-.playerPreview .player-preview-container-wrapper .error/*プレビューのエラー表示*/,
-.playerPreview .player-preview-container-wrapper .loading/*プレビューのロード表示*/,
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,/*プレビューのロードしたバー*/ /*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress,/*プレビューの再生時間のバー*/
+.playerPreview .player-preview-container-wrapper .ui-slider-range,/*プレビューの音量のバー*/
+/*.playerPreview .player-preview-container-wrapper .ui-slider-handle,/*プレビューの音量をつかむところ*/
+.playerPreview .player-preview-container-wrapper .buffering,/*プレビューのバッファリング表示*/
+.playerPreview .player-preview-container-wrapper .error,/*プレビューのエラー表示*/
+.playerPreview .player-preview-container-wrapper .loading,/*プレビューのロード表示*/
 .playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/
 {
 	background: #C41A41;
@@ -760,7 +760,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 }
 
 /* User */
-span.usernameContainer, .followers-counter/*プロフィール画面のフォロワー数*/,
+span.usernameContainer, .followers-counter,/*プロフィール画面のフォロワー数*/
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif/*プロフィール画面のユーザー名？*/ {
 	color: #FFF;
 }
