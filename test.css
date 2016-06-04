@@ -80,8 +80,10 @@
 	content: "\f1cd";
 	font-family: foundation-icons;
 }
-#browser .browser-content .browser-content-header .close-browser{
-	content: "\f109" !important;
+#player-controller .right ul li .add-to-playlist-button .icon-arrow-down:before, 
+#player-controller .right ul li .dubdown .icon-arrow-down:before,
+.icon-downvote:before {
+	content: "\f109";
 	font-family: foundation-icons;
 }
 .icon-youtube:before {
