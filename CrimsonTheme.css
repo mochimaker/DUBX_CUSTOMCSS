@@ -187,8 +187,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #player-controller .right ul li .add-to-playlist-button.grabbed,
 #player-controller .right ul li .add-to-playlist-button.voted, 
-#player-controller .right ul li .dubdown.grabbed, 
-#player-controller .right ul li .dubdown.voted 
+#player-controller .right ul li .dubdown.grabbed
 {
     background: #f0f;
 }
