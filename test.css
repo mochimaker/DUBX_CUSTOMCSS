@@ -21,13 +21,16 @@
 	font-family: foundation-icons;
 }
 .icon-message:before {
-    content: "\f16b";
+	content: "\f16b";
+	font-family: foundation-icons;
 }
 .icon-chevron:before {
     content: "\f10b";
+	font-family: foundation-icons;
 }
 .icon-chatsettings:before {
     content: "\f214";
+	font-family: foundation-icons;
 }
 .icon-play:before {
     content: "\f198";
