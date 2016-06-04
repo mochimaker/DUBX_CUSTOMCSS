@@ -1,0 +1,5 @@
+#main_player .player_header span.edit-room i {
+content: "\f214";
+font-family: foundation-icons;
+font-size: 60%;
+}
