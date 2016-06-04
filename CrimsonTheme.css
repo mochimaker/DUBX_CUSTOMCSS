@@ -170,6 +170,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 */
 #player-controller .right ul li .dubup.voted/*updubsを押した後のボタン*/ {
 	background: #64FF64;
+	border-radius: 0.7rem 0.7rem 0rem 0rem;
 }
 
 #player-controller .right ul li .dubup .icon-arrow-up/*dubup押す前の*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubup .dub-counter*/ {
@@ -178,6 +179,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 
 #player-controller .right ul li .dubdown.voted/*downdubを押した後のボタン*/ {
 	background: #6464FF;
+	border-radius: 0.7rem 0.7rem 0rem 0rem;
 }
 
 #player-controller .right ul li .dubdown .icon-arrow-down/*downdub押す前の色*//*数字の色は変えたくないのでコメントアウト, #player-controller .right ul li .dubdown .dub-counter */
@@ -190,6 +192,7 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #player-controller .right ul li .dubdown.grabbed
 {
     background: #f0f;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
 }
 
 /*マイリスのボタンにマウスを乗せたときのを纏めて記述*/
