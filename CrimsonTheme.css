@@ -731,7 +731,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*キューの中の動画を選択した時の周りの線*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected/*プレイリストの中の動画を選択した時の周りの線*/ {
-	background: rgba(92, 72, 77, 0.7);
+	background-color: rgba(92, 72, 77, 0.7);
 	border: 1px solid  #F0435A;
 }
 
