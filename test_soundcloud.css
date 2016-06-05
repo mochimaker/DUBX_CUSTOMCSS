@@ -1,7 +1,7 @@
 /*#main_player .player_container #room-main-player-container .playerElement.soundcloud .artwork {
   visibility: hidden;
 }*/
-#main_player .player_container #room-main-player-container .playerElement.soundcloud .artwork {
-  background-image: url("img/29380896_p0.jpg");
-  position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;
+#main_player .player_container #room-main-player-container .playerElement.soundcloud .playeryt-1465123037512 {
+  background: url("img/29380896_p0.jpg");
+  /*position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;*/
 }
