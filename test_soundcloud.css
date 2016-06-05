@@ -1,1 +1,6 @@
-
+#main_player .player_container #room-main-player-container .playerElement.soundcloud .artwork {
+  visibility: hidden;
+}
+#main_player .player_container #room-main-player-container .playerElement.soundcloud .artwork {
+  background-image: url(img/29380896_p0.jpg);
+}
