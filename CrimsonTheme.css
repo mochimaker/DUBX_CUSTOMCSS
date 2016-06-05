@@ -677,7 +677,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item,/*プレイリストの動画のカード*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
-	background: rgba(92, 72, 77, 0.5);
+	background-color: #5c484d;
+	background-image: url("http://www.transparenttextures.com/patterns/gray-floral.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	/*background: rgba(92, 72, 77, 0.5);*/
 	border-radius: 1.0rem;
 	border: 1px solid #111;
 }
