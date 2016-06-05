@@ -680,6 +680,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background-color: #5c484d;
 	background-image: url("http://www.transparenttextures.com/patterns/gray-floral.png");
 	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	opacity:0.5; 
 	/*background: rgba(92, 72, 77, 0.5);*/
 	border-radius: 1.0rem;
 	border: 1px solid #111;
