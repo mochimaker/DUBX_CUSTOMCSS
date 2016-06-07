@@ -680,6 +680,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background-color: rgba(92, 72, 77, 0.5);
 	background-image: url("img/taikyokuzu2.png");
 	background-repeat: no-repeat;
+	background-position 50% 0%;
 	border-radius: 1.0rem;
 	border: 1px solid #111;
 }
