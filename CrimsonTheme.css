@@ -678,10 +678,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*検索結果の動画のカード*/
 {
 	background-color: rgba(92, 72, 77, 0.5);
-	background-image: url("http://www.transparenttextures.com/patterns/inspiration-geometry.png");
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
-	/*background: rgba(92, 72, 77, 0.5);*/
+	background-image: url("img/taikyokuzu.png");
+	background-repeat: no-repeat;
 	border-radius: 1.0rem;
 	border: 1px solid #111;
 }
