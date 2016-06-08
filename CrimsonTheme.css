@@ -336,11 +336,11 @@ span.name,
 #main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover,/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/
 #main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/
 {
-	color:  #FFFFFF;
+	color:  #FFF;
 }
 
 #chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
-	border-color: #FFFFFF;
+	border-color: #FFF;
 }
 
 #chat .chat-container .chat-messages .chat-main li.chat-system-grabbed,
@@ -358,8 +358,8 @@ span.name,
 	color: #FFF;
 }
 
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*わからん*/ {
-	color: rgb(170, 170, 170);
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*チャット上でのユーザ名？*/ {
+	color: #DCDCDC;
 }
 
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ダイレクトメッセージ（＠）*/ {
@@ -487,7 +487,7 @@ span.name,
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
-	color: #2595C7;
+	color: #00FFFF;
 }
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
@@ -495,19 +495,19 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
-	color: #00FFFF;
+	color: #009A57;
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-	color: #009A57;
+	color: #F4D500;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
-	color: #F4D500;
+	color: #FF8300;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-	color: #FF8300;
+	color: #DB3D36;
 }
 /* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
