@@ -526,8 +526,8 @@ span.name,
 */
 /** Current DJ **/
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,/*ユーザーリストの今,、曲を流している人の名前*/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ユーザーリストの今,、曲を流している人の名前の後のDJ*/ {
-	color: #0FF;
+/*#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ユーザーリストの今,、曲を流している人の名前の後のDJ*/ {
+	color: #0FF !important;
 }
 
 /** Users **/
