@@ -484,6 +484,7 @@ span.name,
 	display:none;
 }
 /*管理者の役職名*/
+/*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #2595C7;
