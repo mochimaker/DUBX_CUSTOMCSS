@@ -480,13 +480,29 @@ span.name,
 
 /*ユーザー名の後の権利名の色*/
 #main_avatar_room #main-user-list-room #avatar-list li p.username {
-	color: #FFF;
+	color: #FFF !important;
 }
 #main_avatar_room #main-user-list-room #avatar-list li p.username:after {
 	display:none;
 }
-#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
+	color: #2595C7;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
+	color: #CC66FF;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
+	color: #00FFFF;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
+	color: #009A57;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
 	color: #F4D500;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+	color: #FF8300;
 }
 /* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
