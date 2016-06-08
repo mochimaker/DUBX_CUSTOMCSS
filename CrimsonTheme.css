@@ -215,9 +215,6 @@ a, a:active, a:focus, a:hover,/*リンクの文字(全部)*/
 #addToPlaylistFloatContainer .create-playlist-header .icon-close/*閉じる×印*/
 {
 	color: #FFF;
-	/*margin-left: auto !important;*/
-	margin-right: 0px !important;
-	
 }
 
 #addToPlaylistFloatContainer .playlist-list-action li:hover/*マイリス名にマウスを乗せたとき*/ {
@@ -322,10 +319,10 @@ span.name,
 }
 
 #chat .chat_tools/*チャットの上のアイコン？*/ {
-	color:  #FFFFFF;
+	color:  #FFF;
 }
 #chat .pusher-chat-widget-input	/*チャットを入力するところ*/ {
-	border-top: 1px solid #FFFFFF;
+	border-top: 1px solid #FFF;
 }
 
 #chat .chat_tools span/*チャットを表示しているときのユーザー数表示と設定*/,
@@ -381,7 +378,7 @@ span.name,
 	font-size: 14px;
 }
 
-/*Ownerのユーザー名の文字*/
+/*Ownerのユーザー名の文字？*/
 /*
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
@@ -485,7 +482,7 @@ span.name,
 #main_avatar_room #main-user-list-room #avatar-list li p.username:after {
 	display:none;
 }
-
+/*管理者の役職名*/
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #2595C7;
 }
@@ -525,7 +522,7 @@ span.name,
 }
 */
 /** Current DJ **/
-#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username,/*ユーザーリストの今,、曲を流している人の名前*/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username/*ユーザーリストの今,、曲を流している人の名前*/
 /*#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ユーザーリストの今,、曲を流している人の名前の後のDJ*/ {
 	color: #0FF !important;
 }
