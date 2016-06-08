@@ -479,10 +479,16 @@ span.name,
 */
 
 /*ユーザー名の後の権利名の色*/
+#main_avatar_room #main-user-list-room #avatar-list li p.username {
+	color: #FFF;
+}
 #main_avatar_room #main-user-list-room #avatar-list li p.username:after {
 	display:none;
 }
-/* コメントアウト
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+	color: #F4D500;
+}
+/* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #2595C7;
 }
