@@ -476,6 +476,7 @@ span.name,
 */
 
 /*ユーザー名の後の権利名の色*/
+
 #main_avatar_room #main-user-list-room #avatar-list li p.username {
 	color: #FFF !important;
 }
@@ -483,21 +484,27 @@ span.name,
 	display:none;
 }
 /*管理者の役職名*/
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #2595C7;
 }
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
 	color: #CC66FF;
 }
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
 	color: #00FFFF;
 }
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
 	color: #009A57;
 }
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
 	color: #F4D500;
 }
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
 	color: #FF8300;
 }
