@@ -511,10 +511,11 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
 	color: #FFF;
-	text-shadow: 0.2px 0.2px 0.1px #DB3D36,
-	-0.2px 0.2px 0.1px #DB3D36,
-	0.2px -0.2px 0.1px #DB3D36,
-	-0.2px -0.2px 0.1px #DB3D36;
+	font-weight: bold;
+	text-shadow: 0.2px 0.2px 0.1px #FF0000,
+	-0.2px 0.2px 0.1px #FF0000,
+	0.2px -0.2px 0.1px #FF0000,
+	-0.2px -0.2px 0.1px #FF0000;
 }
 /*
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
