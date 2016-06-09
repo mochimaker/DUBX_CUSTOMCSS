@@ -33,7 +33,7 @@
 
 #header-global .header-left-navigation:before/*header-left-navigationの前の要素（何も入っていない？）*/ 
 {
-	color: #FFF !important;
+	color: #FFF;
 }
 /* Main Menu (right) */
 #header-global .header-right-navigation .user-info span/*右上のユーザーネーム*/ 
@@ -59,7 +59,7 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 {
 	color: #FFF !important;
 }
-
+/*URL文字の色を纏めて指定*/
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFOの中のリンクにマウスを乗せたとき*/
 #private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:hover,/*プライベートメッセージ内のリンクにマウスを乗せたとき*/
 #chat .chat-container .chat-messages a.autolink:hover/*チャットの中のリンクにマウスを乗せたとき*/
@@ -93,7 +93,7 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 #private-messages .private-message-details-info,
 #private-messages .private-message-info 
 {
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 #private-messages .loading/*ロード表示*/ {
@@ -165,9 +165,9 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 /*dubtrackで用意してあるwebフォント（未確認有）
 \e802	下＞
 \e803	ハート
-\e804	しゃべってる吹き出し
+\e804	チャットのアイコン
 \e805	歯車
-\e809	再生三角
+\e809	再生ボタンの三角
 */
 #player-controller .right ul li .dubup.voted/*updubsを押した後のボタン*/ {
 	background: #64FF64;
@@ -187,7 +187,7 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 {
 	color: #0000FF;
 }
-
+/*マイリスのボタンを押した後の表示*/
 #player-controller .right ul li .add-to-playlist-button.grabbed,
 #player-controller .right ul li .add-to-playlist-button.voted, 
 #player-controller .right ul li .dubdown.grabbed
@@ -279,7 +279,7 @@ span.name,
 	color: #00BFFF;
 }
 
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*わからん、MOD画面？*/ 
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*MOD画面？*/ 
 {
 	color: #FF2B30 !important;
 }
@@ -373,11 +373,11 @@ span.name,
 {
 	color: #C8C8C8;
 }
-
+/*システムメッセージの文字の大きさ？*/
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading,
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message, 
 #chat .chat-container .chat-messages .chat-main li.system, 
-#chat .chat-container .chat-messages .chat-main li.system-error/*わからん*/ {
+#chat .chat-container .chat-messages .chat-main li.system-error {
 	font-size: 14px;
 }
 
@@ -540,7 +540,7 @@ span.name,
 
 /** Users **/
 #main_avatar_room #main-user-list-room #avatar-list li p/*ユーザーリストのユーザー名？*/ {
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 /** Upvote/Downvote **/
@@ -700,7 +700,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*マイキューでキューを止めていると出てくる帯*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background: #C41A41;
-	color: #FFFFFF;
+	color: #FFF;
 	border-radius: 1.0rem 0rem 0rem 1.0rem;
 }
 
@@ -805,13 +805,13 @@ span.usernameContainer, .followers-counter,/*プロフィール画面のフォ�
 	border: 2px solid #FFF;/*ボタンの外枠*/
 }
 
-#profileMainSection .profileView .header .pictureContainer .updatePictureGif /*わからん*/{
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif /*プロフィール画面で自分のプロフィール画像にマウスを乗せたときの*/{
 	width: 101%;
 	height 101%;
 	background: #AA74FE;
 }
 
-#user_popover .actions, #user_popover .global-actions, #user_popover/*アバターをクリックしたときのプロフィール画面の*/ {
+#user_popover .actions, #user_popover .global-actions, #user_popover/*アバターをクリックしたときの小さいプロフィール画面*/ {
 	background: #FFF;
 	opacity: .95;
 }
