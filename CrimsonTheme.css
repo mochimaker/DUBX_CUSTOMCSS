@@ -343,18 +343,18 @@ span.name,
 #chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
 	border-color: #FFF;
 }
-
+/*チャットのシステムメッセージを纏めて指定*/
 #chat .chat-container .chat-messages .chat-main li.chat-system-grabbed,/*動画をマイリスに入れたときの表示*/
 #chat .chat-container .chat-messages .chat-main li.chat-system-joined, /*部屋に入った時の表示*/
 #chat .chat-container .chat-messages .chat-main li.chat-system-left, /**/
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading, /**/
 #chat .chat-container .chat-messages .chat-main li.system, 
 #chat .chat-container .chat-messages .chat-main li.system-error {
-	color: #D5EBE7;
+	color: #DCDCDC;
 }
 
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message,/*チャットの一番上のデフォルトのメッセージ*/ {
-	color: #DCDCDC;
+	color: #D5EBE7;
 }
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
