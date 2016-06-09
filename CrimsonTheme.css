@@ -510,9 +510,13 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-	color: #DB3D36;
+	color: #FFF;
+	text-shadow: 0.2px 0.2px 0.1px #DB3D36,
+	-0.2px 0.2px 0.1px #DB3D36,
+	0.2px -0.2px 0.1px #DB3D36,
+	-0.2px -0.2px 0.1px #DB3D36;
 }
-
+/*
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
@@ -531,6 +535,7 @@ span.name,
 	0.2px -0.2px 0.1px #FFF,
 	-0.2px -0.2px 0.1px #FFF;
 }
+*/
 /* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #2595C7;
