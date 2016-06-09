@@ -491,50 +491,46 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #00FFFF;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
 }
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
 	color: #CC66FF;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
 	color: #A0CA5A;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
 	color: #E3C700;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
 	color: #FF8300;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
 	color: #DB3D36;
-	text-shadow: 2px 2px 1px #FFF,
-	-2px 2px 1px #FFF,
-	2px -2px 1px #FFF,
-	-2px -2px 1px #FFF;
+}
+
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role
+{
+	color: #DB3D36;
+	text-shadow: 0.2px 0.2px 0.1px #FFF,
+	-0.2px 0.2px 0.1px #FFF,
+	0.2px -0.2px 0.1px #FFF,
+	-0.2px -0.2px 0.1px #FFF;
 }
 /* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
