@@ -808,7 +808,7 @@ span.usernameContainer, .followers-counter,/*プロフィール画面のフォ�
 #profileMainSection .profileView .header .pictureContainer .updatePictureGif /*プロフィール画面で自分のプロフィール画像にマウスを乗せたときの*/{
 	width: 101%;
 	height 101%;
-	background: #AA74FE;
+	background: #C41A41;
 }
 
 #user_popover .actions, #user_popover .global-actions, #user_popover/*アバターをクリックしたときの小さいプロフィール画面*/ {
