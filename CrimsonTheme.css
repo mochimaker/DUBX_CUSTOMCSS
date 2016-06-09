@@ -511,6 +511,7 @@ span.name,
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
 	color: #DC143C;
+	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
 		0 0 4px #fff,
