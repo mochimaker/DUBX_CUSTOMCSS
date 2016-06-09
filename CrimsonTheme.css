@@ -340,7 +340,7 @@ span.name,
 	color:  #FFF;
 }
 
-#chat .chat_tools span:after /*チャットの上の今選択しているアイコンの下の線*/{
+#chat .chat_tools span:after /*チャット枠の上の今選択しているアイコンの下の線*/{
 	border-color: #FFF;
 }
 /*チャットのシステムメッセージを纏めて指定*/
@@ -353,8 +353,8 @@ span.name,
 	color: #DCDCDC;
 }
 
-#chat .chat-container .chat-messages .chat-main li.chat-welcome-message,/*チャットの一番上のデフォルトのメッセージ*/ {
-	color: #D5EBE7 !important;
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message/*チャットの一番上のデフォルトのメッセージ*/ {
+	color: #D5EBE7;
 }
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
