@@ -354,7 +354,7 @@ span.name,
 }
 
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message,/*チャットの一番上のデフォルトのメッセージ*/ {
-	color: #D5EBE7;
+	color: #D5EBE7 !important;
 }
 #chat .pusher-chat-widget-input #new-messages-counter/*新しいコメントの通知*/ {
 	background: #B40926;
