@@ -495,11 +495,11 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
-	color: #009A57;
+	color: #A0CA5A;
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-	color: #A0CA5A;
+	color: #FFBB00;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
