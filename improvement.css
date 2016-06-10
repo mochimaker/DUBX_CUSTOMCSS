@@ -40,10 +40,10 @@
 }
 /*ユーザーリストのユーザー名*/
 #main_avatar_room #main-user-list-room #avatar-list li p.username {
-	color: #FFF;
+	color: #FFF !important;
 }
 /*管理者の役職名*/
-/*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
+/*チャット上とユーザーリスト上の役職名をそれぞれまとめて指定*/
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #00FFFF;
@@ -80,7 +80,7 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
 {
- 	color: #FF4B23;
+ 	color: #FF8C00;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
