@@ -490,7 +490,7 @@ span.name,
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
-	color: #00FFFF;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
@@ -503,7 +503,7 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
-	color: #CC66FF;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
@@ -516,7 +516,7 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
-	color: #A0CA5A;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
@@ -529,7 +529,7 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
-	color: #E3C700;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
@@ -542,7 +542,7 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
-	color: #FF8300;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
@@ -555,7 +555,7 @@ span.name,
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
-	color: #DC143C;
+	color: #fff;
 	font-weight: bold;
 	text-shadow:
 		0 0 2px #fff,
