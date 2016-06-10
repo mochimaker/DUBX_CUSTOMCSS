@@ -534,7 +534,7 @@ span.name,
 		0 0 6px #E3C700,
 		0 0 9px #E3C700,
 		0 0 11px #E3C700,
-		0 0 14px #E3C700,
+		0 0 14px #E3C700;
 }
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
@@ -546,7 +546,7 @@ span.name,
 		0 0 6px #FF8300,
 		0 0 9px #FF8300,
 		0 0 11px #FF8300,
-		0 0 14px #FF8300,
+		0 0 14px #FF8300;
 }
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
@@ -558,7 +558,7 @@ span.name,
 		0 0 6px #DC143C,
 		0 0 9px #DC143C,
 		0 0 11px #DC143C,
-		0 0 14px #DC143C,
+		0 0 14px #DC143C;
 }
 
 /* 古くなったのでコメントアウト
