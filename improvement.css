@@ -21,7 +21,9 @@
 {
 	color: #64758B !important;
 }
-#private-messages .message-details ul.message-list li.message-item .message-content p {
+/*プライベートメッセージの見えにくい文字を*/
+#private-messages .message-details ul.message-list li.message-item .message-content p,
+#private-messages .main-message-list ul.message-list li.message-item .message-content p{
 	color: #FFF;
 }
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
@@ -30,11 +32,15 @@
 {
 	color:  #FFF;
 }
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*チャット上でのユーザ名？*/ {
+	color: #DCDCDC;
+}
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #0FF;
 }
+/*ユーザーリストのユーザー名*/
 #main_avatar_room #main-user-list-room #avatar-list li p.username {
-	color: #FFF !important;
+	color: #FFF;
 }
 /*管理者の役職名*/
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
@@ -74,7 +80,7 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
 {
- 	color: #FF6347;
+ 	color: #FF4B23;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
