@@ -6,20 +6,23 @@
 #private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:link,/*プライベートメッセージ内のリンク*/
 #chat .chat-container .chat-messages a.autolink:link/*チャットの中のリンク*/
 {
-	color: ##D5EBE7 !important;
+	color: #D5EBE7 !important;
 }
 /*URL文字の色を纏めて指定*/
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFOの中のリンクにマウスを乗せたとき*/
 #private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:hover,/*プライベートメッセージ内のリンクにマウスを乗せたとき*/
 #chat .chat-container .chat-messages a.autolink:hover/*チャットの中のリンクにマウスを乗せたとき*/
 {
-	color: #FF2B30 !important;
+	color: #00CCFF !important;
 }
 #room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited,/*INFOの中の閲覧済みのリンク*/
 #private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:visited,/*プライベートメッセージ内の閲覧済みのリンク*/
 #chat .chat-container .chat-messages a.autolink:visited/*チャットの中の閲覧済みのリンク*/
 {
-	color: #64758B!important;
+	color: #64758B !important;
+}
+#private-messages .message-details ul.message-list li.message-item .message-content p {
+	color: #FFF;
 }
 #chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
 #main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover,/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/
@@ -29,4 +32,51 @@
 }
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #0FF;
+}
+#main_avatar_room #main-user-list-room #avatar-list li p.username {
+	color: #FFF !important;
+}
+/*管理者の役職名*/
+/*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
+	color: #00FFFF;
+	font-weight: bold;
+}
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
+	color: #CC66FF;
+	font-weight: bold;
+}
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
+	color: #A0CA5A;
+	font-weight: bold;
+}
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
+	color: #E3C700;
+	font-weight: bold;
+}
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
+	color: #FF8300;
+	font-weight: bold;
+}
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+	color: #DC143C;
+	font-weight: bold;
+}
+/**動画のカードのプレビューの色を纏めて変更**/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
+{
+ 	color: #FF6347;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
+{
+	color: #C8C8C8;
 }
