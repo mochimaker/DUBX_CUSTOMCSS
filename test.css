@@ -137,11 +137,11 @@
 	font-family: foundation-icons;
 }
 .icon-unlocked:before {
-	content: "\f01c";
+	content: "\f20a";
 	font-family: foundation-icons;
 }
 .icon-lock:before {
-	content: "\f01b";
+	content: "\f16a";
 	font-family: foundation-icons;
 }
 /*********************************************/
