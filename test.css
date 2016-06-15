@@ -146,10 +146,9 @@
 }
 /*********************************************/
 #chat .chat_tools span.icon-chatsettings {
-	line-height: .7;
+	font-size: initial;
 }
 #main_player .player_header span.edit-room i {
 	font-size: 1.5rem;
-	line-height: 1.15;
-	margin: 0 auto;
+	line-height: 1.5;
 }
