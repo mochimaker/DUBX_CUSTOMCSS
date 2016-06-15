@@ -187,6 +187,11 @@
 	content: "\f16a";
 	font-family: foundation-icons;
 }
+/*検索の虫眼鏡アイコン*/
+.icon-search:before {
+	content: "\f16c";
+	font-family: foundation-icons;
+}
 /*********************************************/
 #chat .chat_tools span.icon-chatsettings {
 	font-size: 30px;
