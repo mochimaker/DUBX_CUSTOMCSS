@@ -24,6 +24,10 @@
 	content: "\f16d";
 	font-family: foundation-icons;
 }
+.icon-skip:before {
+	content: "\f17c";
+	font-family: foundation-icons;
+}
 .icon-chevron:before {
 	content: "\f10b";
 	font-family: foundation-icons;
