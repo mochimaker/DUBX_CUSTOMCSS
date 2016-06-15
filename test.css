@@ -136,3 +136,20 @@
 	content: "\f217";
 	font-family: foundation-icons;
 }
+.icon-unlocked:before {
+	content: "\f01c";
+	font-family: foundation-icons;
+}
+.icon-lock:before {
+	content: "\f01b";
+	font-family: foundation-icons;
+}
+/*********************************************/
+#chat .chat_tools span.icon-chatsettings {
+	line-height: .7;
+}
+#main_player .player_header span.edit-room i {
+	font-size: 1.5rem;
+	line-height: 1.15;
+	margin: 0 auto;
+}
