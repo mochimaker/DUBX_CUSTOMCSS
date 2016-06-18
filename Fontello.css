@@ -1,197 +1,197 @@
 @import url("fontello-icon_fonts_generator/css/fontello.css");
 /*プレイリストのアイコン*/
 .icon-playlist:before {
-	content: "\f168";
-	font-family: foundation-icons;
+	content: "\f800"; 
+	font-family: fontello;
 }
 /*マイリスのアイコン*/
 .icon-heart:before
 {
-	content: "\f800"; 
+	content: "\f801"; 
 	font-family: fontello;
-	color: #FFFF00;
 }
 /*updubのアイコン*/
 .icon-arrow-up:before
 {
-	content: "\f164" !important;
-	font-family: foundation-icons;
+	content: "\f802"; 
+	font-family: fontello;
 }
 /*downdubのアイコン*/
 .icon-arrow-down:before
 {
-	content: "\f140" !important;
-	font-family: foundation-icons;
+	content: "\f803"; 
+	font-family: fontello;
 }
 /*プライベートメッセージのアイコン*/
 .icon-message:before {
-	content: "\f16d";
-	font-family: foundation-icons;
+	content: "\f804"; 
+	font-family: fontello;
 }
 /*スキップのアイコン*/
 .icon-skip:before {
-	content: "\f17c";
-	font-family: foundation-icons;
+	content: "\f805"; 
+	font-family: fontello;
 }
 /*左上のLobbyとルーム名の間のアイコン*/
 .icon-chevron:before {
-	content: "\f10b";
-	font-family: foundation-icons;
+	content: "\f806"; 
+	font-family: fontello;
 }
 /*設定のアイコン*/
 .icon-chatsettings:before {
-	content: "\f214";
-	font-family: foundation-icons;
-	font-size: 60%;
+	content: "\f807"; 
+	font-family: fontello;
 }
 /*設定のサウンドのアイコン*/
 .icon-volume-high:before {
-	content: "\f211";
-	font-family: foundation-icons;
+	content: "\f808"; 
+	font-family: fontello;
 }
 /*設定のミュートのアイコン*/
 .icon-volume-mute:before {
-	content: "\f211";
-	font-family: foundation-icons;
+	content: "\f809"; 
+	font-family: fontello;
 }
 /*再生のアイコン*/
 .icon-play:before {
-	content: "\f198";
-	font-family: foundation-icons;
+	content: "\f80a"; 
+	font-family: fontello;
 }
 /*停止のアイコン*/
 .icon-pause:before {
-    content: "\f191";
-	font-family: foundation-icons;
+	content: "\f80b"; 
+	font-family: fontello;
 }
 /*チャットのアイコン*/
 .icon-chat:before {
-	content: "\f132";
-	font-family: foundation-icons;
+	content: "\f80c"; 
+	font-family: fontello;
 }
 /*ユーザーリストのアイコン*/
 .icon-people:before {
-	content: "\f1a6";
-	font-family: foundation-icons;
+content: "\f80d"; 
+	font-family: fontello;
 }
 /*フェイスブックのアイコン*/
 .icon-facebook:before {
-	content: "\f1c4";
-	font-family: foundation-icons;
+	content: "\f80e"; 
+	font-family: fontello;
 }
 /*トィッターのアイコン*/
 .icon-twitter:before {
-	content: "\f1e4";
-	font-family: foundation-icons;
+	content: "\f80f"; 
+	font-family: fontello;
 }
 /*履歴のアイコン*/
 .icon-history:before {
-	content: "\f12b";
-	font-family: foundation-icons;
+	content: "\f810"; 
+	font-family: fontello;
 }
 /*動画の枠下の音量のアイコン*/
 .icon-sound-alt:before {
-	content: "\f211";
-	font-family: foundation-icons;
+	content: "\f811"; 
+	font-family: fontello;
 }
 /*動画枠下のミュートのアイコン*/
 .icon-mute:before {
-	content: "\f210";
-	font-family: foundation-icons;
+	content: "\f812"; 
+	font-family: fontello;
 }
 /*動画非表示時のアイコン*/
 #main_player .player_container #room-main-player-container:before, .icon-eye-blocked:before {
-	content: "\f216";
-	font-family: foundation-icons;
+	content: "\f813"; 
+	font-family: fontello;
 }
 /*動画表示のアイコン*/
 .icon-eye-unblocked:before {
-	content: "\f147";
-	font-family: foundation-icons;
+	content: "\f814"; 
+	font-family: fontello;
 }
-/*リロードのアイコン*/
+/*動画のリロードのアイコン*/
 .icon-reload:before {
-	content: "\f16b";
-	font-family: foundation-icons;
+	content: "\f815"; 
+	font-family: fontello;
 }
 /*画像アップロードのアイコン*/
 .icon-camera:before {
-	content: "\f1cd";
-	font-family: foundation-icons;
+	content: "\f816"; 
+	font-family: fontello;
 }
 /*リストを閉じるアイコン*/
 /*#player-controller .right ul li .add-to-playlist-button .icon-arrow-down:before, 
 #player-controller .right ul li .dubdown .icon-arrow-down:before,*/
 .icon-downvote:before {
-	content: "\f109";
-	font-family: foundation-icons;
+	content: "\f817"; 
+	font-family: fontello;
 }
 /*Youtubeのアイコン*/
 .icon-youtube:before {
-	content: "\f1ea";
-	font-family: foundation-icons;
+	content: "\f818"; 
+	font-family: fontello;
 }
 /*SoundCloudのアイコン*/
 .icon-soundcloud:before {
-	content: "\f12d";
-	font-family: foundation-icons;
+	content: "\f819"; 
+	font-family: fontello;
 }
 /*YoutubeとSoundCloudの検索切り替えのアイコン*/
 .icon-arrow-dropdown:before {
-	content: "\f109";
-	font-family: foundation-icons;
+	content: "\f81a"; 
+	font-family: fontello;
 	font-size: 20%;
 }
 /*インポートのアイコン*/
 .icon-inbox:before {
-	content: "\f143";
-	font-family: foundation-icons;
+	content: "\f81b"; 
+	font-family: fontello;
 }
 /*リスト作成のアイコン*/
 .icon-createplaylist:before {
-	content: "\f14e";
-	font-family: foundation-icons;
+	content: "\f81c"; 
+	font-family: fontello;
 }
 /*キューのミキサーのアイコン*/
 .icon-shuffle:before {
-	content: "\f1b2";
-	font-family: foundation-icons;
+	content: "\f81d"; 
+	font-family: fontello;
 }
 /*リストのトップに移動させるアイコン*/
 .icon-angle-double-up:before {
-	content: "\f10c";
-	font-family: foundation-icons;
+	content: "\f81e"; 
+	font-family: fontello;
 }
 /*リストの名前変更のアイコン*/
 .icon-editplaylist:before {
-	content: "\f1ac";
-	font-family: foundation-icons;
+	content: "\f81f"; 
+	font-family: fontello;
+}
+/*名前変更保存のアイコン*/
+.icon-save:before {
+	content: "\f820"; 
+	font-family: fontello;
 }
 /*ゴミ箱のアイコン*/
 .icon-trash:before {
-	content: "\f204";
-	font-family: foundation-icons;
+	content: "\f821"; 
+	font-family: fontello;
 }
 /*閉じるアイコン*/
 .icon-close:before {
-	content: "\f217";
-	font-family: foundation-icons;
+	content: "\f822"; 
+	font-family: fontello;
 }
 /*ロック解除状態のアイコン*/
 .icon-unlocked:before {
-	content: "\f20a";
-	font-family: foundation-icons;
+	content: "\f823"; 
+	font-family: fontello;
 }
 /*ロック状態のアイコン*/
 .icon-lock:before {
-	content: "\f16a";
-	font-family: foundation-icons;
+	content: "\f824"; 
+	font-family: fontello;
 }
 /*********************************************/
 #chat .chat_tools span.icon-chatsettings {
-	font-size: 30px;
-	
 }
 #main_player .player_header span.edit-room i {
-	line-height: 0;
 }
