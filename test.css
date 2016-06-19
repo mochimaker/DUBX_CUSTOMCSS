@@ -164,8 +164,13 @@
 }
 /*リストの名前変更のアイコン*/
 .icon-editplaylist:before {
-	content: "\f1ac";
+	content: "\f194";
 	font-family: foundation-icons;
+}
+/*名前変更保存のアイコン*/
+.icon-save:before {
+	content: "\f1ac"; 
+	font-family: fontello;
 }
 /*ゴミ箱のアイコン*/
 .icon-trash:before {
