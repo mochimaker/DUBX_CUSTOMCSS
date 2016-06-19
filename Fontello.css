@@ -190,6 +190,11 @@ content: "\f80d";
 	content: "\f824"; 
 	font-family: fontello;
 }
+/*検索の虫眼鏡アイコン*/
+.icon-search:before {
+	content: "\f825";
+	font-family: fontello;
+}
 /*********************************************/
 #chat .chat_tools span.icon-chatsettings {
 }
