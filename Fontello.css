@@ -148,7 +148,7 @@ content: "\f80d";
 	font-family: fontello;
 }
 /*リスト作成のアイコン*/
-.icon-createplaylist:before
+.icon-createplaylist:before,
 .icon-add:before/*マイリス画面のリスト作成アイコン*/
 {
 	content: "\f81c"; 
