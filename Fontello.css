@@ -196,6 +196,10 @@ content: "\f80d";
 	font-family: fontello;
 }
 /*********************************************/
+#main_player .player_sharing span .icon-histry .eta_tooltip_t {
+	content: "\f12b";
+	font-family: foundation-icons;
+}
 #chat .chat_tools span.icon-chatsettings {
 }
 #main_player .player_header span.edit-room i {
