@@ -227,6 +227,12 @@
       "css": "fontello-lock",
       "code": 63524,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ec21fe3492bb04d9e29103c319556ed8",
+      "css": "fontello-search",
+      "code": 63525,
+      "src": "mfglabs"
     }
   ]
 }
