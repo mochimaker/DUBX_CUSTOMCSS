@@ -202,9 +202,9 @@ content: "\f80d";
 	font-family: foundation-icons;
 }
 #chat .chat_tools span.icon-chatsettings {
-	line-height: 0.25rem;
+	line-height: 0.3rem;
 }
 #main_player .player_header span.edit-room i {
-	line-height: 0.7rem;
-	padding-left: 1.5px;
+	padding-top: 0.2em;
+	padding-left: 0.1em;
 }
