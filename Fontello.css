@@ -13,13 +13,13 @@
 /*updubのアイコン*/
 .icon-arrow-up:before
 {
-	content: "\f802"; 
+	content: "\f802" !important; 
 	font-family: fontello;
 }
 /*downdubのアイコン*/
 .icon-arrow-down:before
 {
-	content: "\f803"; 
+	content: "\f803" !important; 
 	font-family: fontello;
 }
 /*プライベートメッセージのアイコン*/
