@@ -1,215 +1,882 @@
-@import url("fontello-icon_fonts_generator/css/fontello.css");
-/*ãƒ—ãƒ¬ã‚¤ãƒªã‚¹ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-playlist:before {
-	content: "\f800"; 
-	font-family: fontello;
+
+/*
+    Custom CSS for Dubtrack.fm
+    Plug Theme and UI improvements
+    Originally made by @kris | Redone by @sinful
+    https://dubtrack.fm/kris
+    https://dubtrack.fm/sinful
+*/
+/*THE Q PUBLIC LICENSE version 1.0 Copyright (C) 1999-2005 Trolltech AS, Norway. Everyone is permitted to copy and distribute this license document. The intent of this license is to establish freedom to share and change the software regulated by this license under the open source model. This license applies to any software containing a notice placed by the copyright holder saying that it may be distributed under the terms of the Q Public License version 1.0. Such software is herein referred to as the Software. This license covers modification and distribution of the Software, use of third-party application programs based on the Software, and development of free software which uses the Software. Granted Rights 1. You are granted the non-exclusive rights set forth in this license provided you agree to and comply with any and all conditions in this license. Whole or partial distribution of the Software, or software items that link with the Software, in any form signifies acceptance of this license. 2. You may copy and distribute the Software in unmodified form provided that the entire package, including - but not restricted to - copyright, trademark notices and disclaimers, as released by the initial developer of the Software, is distributed. 3. You may make modifications to the Software and distribute your modifications, in a form that is separate from the Software, such as patches. The following restrictions apply to modifications: a. Modifications must not alter or remove any copyright notices in the Software. b. When modifications to the Software are released under this license, a non-exclusive royalty-free right is granted to the initial developer of the Software to distribute your modification in future versions of the Software provided such versions remain available under these terms in addition to any other license(s) of the initial developer. 4. You may distribute machine-executable forms of the Software or machine-executable forms of modified versions of the Software, provided that you meet these restrictions: a. You must include this license document in the distribution. b. You must ensure that all recipients of the machine-executable forms are also able to receive the complete machine-readable source code to the distributed Software, including all modifications, without any charge beyond the costs of data transfer, and place prominent notices in the distribution explaining this. c. You must ensure that all modifications included in the machine-executable forms are available under the terms of this license. 5. You may use the original or modified versions of the Software to compile, link and run application programs legally developed by you or by others. 6. You may develop application programs, reusable components and other software items that link with the original or modified versions of the Software. These items, when distributed, are subject to the following requirements: a. You must ensure that all recipients of machine-executable forms of these items are also able to receive and use the complete machine-readable source code to the items without any charge beyond the costs of data transfer. b. You must explicitly license all recipients of your items to use and re-distribute original and modified versions of the items in both machine-executable and source code forms. The recipients must be able to do so without any charges whatsoever, and they must be able to re-distribute to anyone they choose. c. If the items are not available to the general public, and the initial developer of the Software requests a copy of the items, then you must supply one. Limitations of Liability In no event shall the initial developers or copyright holders be liable for any damages whatsoever, including - but not restricted to - lost revenue or profits or other direct, indirect, special, incidental or consequential damages, even if they have been advised of the possibility of such damages, except to the extent invariable law, if any, provides otherwise. No Warranty The Software and this license document are provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Choice of Law This license is governed by the Laws of Norway. Disputes shall be settled by Oslo City Court.*/
+/*
+‚±‚ÌCSS‚ÍDubX‚ÌPlugTheme(https://rawgit.com/sinfulBA/DubX-Script/master/themes/PlugTheme.css)‚ð‰ü•Ï{’Ç‹L‚µ‚Äì‚ç‚ê‚Ä‚¢‚Ü‚·
+‘fl–Ú‚Åì‚Á‚Ä‚¢‚é‚Ì‚Å‚¨‚©‚µ‚¢êŠ‚âŒ©‚¦h‚¢•”ˆÊ‚ª‚ ‚é‚©‚à‚µ‚ê‚È‚¢‚Å‚·B
+‚È‚É‚©—v–]‚âˆÓŒ©‚ª‚ ‚è‚Ü‚µ‚½‚çkuzumochi‚ª‹‚é‚Æ‚«‚ÉƒRƒƒ“ƒg‚âƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW‚Å‹³‚¦‚Ä‚­‚¾‚³‚¢
+‚½‚¾•ÏX‚µ‚Ä‚©‚ç”½‰f‚ª’x‚¢‚Ì‚Åcss‚ðƒfƒtƒHƒ‹ƒg‚É–ß‚µ‚Ä‚©‚çƒLƒƒƒbƒVƒ…‚ðÁ‚µ‚ÄÄ‚Ñcss‚ð“Ç‚Ýž‚ñ‚Å‚à‘Ê–Ú‚¾‚Á‚½‚ç‚µ‚Î‚ç‚­ŽžŠÔ‚ð’u‚¢‚Ä‚­‚¾‚³‚¢
+*/
+
+#header-global/*ƒƒCƒ“‰æ–Ê‚Ìˆê”Ôã‚Ìƒo[*/ 
+{
+	background: rgba(100,8,8,0.50);
 }
-/*ãƒžã‚¤ãƒªã‚¹ã®ã‚¢ã‚¤ã‚³ãƒ³*/
+
+/* Main Menu (left) */
+#main-menu-left/*¶‚Ìƒƒjƒ…[*/ 
+{
+	background: #5C484D;
+}
+
+#main-menu-left a.room-active-link /*¶‚Ìƒƒjƒ…[“à‚Ì•¶Žš*/
+{
+	color: #FFF;
+	box-shadow: inset 8px 0px 0px 0px #CC2C37;/*•¶Žš‚ðˆÍ‚ÞŽlŠpi¶‚¾‚¯‚É8px‚ÌÔ‚¢üj*/
+}
+
+#header-global .header-left-navigation:before/*header-left-navigation‚Ì‘O‚Ì—v‘fi‰½‚à“ü‚Á‚Ä‚¢‚È‚¢Hj*/ 
+{
+	color: #FFF;
+}
+/* Main Menu (right) */
+#header-global .header-right-navigation .user-info span/*‰Eã‚Ìƒ†[ƒU[ƒl[ƒ€*/ 
+{
+	color: #FFF;
+}
+
+/* Top Header */
+
+/**ƒŠƒ“ƒN‚Ì•\Ž¦**/
+a, a:active, a:focus, a:hover,
+a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*ƒŠƒ“ƒN‚Ì•¶Žš(‘S•”)*/
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron,/*¶ã‚ÌROBBY‚Æ•”‰®–¼‚ÌŠÔ‚ÌƒAƒCƒRƒ“i„j*/
+#header-global .header-left-navigation a.room-active-link.active-room .icon-chevron:hover/*¶ã‚ÌROBBY‚Æ•”‰®–¼‚ÌŠÔ‚ÌƒAƒCƒRƒ“i„j‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/
+{
+	color: #FFF;
+}
+
+/**INFO‚Ì’†‚Æƒ`ƒƒƒbƒg“à‚Æƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW‚ÌƒŠƒ“ƒN‚Ì•¶Žš**/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link,/*INFO‚Ì’†‚ÌƒŠƒ“ƒN*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:link,/*ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW“à‚ÌƒŠƒ“ƒN*/
+#chat .chat-container .chat-messages a.autolink:link/*ƒ`ƒƒƒbƒg‚Ì’†‚ÌƒŠƒ“ƒN*/
+{
+	color: #FFF !important;
+}
+/*URL•¶Žš‚ÌF‚ð“Z‚ß‚ÄŽw’è*/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFO‚Ì’†‚ÌƒŠƒ“ƒN‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:hover,/*ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW“à‚ÌƒŠƒ“ƒN‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/
+#chat .chat-container .chat-messages a.autolink:hover/*ƒ`ƒƒƒbƒg‚Ì’†‚ÌƒŠƒ“ƒN‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/
+{
+	color: #FF2B30 !important;
+}
+
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited,/*INFO‚Ì’†‚Ì‰{——Ï‚Ý‚ÌƒŠƒ“ƒN*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:visited,/*ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW“à‚Ì‰{——Ï‚Ý‚ÌƒŠƒ“ƒN*/
+#chat .chat-container .chat-messages a.autolink:visited/*ƒ`ƒƒƒbƒg‚Ì’†‚Ì‰{——Ï‚Ý‚ÌƒŠƒ“ƒN*/
+{
+	color: #DCBEBE!important;
+}
+
+
+#main-loading/*ƒƒr[‚Éo‚é‚Æ‚«‚Ìƒ[ƒh•\Ž¦*/ {
+	background: #B81A3E;
+	color: #FFF;
+}
+
+#header-global .header-right-navigation .user-messages .message-counter/*V‚µ‚¢ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒW‚Ì•\Ž¦H*/ {
+	background: #F43254;
+}
+
+/* Private Messages ƒvƒ‰ƒCƒx[ƒgƒƒbƒZ[ƒWŠÖ˜AH*/
+#private-messages .main-message-list ul.message-list li.message-item .message-content h3,
+#private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .main-message-list .message-header a, 
+#private-messages .message-details .message-header a,
+#private-messages .message-details ul.message-list li.message-item .message-content h3,
+#private-messages .private-message-details-info,
+#private-messages .private-message-info 
+{
+	color: #FFF;
+}
+
+#private-messages .loading/*ƒ[ƒh•\Ž¦*/ {
+	background: #B81A3E;
+	color: #FFF !important;
+	border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+
+#private-messages .main-message-list ul.message-list li.message-item.new-message:before, 
+#private-messages .message-details ul.message-list li.message-item.new-message:before/*‚í‚©‚ç‚ñ*/ {
+	background: #AA74FE;
+}
+
+#private-messages .main-message-list, #private-messages .message-details/*”wŒi*/ {
+	background: #5C484D;
+}
+
+#private-messages .main-message-list ul.message-list li.message-item .message-content p,/*ƒƒbƒZ[ƒWˆê——*/
+#private-messages .message-details ul.message-list li.message-item .message-content p/*ƒƒbƒZ[ƒW*/
+{
+    color: #DCDCDC;
+}
+
+/* DubX Menu */
+.for_content/*dubX‚Ìƒƒjƒ…[‚Ì”wŒi*/ {
+	background: #5C484D !important;
+}
+.for_content_off/*dubX‚Ì•¶Žš‚Ì¶‚Ìƒ}[ƒN*/ {
+	color: #FF3300 !important;
+}
+.for_content_version, .for_content_p/*dubX‚Ì•¶Žš*/ {
+	color: #FFFFFF  !important;
+}
+
+/** DubX Feature Menus **/
+.onErr .container .control .confirm/*dubX‚Ì“ü—Í‰æ–Ê‚ÌuOkayv‚Ì”wŒi*/ {
+	background: #CD3740 !important;
+}
+.for_content_c/*‚í‚©‚ç‚ñ*/ {
+	#color: #AA74FE !important;
+}
+
+/* Bottom Header */
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg/*Ä¶ŽžŠÔ‚Ìƒo[*/ {
+	background:  #C41A41;
+}
+/*ƒ}ƒCƒŠƒX‚ÌƒAƒCƒRƒ“‚¾‚¯‚ð•Ï‚¦‚½‚©‚Á‚½‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg.icon-play:before, .icon-playlist:before, .icon-history:before, */
 .icon-heart:before
 {
-	content: "\f801"; 
-	font-family: fontello;
+	/*content: "\f1ee" !important; /*ƒtƒHƒ“ƒg‚ð•¶ŽšƒR[ƒh‚ÅŽw’è*/
+	/*font-family: foundation-icons;/*ƒtƒHƒ“ƒg‚ÌƒZƒbƒg‚Ì–¼‘O*//*dubtrack‚ªfoundation-icons‚ð‚·‚Å‚É“Ç‚Ýž‚ñ‚Å‚¢‚é‚Ì‚Å“Á‚Écss‚Ì“Ç‚Ýž‚Ý‚Í•K—v‚È‚¢*/
+	/*font-size: 22px;*/
+	color: #FF0000;
 }
-/*updubã®ã‚¢ã‚¤ã‚³ãƒ³*/
+
 .icon-arrow-up:before
 {
-	content: "\f802" !important; 
-	font-family: fontello;
+	content: "\f164" !important;
+	font-family: foundation-icons;
+	font-size: 24px;
 }
-/*downdubã®ã‚¢ã‚¤ã‚³ãƒ³*/
 .icon-arrow-down:before
 {
-	content: "\f803" !important; 
-	font-family: fontello;
-}
-/*ãƒ—ãƒ©ã‚¤ãƒ™ãƒ¼ãƒˆãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-message:before {
-	content: "\f804"; 
-	font-family: fontello;
-}
-/*ã‚¹ã‚­ãƒƒãƒ—ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-skip:before {
-	content: "\f805"; 
-	font-family: fontello;
-	font-size: 90%;
-}
-/*å·¦ä¸Šã®Lobbyã¨ãƒ«ãƒ¼ãƒ åã®é–“ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-chevron:before {
-	content: "\f806"; 
-	font-family: fontello;
-}
-/*è¨­å®šã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-chatsettings:before {
-	content: "\f807"; 
-	font-family: fontello;
-	font-size: 60%;
-}
-/*è¨­å®šã®ã‚µã‚¦ãƒ³ãƒ‰ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-volume-high:before {
-	content: "\f808"; 
-	font-family: fontello;
-}
-/*è¨­å®šã®ãƒŸãƒ¥ãƒ¼ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-volume-mute:before {
-	content: "\f809"; 
-	font-family: fontello;
-}
-/*å†ç”Ÿã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-play:before {
-	content: "\f80a"; 
-	font-family: fontello;
-	font-size: 120%;
-}
-/*åœæ­¢ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-pause:before {
-	content: "\f80b"; 
-	font-family: fontello;
-}
-/*ãƒãƒ£ãƒƒãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-chat:before {
-	content: "\f80c"; 
-	font-family: fontello;
-}
-/*ãƒ¦ãƒ¼ã‚¶ãƒ¼ãƒªã‚¹ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-people:before {
-content: "\f80d"; 
-	font-family: fontello;
-}
-/*ãƒ•ã‚§ã‚¤ã‚¹ãƒ–ãƒƒã‚¯ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-facebook:before {
-	content: "\f80e"; 
-	font-family: fontello;
-}
-/*ãƒˆã‚£ãƒƒã‚¿ãƒ¼ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-twitter:before {
-	content: "\f80f"; 
-	font-family: fontello;
-}
-/*å±¥æ­´ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-history:before {
-	content: "\f810"; 
-	font-family: fontello;
-}
-/*å‹•ç”»ã®æž ä¸‹ã®éŸ³é‡ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-sound-alt:before {
-	content: "\f811"; 
-	font-family: fontello;
-}
-/*å‹•ç”»æž ä¸‹ã®ãƒŸãƒ¥ãƒ¼ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-mute:before {
-	content: "\f812"; 
-	font-family: fontello;
-}
-/*å‹•ç”»éžè¡¨ç¤ºæ™‚ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-#main_player .player_container #room-main-player-container:before, .icon-eye-blocked:before {
-	content: "\f813"; 
-	font-family: fontello;
-}
-/*å‹•ç”»è¡¨ç¤ºã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-eye-unblocked:before {
-	content: "\f814"; 
-	font-family: fontello;
-}
-/*å‹•ç”»ã®ãƒªãƒ­ãƒ¼ãƒ‰ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-reload:before {
-	content: "\f815"; 
-	font-family: fontello;
-}
-/*ç”»åƒã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-camera:before {
-	content: "\f816"; 
-	font-family: fontello;
-}
-/*ãƒªã‚¹ãƒˆã‚’é–‰ã˜ã‚‹ã‚¢ã‚¤ã‚³ãƒ³*/
-/*#player-controller .right ul li .add-to-playlist-button .icon-arrow-down:before, 
-#player-controller .right ul li .dubdown .icon-arrow-down:before,*/
-.icon-downvote:before {
-	content: "\f817"; 
-	font-family: fontello;
-}
-/*Youtubeã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-youtube:before {
-	content: "\f818"; 
-	font-family: fontello;
-}
-/*SoundCloudã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-soundcloud:before {
-	content: "\f819"; 
-	font-family: fontello;
-}
-/*Youtubeã¨SoundCloudã®æ¤œç´¢åˆ‡ã‚Šæ›¿ãˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-arrow-dropdown:before {
-	content: "\f81a"; 
-	font-family: fontello;
-	font-size: 20%;
-}
-/*ã‚¤ãƒ³ãƒãƒ¼ãƒˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-inbox:before {
-	content: "\f81b"; 
-	font-family: fontello;
-}
-/*ãƒªã‚¹ãƒˆä½œæˆã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-createplaylist:before,
-.icon-add:before/*ãƒžã‚¤ãƒªã‚¹ç”»é¢ã®ãƒªã‚¹ãƒˆä½œæˆã‚¢ã‚¤ã‚³ãƒ³*/
-{
-	content: "\f81c"; 
-	font-family: fontello;
-}
-/*ã‚­ãƒ¥ãƒ¼ã®ãƒŸã‚­ã‚µãƒ¼ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-shuffle:before {
-	content: "\f81d"; 
-	font-family: fontello;
-}
-/*ãƒªã‚¹ãƒˆã®ãƒˆãƒƒãƒ—ã«ç§»å‹•ã•ã›ã‚‹ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-angle-double-up:before {
-	content: "\f81e"; 
-	font-family: fontello;
-}
-/*ãƒªã‚¹ãƒˆã®åå‰å¤‰æ›´ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-editplaylist:before {
-	content: "\f81f"; 
-	font-family: fontello;
-}
-/*åå‰å¤‰æ›´ä¿å­˜ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-save:before {
-	content: "\f820"; 
-	font-family: fontello;
-}
-/*ã‚´ãƒŸç®±ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-trash:before {
-	content: "\f821"; 
-	font-family: fontello;
-}
-/*é–‰ã˜ã‚‹ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-close:before {
-	content: "\f822"; 
-	font-family: fontello;
-}
-/*ãƒ­ãƒƒã‚¯è§£é™¤çŠ¶æ…‹ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-unlocked:before {
-	content: "\f823"; 
-	font-family: fontello;
-}
-/*ãƒ­ãƒƒã‚¯çŠ¶æ…‹ã®ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-lock:before {
-	content: "\f824"; 
-	font-family: fontello;
-}
-/*æ¤œç´¢ã®è™«çœ¼é¡ã‚¢ã‚¤ã‚³ãƒ³*/
-.icon-search:before {
-	content: "\f825";
-	font-family: fontello;
-}
-/*********************************************/
-#main_player .player_sharing span.icon-history:before {
-	content: "\f12b";
+	content: "\f140" !important;
 	font-family: foundation-icons;
+	font-size: 24px;
 }
-#chat .chat_tools span.icon-chatsettings {
-	line-height: 0.5rem;
+
+/*dubtrack‚Å—pˆÓ‚µ‚Ä‚ ‚éwebƒtƒHƒ“ƒgi–¢Šm”F—Lj
+\e802	‰º„
+\e803	ƒn[ƒg
+\e804	ƒ`ƒƒƒbƒg‚ÌƒAƒCƒRƒ“
+\e805	Ž•ŽÔ
+\e809	Ä¶ƒ{ƒ^ƒ“‚ÌŽOŠp
+*/
+#player-controller .right ul li .dubup.voted/*updubs‚ð‰Ÿ‚µ‚½Œã‚Ìƒ{ƒ^ƒ“*/ {
+	background: #64FF64;
+	border-radius: 1.0rem 1.0rem 0rem 0rem;
 }
-#main_player .player_header span.edit-room i {
-	line-height: 0;
-	padding-top: 8px;
-	padding-left: 3.2px;
+
+#player-controller .right ul li .dubup .icon-arrow-up/*dubup‰Ÿ‚·‘O‚Ì*//*”Žš‚ÌF‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg, #player-controller .right ul li .dubup .dub-counter*/ {
+	color: #00FF00;
+}
+
+#player-controller .right ul li .dubdown.voted/*downdub‚ð‰Ÿ‚µ‚½Œã‚Ìƒ{ƒ^ƒ“*/ {
+	background: #6464FF;
+	border-radius: 1.0rem 1.0rem 0rem 0rem;
+}
+
+#player-controller .right ul li .dubdown .icon-arrow-down/*downdub‰Ÿ‚·‘O‚ÌF*//*”Žš‚ÌF‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg, #player-controller .right ul li .dubdown .dub-counter */
+{
+	color: #0000FF;
+}
+/*ƒ}ƒCƒŠƒX‚Ìƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚½Œã‚Ì•\Ž¦*/
+#player-controller .right ul li .add-to-playlist-button.grabbed,
+#player-controller .right ul li .add-to-playlist-button.voted, 
+#player-controller .right ul li .dubdown.grabbed
+{
+    background: #f0f;
+    border-radius: 1.0rem 1.0rem 0rem 0rem;
+}
+
+/*ƒ}ƒCƒŠƒX‚Ìƒ{ƒ^ƒ“‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«‚Ì‚ð“Z‚ß‚Ä‹Lq*/
+#player-controller .right ul li .add-to-playlist-button:hover .icon-heart,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .queue-item .actions .img_bg:hover .icon-heart,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .history-item .actions .img_bg:hover .icon-heart,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .playlist-item .actions .img_bg:hover .icon-heart,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems .search-item .actions .img_bg:hover .icon-heart
+{
+	 text-shadow: 0 0 5px #FF8888, 0 0 10px #FF0000, 0 0 15px #880000;/*ÔF‚É‚Ú‚â‚¯‚é*/
+}
+
+#player-controller .left ul li.imgEl, #player-controller .left ul li.infoContainer .infoContainerInner, 
+#player-controller .left, #player-controller .right/*ƒƒCƒ“‰æ–Ê‚Ì‰º‚Ìƒo[‚ÌF*/ 
+{
+	background: rgba(100,8,8,0.25);
+}
+
+/* Add to Playlist *ƒ}ƒCƒŠƒX‚É’Ç‰Á‚·‚é‰æ–Ê**/
+#addToPlaylistFloatContainer .create-playlist-header .icon-close/*•Â‚¶‚é~ˆó*/
+{
+	color: #FFF;
+}
+
+#addToPlaylistFloatContainer .playlist-list-action li:hover/*ƒ}ƒCƒŠƒX–¼‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/ {
+	color: #FF3300;
+}
+#addToPlaylistFloatContainer .create-playlist-input .icon-add/*V‚µ‚­ƒŠƒXƒg‚ðì‚éƒAƒCƒRƒ“*/ {
+	background: #CD3740;
+}
+
+/* Lobby *ƒƒr[‚Ì‰æ–ÊH*/
+#room-list .room-lobby-header/*ƒƒr[‚Ìƒwƒbƒ_[*/
+{
+    background: #5C484D;
+}
+
+#room-list #container-room-list .room-item {/*ƒƒr[‚Ì•”‰®–¼‚Ì”wŒi*/
+    background: #5C484D;
+}
+span.name,
+#room-list #container-room-list .room-item .current-song, #room-list #container-room-list .room-item .roomImage .join/*ƒƒr[‚Ì•¶ŽšH*/ {
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+#room-list #container-room-list .room-item .roomImage .join/*ƒ‹[ƒ€ˆê——‚Åƒ}ƒEƒX‚ð•”‰®‚Ìã‚ÉŽ‚Á‚Ä‚«‚½‚Æ‚«‚Ì*/ {
+	background: #C41A41;
+}
+#warning/*ŒxH*/ {
+	background: #B81A3E;
+	color: #FFF;
+	opacity: 0.90;
+}
+
+/* Video Player */
+#main_player/*“®‰æ‚Ì˜g*/ {
+	background: rgba(100,8,8,0.50);
+	border-radius: 1.0rem;
+}
+
+#main_player #custom_iframe_embed_error, #main_player .playbtn-el/*‚í‚©‚ç‚ñ*/ {
+	background: #AA74FE;
+}
+
+#ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min/*‚í‚©‚ç‚ñ*/ {
+	background: #C41A41;
+}
+/* Video Buttons (top) */
+#main_player .player_header span.active/*‰æ–Ê˜g‚Ìã‚Ì‘I‘ð‚³‚ê‚Ä‚éƒ{ƒ^ƒ“(VIDEO,GUEUE,INFO,MOD?)*/ {
+	background: #F43254;
+	color: #000000;
+	font-weight: 600;
+}
+
+#main_player .player_header span/*‰æ–Ê˜g‚Ìã‚Ì‘I‘ð‚³‚ê‚Ä‚¢‚È‚¢ƒ{ƒ^ƒ“(VIDEO,GUEUE,INFO,MOD?)*/ {
+	border-radius: 1.0rem;
+	background: rgba(100,8,8,0.50);
+	font-weight: 600;
+	color: #FFF;
+}
+
+#room-info-display .room-info-display-wrapper h2 span i/*INFO‚Ì’†‚ÌƒzƒXƒg–¼i•”‰®‚ðì‚Á‚½ƒ†[ƒU[–¼j*/ {
+	color: #00BFFF;
+}
+
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active/*MOD‰æ–ÊH*/ 
+{
+	color: #FF2B30 !important;
+}
+
+/* Video Buttons (bottom) */
+#main_player .play-song-link-container .play-song-link-browser/*‰æ–Ê˜g‰º‚ÌQueue a songƒ{ƒ^ƒ“*/,
+#main_player .play-song-link-container .play-song-link.active-queue-display/*‰æ–Ê˜g‰º‚ÌLaave queueƒ{ƒ^ƒ“*/ {
+	background: rgba(100,8,8,0.50);
+	border-radius: 1.0rem;
+}
+
+#main_player .play-song-link-container .play-song-link-browser i,
+#main_player .play-song-link-container .play-song-link i/*Queue a song‚Ì¶‚ÌÄ¶ƒAƒCƒRƒ“*/ 
+{
+	color: #F0F0F0;
+}
+
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min/*‰¹—Ê‚ÌFH*/
+/*,#main_player .play-song-link-container .queue-info/*ŒÃ‚¢‹LqH*/ {
+	background: #C41A41;
+}
+
+/**ƒXƒNƒ[ƒ‹ƒo[**/
+.ps-container .ps-scrollbar-y/*ƒXƒNƒ[ƒ‹‚Å‚«‚éêŠ‚Éƒ}ƒEƒX‚ð’u‚¢‚½Žž‚ÌƒXƒNƒ[ƒ‹ƒo[*/ {
+    background-color: rgba(200, 38, 58, 0.6);
+}
+.ps-container .ps-scrollbar-y-rail.hover, .ps-container .ps-scrollbar-y-rail:hover/*ƒXƒNƒ[ƒ‹ƒo[‚Éƒ}ƒEƒX‚ð’u‚¢‚½Žž‚ÌƒŒ[ƒ‹*/ {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y/*ƒXƒNƒ[ƒ‹ƒo[‚Éƒ}ƒEƒX‚ð’u‚¢‚½Žž‚ÌƒXƒNƒ[ƒ‹ƒo[*/ {
+    background-color: rgba(226, 38, 58, 0.60);
+}
+
+/* Chat */
+#main-room .right_section, #profileMainSection/*ƒ`ƒƒƒbƒg‚Ì˜g*/ {
+	background: rgba(100,8,8,0.50);
+	border-radius: 1.0rem;
+}
+
+#chat .chat_tools/*ƒ`ƒƒƒbƒg‚Ìã‚ÌƒAƒCƒRƒ“H*/ {
+	color:  #FFF;
+}
+#chat .pusher-chat-widget-input	/*ƒ`ƒƒƒbƒg‚ð“ü—Í‚·‚é‚Æ‚±‚ë*/ {
+	border-top: 1px solid #FFF;
+}
+
+#chat .chat_tools span/*ƒ`ƒƒƒbƒg‚ð•\Ž¦‚µ‚Ä‚¢‚é‚Æ‚«‚Ìƒ†[ƒU[”•\Ž¦‚ÆÝ’è*/,
+#main-room.display-users-rooms #chat .display-chat, #main-room.display-users-rooms #chat .display-chat-settings,/*ƒ†[ƒU[ƒŠƒXƒg‚ð•\Ž¦‚µ‚Ä‚¢‚é‚Æ‚«‚Ìƒ`ƒƒƒbƒgƒAƒCƒRƒ“‚ÆÝ’èƒAƒCƒRƒ“*/
+#main-room.display-chat-settings #chat .display-chat, #main-room.display-chat-settings #chat .display-room-users/*Ý’è‚ð•\Ž¦‚µ‚Ä‚¢‚é‚Æ‚«‚Ìƒ`ƒƒƒbƒgƒAƒCƒRƒ“‚Æƒ†[ƒU[ƒŠƒXƒgƒAƒCƒRƒ“*/ 
+{
+	color: #DCDCDC;
+}
+
+#chat .chat_tools span:hover/*ƒ`ƒƒƒbƒg‚Ìã‚ÌƒAƒCƒRƒ“‚Éƒ}ƒEƒX‚ðæ‚¹‚½Žž*/,
+#main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover,/*ƒ†[ƒU[ƒŠƒXƒg‚ð•\Ž¦‚µ‚Ä‚¢‚é‚Æ‚«‚Ìƒ`ƒƒƒbƒgƒAƒCƒRƒ“‚ÆÝ’èƒAƒCƒRƒ“*/
+#main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*Ý’è‚ð•\Ž¦‚µ‚Ä‚¢‚é‚Æ‚«‚Ìƒ`ƒƒƒbƒgƒAƒCƒRƒ“‚Æƒ†[ƒU[ƒŠƒXƒgƒAƒCƒRƒ“*/
+{
+	color:  #FFF;
+}
+
+#chat .chat_tools span:after /*ƒ`ƒƒƒbƒg˜g‚Ìã‚Ì¡‘I‘ð‚µ‚Ä‚¢‚éƒAƒCƒRƒ“‚Ì‰º‚Ìü*/{
+	border-color: #FFF;
+}
+/*ƒ`ƒƒƒbƒg‚ÌƒVƒXƒeƒ€ƒƒbƒZ[ƒW‚ð“Z‚ß‚ÄŽw’è*/
+#chat .chat-container .chat-messages .chat-main li.chat-system-grabbed,/*“®‰æ‚ðƒ}ƒCƒŠƒX‚É“ü‚ê‚½‚Æ‚«‚Ì•\Ž¦*/
+#chat .chat-container .chat-messages .chat-main li.chat-system-joined, /*•”‰®‚É“ü‚Á‚½Žž‚Ì•\Ž¦*/
+#chat .chat-container .chat-messages .chat-main li.chat-system-left, /**/
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading, /**/
+#chat .chat-container .chat-messages .chat-main li.system, 
+#chat .chat-container .chat-messages .chat-main li.system-error {
+	color: #DCDCDC;
+}
+
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message/*ƒ`ƒƒƒbƒg‚Ìˆê”Ôã‚ÌƒfƒtƒHƒ‹ƒg‚ÌƒƒbƒZ[ƒW*/ {
+	color: #D5EBE7;
+}
+#chat .pusher-chat-widget-input #new-messages-counter/*V‚µ‚¢ƒRƒƒ“ƒg‚Ì’Ê’m*/ {
+	background: #B40926;
+	color: #FFF;
+}
+
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username/*ƒ`ƒƒƒbƒgã‚Å‚Ìƒ†[ƒU–¼H*/ {
+	color: #DCDCDC;
+}
+
+#chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"]/*ƒ_ƒCƒŒƒNƒgƒƒbƒZ[ƒWi—j*/ {
+    color: #FFDD6F !important;
+}
+
+#chat .chat-container .chat-messages .chat-main li .activity-row .text p.deleted/*ƒ`ƒƒƒbƒg‚ðÁ‚µ‚½Žž‚Ì•¶Žš*/
+{
+	color: #C8C8C8;
+}
+/*ƒVƒXƒeƒ€ƒƒbƒZ[ƒW‚Ì•¶Žš‚Ì‘å‚«‚³H*/
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading,
+#chat .chat-container .chat-messages .chat-main li.chat-welcome-message, 
+#chat .chat-container .chat-messages .chat-main li.system, 
+#chat .chat-container .chat-messages .chat-main li.system-error {
+	font-size: 14px;
+}
+
+/*Owner‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšH*/
+/*
+#chat .chat-main .isOwner .username,
+#chat .chat-main .isOwner .username:hover,
+#chat .chat-main .isOwner .username:visited{
+    color: #C892FE !important;
+}
+*/
+/*Co-owner‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšFH*/
+/*
+#chat .chat-main .isCo-owner .username,
+#chat .chat-main .isCo-owner .username:hover,
+#chat .chat-main .isCo-owner .username:visited{
+    color: #C892FE !important;
+}
+*/
+/*Manager‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšFH*/
+/*
+#chat .chat-main .isManager .username,
+#chat .chat-main .isManager .username:hover,
+#chat .chat-main .isManager .username:visited{
+    color: #C892FE !important;
+}
+*/
+/*Mod‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšFH*/
+/*
+#chat .chat-main .isMod .username,
+#chat .chat-main .isMod .username:hover,
+#chat .chat-main .isMod .username:visited{
+    color: #C892FE !important;
+}
+*/
+/*Resident-dj‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšFH*/
+/*
+#chat .chat-main .isResident-dj .username,
+#chat .chat-main .isResident-dj .username:hover,
+#chat .chat-main .isResident-dj .username:visited{
+    color: #C892FE !important;
+}
+*/
+/*Vip‚Ìƒ†[ƒU[–¼‚Ì•¶ŽšFH*/
+/*
+#chat .chat-main .isVip .username,
+#chat .chat-main .isVip .username:hover,
+#chat .chat-main .isVip .username:visited{
+    color: #C892FE !important;
+}
+*/
+/** Admins **/
+/*ƒ`ƒƒƒbƒgã‚Å‚ÌŠÇ—ŽÒ‚Ìƒ†[ƒU[–¼FH
+#chat .chat-container ul.chat-main li.user-52c821781e2b1fd945000001 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8ef6037e22b0200000005 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52d24bff4cf9670200000515 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-52c8254ca7b7260200000001 .activity-row .text p a.username {
+	color: #42A5DC !important;
+}
+*/
+
+/* DubX Owners */
+/*
+#chat .chat-container ul.chat-main li.user-551d295433cd73030089d184 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-53f7c199892b010200a98809 .activity-row .text p a.username {
+    color: #89BE6C !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+*/
+/** Team **/
+/*
+#chat .chat-container ul.chat-main li.user-55ff52375335f703008b0d38 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-56030f67813abe030055f4a4 .activity-row .text p a.username,
+#chat .chat-container ul.chat-main li.user-56008425621a9e0300317238 .activity-row .text p a.username {
+	color: #FF3657 !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+}
+*/
+
+/* User List */
+
+/** Admin **/
+/*
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
+	color: #42A5DC !important;
+}
+*/
+
+/** Moderators **/
+/*ƒ†[ƒU[ƒŠƒXƒg‚ÌŒ ŒÀ‚ðŽ‚Á‚Ä‚¢‚éƒ†[ƒU[* ƒ†[ƒU[–¼‚Í•Ï‚¦‚½‚­‚È‚¢‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username,
+*/
+/*ƒ†[ƒU[ƒŠƒXƒg‚Ì•À‚Ñ‘Ö‚¦‚Ìƒ{ƒ^ƒ“‚Ìƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«‚Ì*/
+#main_avatar_room .avatar_tools .filter-toggle:hover {
+    color: #0ff;
+}
+/*ƒ†[ƒU[–¼‚ÌŒã‚ÌŒ —˜–¼‚ÌF*/
+
+#main_avatar_room #main-user-list-room #avatar-list li p.username {
+	color: #FFF !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li p.username:after {
+	display:none;
+}
+/*ŠÇ—ŽÒ‚Ì–ðE–¼*/
+/*ƒ`ƒƒƒbƒg‚Æƒ†[ƒU[ƒŠƒXƒg‚Ì–ðE–¼‚ð‚»‚ê‚¼‚ê‚Ü‚Æ‚ß‚ÄŽw’è*/
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #00FFFF,
+		0 0 9px #00FFFF,
+		0 0 11px #00FFFF,
+		0 0 14px #00FFFF;
+}
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #CC66FF,
+		0 0 9px #CC66FF,
+		0 0 11px #CC66FF,
+		0 0 14px #CC66FF;
+}
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #A0CA5A,
+		0 0 9px #A0CA5A,
+		0 0 11px #A0CA5A,
+		0 0 14px #A0CA5A;
+}
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #E3C700,
+		0 0 9px #E3C700,
+		0 0 11px #E3C700,
+		0 0 14px #E3C700;
+}
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #FF8300,
+		0 0 9px #FF8300,
+		0 0 11px #FF8300,
+		0 0 14px #FF8300;
+}
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role {
+	color: #fff;
+	font-weight: bold;
+	text-shadow:
+		0 0 2px #fff,
+		0 0 4px #fff,
+		0 0 6px #DC143C,
+		0 0 9px #DC143C,
+		0 0 11px #DC143C,
+		0 0 14px #DC143C;
+}
+
+/* ŒÃ‚­‚È‚Á‚½‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
+	color: #2595C7;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.creator p.username:after {creater‚ª‚È‚º‚©co-owner‚Åˆø‚Á‚©‚©‚é‚Ì‚ÅŒã‚É‚·‚é
+	color: #CC66FF;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
+	color: #00FFFF;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
+	color: #009A57;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
+	color: #F4D500;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip p.username:after {
+	color: #FF8300;
+}
+*/
+/** Current DJ **/
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username/*ƒ†[ƒU[ƒŠƒXƒg‚Ì¡,A‹È‚ð—¬‚µ‚Ä‚¢‚él‚Ì–¼‘O*/
+/*#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after/*ƒ†[ƒU[ƒŠƒXƒg‚Ì¡,A‹È‚ð—¬‚µ‚Ä‚¢‚él‚Ì–¼‘O‚ÌŒã‚ÌDJ*/ {
+	color: #0FF !important;
+}
+
+/** Users **/
+#main_avatar_room #main-user-list-room #avatar-list li p/*ƒ†[ƒU[ƒŠƒXƒg‚Ìƒ†[ƒU[–¼H*/ {
+	color: #FFF;
+}
+
+/** Upvote/Downvote **/
+/*
+ul.avatar-list li.updub/*ƒ†[ƒU[ƒŠƒXƒg‚Ìupdub‚ð‰Ÿ‚µ‚½l*
+{
+	background: rgba(255,21,22,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+*/
+/*
+ul.avatar-list li.downdub/*ƒ†[ƒU[ƒŠƒXƒg‚Ìdowndub‚ð‰Ÿ‚µ‚½l*
+{
+	background: rgba(22,21,255,0.2);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+*/
+/** Team **/
+/*DubX‚ÌŠJ”­ŽÒŠÖ˜A‚È‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒgi‚½‚Ô‚ñ‚¢‚ç‚È‚¢j
+ul.avatar-list li.user-kris p.dubs:before,
+ul.avatar-list li.user-al3366 p.dubs:before,
+ul.avatar-list li.user-ciscog p.dubs:before {
+	content: "DubX Team  -  ";
+	font-weight: 700 !important;
+	color: #FF3657 !important;
+}
+
+ul.avatar-list li.co-owner.user-kris:after, ul.avatar-list li.co-owner.user-al3366  :after, ul.avatar-list li.co-owner.user-ciscog:after,
+ul.avatar-list li.creator.user-kris:after, ul.avatar-list li.creator.user-al3366  :after, ul.avatar-list li.creator.user-ciscog:after,
+ul.avatar-list li.manager.user-kris:after, ul.avatar-list li.manager.user-al3366  :after, ul.avatar-list li.manager.user-ciscog:after,
+ul.avatar-list li.mod.user-kris:after, ul.avatar-list li.mod.user-al3366  :after, ul.avatar-list li.mod.user-ciscog:after,
+ul.avatar-list li.vip.user-kris:after, ul.avatar-list li.vip.user-al3366  :after, ul.avatar-list li.vip.user-ciscog:after,
+ul.avatar-list li.resident-dj.user-kris:after, ul.avatar-list li.resident-dj.user-al3366  :after, ul.avatar-list li.resident-dj.user-ciscog:after,
+ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-al3366  :after, ul.avatar-list li.currentDJ .user-ciscog:after,
+.user-kris, .user-al3366, .user-ciscog,
+.user-kris p.username, .user-al3366 p.username, .user-ciscog p.username {
+    color: #FF3657 !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-kris p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-al3366 p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.co-owner.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.creator.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.manager.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.mod.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj.user-ciscog p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username, #main_avatar_room #main-user-list-room #avatar-list li.vip.user-ciscog p.username:after {
+	color: #FF3657 !important;
+}
+*/
+
+/* Settings */
+
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*Ý’è‚É‚ ‚éƒ{ƒ^ƒ“‚Éƒ}ƒEƒX‚ðæ‚¹‚½Žž‚Ì*/ {
+	color: #FF3300;
+}
+
+#chat .chat-options .chat-option-header/*Ý’è‚Ì•¶Žš*/ {
+	color: #FFF;
+}
+
+/* Queue */
+#browser .browser-content .browser-content-header .close-browser,/*ƒLƒ…[ƒŠƒXƒg‚ð•Â‚¶‚éVˆó*/
+#browser .browser-content #import-playlist-container .close-import-playlist/*ƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg‰æ–Ê‚Ì•Â‚¶‚é~ˆó*/ {
+	background: #BE003F;
+}
+
+#browser .browser-content .browser-content-main .nano .loading/*ƒLƒ…[ƒŠƒXƒg‚Ìƒ[ƒh•\Ž¦*/
+{
+	background: #B81A3E;
+	color: #FFF;
+	border-radius: 0rem 0rem 0.7rem 0.7rem;/*‰º‚Ì¶‰E‚ÌŠp‚¾‚¯‰~‚­–ÊŽæ‚è*/
+}
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-success,/*ƒvƒŒƒCƒŠƒXƒg‚©‚ç“®‰æ‚ðƒLƒ…[‚É“ü‚ê‚½Žž‚Ì¬Œ÷‚µ‚½Žž‚Ì•\Ž¦*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-success,/*ŒŸõŒ‹‰Ê‚©‚ç“®‰æ‚ðƒLƒ…[‚É“ü‚ê‚½Žž‚Ì¬Œ÷‚µ‚½Žž‚Ì•\Ž¦*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .display-error,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .display-error, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .display-error, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .display-error 
+{
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+}
+#browser .browser-content .browser-content-main .sidebar {/*¶‚ÌƒŠƒXƒg‚ÌuYOUR PLAYLISTv‚Ì•¶Žš‚Ì”wŒi*/
+    background: #523E43;
+    color: #FFF;
+}
+
+#browser .browser-content .browser-content-main .sidebar .display-sidebar/*¬‚³‚¢‰æ–Ê‚É‚·‚é‚Æo‚Ä‚­‚éƒŠƒXƒg‚ðŠJ‚­ƒ{ƒ^ƒ“*/ {
+    background: #C41A41;
+    color: #FFF;
+}
+
+#playlists-scroll/*¶‚ÌƒŠƒXƒg‚Ì”wŒi*/ {
+	background: #5C484D;
+	color: #C8C8C8;
+}
+
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span /*¶‚ÌƒŠƒXƒg‚ÌƒAƒCƒRƒ“‚ÆÄ¶ƒŠƒXƒg‚Ì“®‰æ”*/{
+	color: #A0A0A0;
+}
+
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*¶‚ÌƒLƒ…[ƒŠƒXƒg‚ð‘I‘ð‚µ‚½‚¢‚é‚Æ‚«*/
+#import-playlist-container .import-playlist-youtube span/*¶‚Ì¡‘I‘ð‚µ‚Ä‚¢‚éƒvƒŒƒCƒŠƒXƒgH*/ {
+	background: #B30F3A;
+	color: #FFF;
+	border-radius: 1.0rem;
+}
+
+#browser .browser-content .browser-content-main .sidebar .create-playlist,/*¶‚ÌƒŠƒXƒg‚ÌƒNƒŠƒG[ƒgƒvƒŒƒCƒŠƒXƒg*/
+#browser .browser-content .browser-content-main .sidebar .import-playlist/*¶‚ÌƒŠƒXƒg‚ÌƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg*/ {
+	background: #5C484D;
+	color: #fff;
+	/*border-top: 1px solid #7B3746;*/
+}
+
+#browser .browser-content .browser-content-main .sidebar .import-playlist span,/*ƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg‚ÌƒAƒCƒRƒ“*/
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-display span,/*ƒNƒŠƒG[ƒgƒvƒŒƒCƒŠƒXƒg‚ÌƒAƒCƒRƒ“*/
+#browser .browser-content #import-playlist-container .playlist-type-select span:hover/*ƒCƒ“ƒ|[ƒgƒvƒŒƒCƒŠƒXƒg‚ÌƒŠƒXƒgƒ^ƒCƒv‚ð‘I‚Ô‚Æ‚±‚ë‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«*/
+{
+	color: #FF3300;
+}
+
+#browser .browser-content #import-playlist-container .import-playlist-soundcloud span,/*ƒTƒEƒ“ƒhƒNƒ‰ƒEƒh‚Ìimportƒ{ƒ^ƒ“*/
+#browser .browser-content #import-playlist-container .import-playlist-youtube span/*ƒ†[ƒ`ƒ…[ƒu‚Ìimportƒ{ƒ^ƒ“*/
+{
+	background: #CD3740;
+	color: #FFF;
+}
+
+#browser .browser-content .browser-content-main .sidebar .create-playlist .create-playlist-form .icon-createplaylist,/*ƒNƒŠƒG[ƒgƒvƒŒƒCƒŠƒXƒg‚Ìƒ{ƒ^ƒ“‚ÌƒAƒCƒRƒ“*/
+#browser .browser-content .browser-content-main .sidebar .import-playlist .create-playlist-form .icon-createplaylist
+{
+    background: #CD3740;
+}
+
+#browser .browser-content .browser-content-header .form/*ƒŠƒXƒg‚Ìã‚ÌŒŸõ‚·‚é˜g*/ {
+	background: #523E43;
+}
+/*“®‰æŒŸõ•¶Žš“ü—Í˜g‚Ì–ÊŽæ‚è‚ðŽw’è*/
+#browser .browser-content .browser-content-header .form input
+{
+	border-radius: 1.0rem 0.0rem 0.0rem 0.0rem;
+}
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*ƒ}ƒCƒLƒ…[‚ÅƒLƒ…[‚ðŽ~‚ß‚Ä‚¢‚é‚Æo‚Ä‚­‚é‘Ñ*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*ƒ}ƒCƒLƒ…[‚ÅƒLƒ…[‚ªƒƒbƒN‚³‚ê‚Ä‚¢‚é‚Æ‚«‚Éo‚Ä‚­‚é‘ÑH*/ {
+	background: #C41A41;
+	color: #FFF;
+	border-radius: 1.0rem 0rem 0rem 1.0rem;
+}
+
+/*“®‰æ‚ÌƒJ[ƒh*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item,/*ƒ}ƒCƒLƒ…[‚Æƒ‹[ƒ€ƒLƒ…[‚Ì“®‰æ‚ÌƒJ[ƒh*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item,/*—š—ð‚Ì“®‰æ‚ÌƒJ[ƒh*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item,/*ƒvƒŒƒCƒŠƒXƒg‚Ì“®‰æ‚ÌƒJ[ƒh*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item/*ŒŸõŒ‹‰Ê‚Ì“®‰æ‚ÌƒJ[ƒh*/
+{
+	background-color: rgba(92, 72, 77, 0.5);
+	/*background-image: url("img/taikyokuzu2.png");
+	background-repeat: no-repeat;
+	background-position: 70% 20%;*/
+	border-radius: 1.0rem;
+	border: 1px solid #111;
+}
+/*“®‰æ‚ÌƒJ[ƒh‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«‚Ì‚ð“Z‚ß‚Ä‹Lq*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item:hover
+{
+    border: 1px solid #888888;
+}
+/*“®‰æ‚ÌƒJ[ƒh‚Ìƒ†[ƒU[–¼Žü‚è‚ð“Z‚ß‚ÄŽw’è*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .playedby,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .dubs-display,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .playedby,
+{
+	color: #00BFFF;
+}
+
+/*“®‰æ‚ÌƒTƒ€ƒl*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
+{
+	border-radius: 0.8rem;
+}
+
+/**“®‰æ‚ÌƒJ[ƒh‚ÌƒvƒŒƒrƒ…[‚ÌF‚ð“Z‚ß‚Ä•ÏX**/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
+{
+ 	color: #EF454A;
+}
+ 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*—š—ð‚Ìupdus‚Ædowndub‚Ægrab‚Ì”*/
+{
+	color: #C8C8C8;
+}
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item.selected,/*ƒLƒ…[‚Ì’†‚Ì“®‰æ‚ð‘I‘ð‚µ‚½Žž‚ÌŽü‚è‚Ìü*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item.selected/*ƒvƒŒƒCƒŠƒXƒg‚Ì’†‚Ì“®‰æ‚ð‘I‘ð‚µ‚½Žž‚ÌŽü‚è‚Ìü*/ {
+	background-color: rgba(92, 72, 77, 0.7);
+	border: 1px solid  #F0435A;
+}
+
+/* Preview */
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,/*ƒvƒŒƒrƒ…[‚Ìƒ[ƒh‚µ‚½ƒo[*/ /*ˆêF‚ÅŽw’è‚·‚ê‚ÎŽ©“®‚Åƒ[ƒhŽžŠÔ‚Ìƒo[‚ÌF‚ð’²®‚µ‚Ä‚­‚ê‚é*/
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress,/*ƒvƒŒƒrƒ…[‚ÌÄ¶ŽžŠÔ‚Ìƒo[*/
+.playerPreview .player-preview-container-wrapper .ui-slider-range,/*ƒvƒŒƒrƒ…[‚Ì‰¹—Ê‚Ìƒo[*/
+.playerPreview .player-preview-container-wrapper .ui-slider-handle,/*ƒvƒŒƒrƒ…[‚Ì‰¹—Ê‚ð‚Â‚©‚Þ‚Æ‚±‚ë*/
+.playerPreview .player-preview-container-wrapper .buffering,/*ƒvƒŒƒrƒ…[‚Ìƒoƒbƒtƒ@ƒŠƒ“ƒO•\Ž¦*/
+.playerPreview .player-preview-container-wrapper .error,/*ƒvƒŒƒrƒ…[‚ÌƒGƒ‰[•\Ž¦*/
+.playerPreview .player-preview-container-wrapper .loading,/*ƒvƒŒƒrƒ…[‚Ìƒ[ƒh•\Ž¦*/
+.playerPreview .player-preview-container-wrapper .replay/*ƒvƒŒƒrƒ…[‚ÌƒŠƒvƒŒƒC•\Ž¦*/
+{
+	background: #C41A41;
+	color: #FFF;
+}
+/*‹°‚ç‚­ŒÃ‚¢ƒvƒŒƒrƒ…[‚ÌÝ’è‚È‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg
+.playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
+.playerPreview .ui-slider-range {
+	background: #AA74FE;
+}
+
+.playerPreview .ui-slider-handle {
+	background: #AA74FE;
+}
+*/
+/* Room Info */
+#roomInfoModal .modal-header h3, #roomFormUpdate .mid a, #roomInfoModal .mid a/*‚í‚©‚ç‚ñ*/ {
+	color: #AA74FE;
+}
+
+/* User */
+span.usernameContainer, .followers-counter,/*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ÌƒtƒHƒƒ[”*/
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif/*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚Ìƒ†[ƒU[–¼H*/ {
+	color: #FFF;
+}
+#profileMainSection .profileView .infoProfile .edit-btn, #profileMainSection .profileView .infoProfile .follow-btn /*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ÌƒtƒHƒ[‚·‚éƒ{ƒ^ƒ“*/{
+	color: #FFF;
+	border: 2px solid #FFF;/*ƒ{ƒ^ƒ“‚ÌŠO˜g*/
+}
+
+#profileMainSection .profileView .header .pictureContainer .updatePictureGif /*ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ÅŽ©•ª‚ÌƒvƒƒtƒB[ƒ‹‰æ‘œ‚Éƒ}ƒEƒX‚ðæ‚¹‚½‚Æ‚«‚Ì*/{
+	width: 101%;
+	height 101%;
+	background: #C41A41;
+}
+
+#user_popover .actions, #user_popover .global-actions, #user_popover/*ƒAƒoƒ^[‚ðƒNƒŠƒbƒN‚µ‚½‚Æ‚«‚Ì¬‚³‚¢ƒvƒƒtƒB[ƒ‹‰æ–Ê*/ {
+	background: #FFF;
+	opacity: .95;
+}
+#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3/*¬‚³‚¢ƒvƒƒtƒB[ƒ‹‰æ–Ê‚Ì•¶Žš‚ÆƒAƒCƒRƒ“*/ {
+	color: #393A39;
+}
+#user_popover .global-actions a/*¬‚³‚¢ƒvƒƒtƒB[ƒ‹‰æ–Ê‚ð‹æØ‚éü*/ {
+	outline: 1px solid #393A39;
+}
+#user_popover .actions a/*‚í‚©‚ç‚ñ*/ {
+	color: #3D3C43;
+	outline: 1px solid #3D3C43;
+}
+#user_popover .actions a input/*‚í‚©‚ç‚ñ*/ {
+	background: rgba(61, 60, 67, 0.69);
 }
