@@ -13,14 +13,15 @@
 	margin-right: 0rem;
 	border-radius: 0.8rem;
 	border: 2px solid #C8C8C8;
+	opacity: 1;
 
 }
 /*VideoとInfoとModのボタン*/
-#main_player .player_header span .displayVideo-el,
-#main_player .player_header span .room-info-display,
-#main_player .player_header span .display-mods-controls
+#main_player .player_header .displayVideo-el,
+#main_player .player_header .room-info-display,
+#main_player .player_header .display-mods-controls
 {
-	padding: .5rem 2rem;
+	padding: 0.5rem 1.5rem;
 }
 /*動画枠上のアクティブなボタン*/
 #main_player .player_header span.active {
@@ -29,6 +30,8 @@
 	border-top: 2px solid #C8C8C8;
 	border-right: 2px solid #C8C8C8;
 	border-bottom: none;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-bottom: 1rem;
 }
 /*動画の枠*/
