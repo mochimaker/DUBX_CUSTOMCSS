@@ -9,16 +9,18 @@
 }
 #main_player .player_header span {
 	margin-right: 0rem;
-	border-radius: 0.5rem;
+	border-radius: 0.8rem;
 	border: 2px solid #C8C8C8;
 }
 
 #main_player .player_header span.active {
-	border-radius: 0.5rem 0.5rem 0 0;
+	border-radius: 0.8rem 0.8rem 0 0;
 	border-left: 2px solid #C8C8C8;
 	border-top: 2px solid #C8C8C8;
 	border-right: 2px solid #C8C8C8;
+	border-bottom: none;
 }
 #main_player {
 	border-radius: 0;
+	border: 2px solid #C8C8C8;
 }
