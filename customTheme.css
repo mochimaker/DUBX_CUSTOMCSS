@@ -7,7 +7,7 @@
 /*動画枠上のボタンの位置*/
 #main_player .player_header {
 	top: -2.8rem;
-	left -0.125rem;
+	left: -0.125rem;
 }
 /*動画枠上のボタン*/
 #main_player .player_header span {
@@ -36,7 +36,6 @@
 	padding-bottom: 1rem;
 	
 	background-color: #000;
-	font-size: 1.2em;
 	color: #FFF;
 	text-shadow:
 	0 0 6px #edf8ff,
