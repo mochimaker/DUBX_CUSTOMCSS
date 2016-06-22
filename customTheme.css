@@ -8,6 +8,15 @@
 	top: -2.2rem;
 }
 #main_player .player_header span {
-	margin-right: .5rem;
-	border-radius: 0.3rem 0.3rem 0 0;
+	margin-right: 0rem;
+	border-radius: 0.5rem;
+	box-shadow: inset 1px #C4C4C4;
+}
+
+#main_player .player_header span.active {
+	border-radius: 0.5rem 0.5rem 0 0;
+	box-shadow: inset 1px 1px 1px 0px #C4C4C4;
+}
+#main_player {
+	border-radius: 0;
 }
