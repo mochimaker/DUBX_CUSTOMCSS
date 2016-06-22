@@ -31,6 +31,7 @@
 .icon-skip:before {
 	content: "\f805"; 
 	font-family: fontello;
+	font-size: 90%;
 }
 /*左上のLobbyとルーム名の間のアイコン*/
 .icon-chevron:before {
@@ -41,6 +42,7 @@
 .icon-chatsettings:before {
 	content: "\f807"; 
 	font-family: fontello;
+	font-size: 60%;
 }
 /*設定のサウンドのアイコン*/
 .icon-volume-high:before {
@@ -56,6 +58,7 @@
 .icon-play:before {
 	content: "\f80a"; 
 	font-family: fontello;
+	font-size: 120%;
 }
 /*停止のアイコン*/
 .icon-pause:before {
@@ -146,7 +149,9 @@ content: "\f80d";
 	font-family: fontello;
 }
 /*リスト作成のアイコン*/
-.icon-createplaylist:before {
+.icon-createplaylist:before,
+.icon-add:before/*マイリス画面のリスト作成アイコン*/
+{
 	content: "\f81c"; 
 	font-family: fontello;
 }
@@ -190,8 +195,21 @@ content: "\f80d";
 	content: "\f824"; 
 	font-family: fontello;
 }
+/*検索の虫眼鏡アイコン*/
+.icon-search:before {
+	content: "\f825";
+	font-family: fontello;
+}
 /*********************************************/
+#main_player .player_sharing span.icon-history:before {
+	content: "\f12b";
+	font-family: foundation-icons;
+}
 #chat .chat_tools span.icon-chatsettings {
+	line-height: 0.5rem;
 }
 #main_player .player_header span.edit-room i {
+	line-height: 0;
+	padding-top: 8px;
+	padding-left: 3.2px;
 }
