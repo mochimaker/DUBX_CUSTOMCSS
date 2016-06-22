@@ -4,22 +4,34 @@
 #main_player .player_header span.display-queue {
 	display: none;
 }
+/*動画枠上のボタンの位置*/
 #main_player .player_header {
-	top: -2.2rem;
+	top: -2.8rem;
 }
+/*動画枠上のボタン*/
 #main_player .player_header span {
 	margin-right: 0rem;
 	border-radius: 0.8rem;
 	border: 2px solid #C8C8C8;
-}
 
+}
+/*VideoとInfoとModのボタン*/
+#main_player .player_header span .displayVideo-el,
+#main_player .player_header span .room-info-display,
+#main_player .player_header span .display-mods-controls
+{
+	padding: .5rem 2rem;
+}
+/*動画枠上のアクティブなボタン*/
 #main_player .player_header span.active {
 	border-radius: 0.8rem 0.8rem 0 0;
 	border-left: 2px solid #C8C8C8;
 	border-top: 2px solid #C8C8C8;
 	border-right: 2px solid #C8C8C8;
 	border-bottom: none;
+	padding-bottom: 1rem;
 }
+/*動画の枠*/
 #main_player {
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
