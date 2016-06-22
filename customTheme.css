@@ -33,6 +33,14 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: 1rem;
+	
+	background-color: #000;
+	color: #FFF;
+	text-shadow:
+	0 0 6px #edf8ff,
+	0 0 5px #edf8ff,
+	0 0 0.40px #edf8ff;
+
 }
 /*動画の枠*/
 #main_player {
