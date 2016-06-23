@@ -49,7 +49,7 @@
 	border: 2px solid #C8C8C8;
 }
 #main_player .play-song-link-container .play-song-link .active-queue-display:before {
-	content: "\f209" !important;/*リンクが切れているアイコン*/
+	content: "\f209";/*リンクが切れているアイコン*/
 	font-family: foundation-icons;
 }
 #main_player .play-song-link-container .play-song-link .active-queue-display .leave-button:before {
