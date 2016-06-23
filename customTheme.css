@@ -53,7 +53,7 @@
 	/*content: "\f209";
 	font-family: foundation-icons;
 	margin-right: 0.5rem;*/
-	content url("img/unlink-icon.png");
+	content: url("img/unlink-icon.png");
 }
 /*リンクしているアイコン*/
 #main_player .play-song-link-container .play-song-link.active-queue-display.leave-button:before {
@@ -62,5 +62,5 @@
 	font-size: 1.2em;
 	color: #00FF00;
 	margin-right: 0.5rem;*/
-	content url("img/link-icon.png");
+	content: url("img/link-icon.png");
 }
