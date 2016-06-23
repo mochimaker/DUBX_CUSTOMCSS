@@ -66,3 +66,10 @@
 	content: url("img/link-icon.png");
 	margin-right: 0.5rem;
 }
+#main_player .play-song-link-container .play-song-link, 
+#main_player .play-song-link-container .play-song-link-browser,
+#main-room .right_section, #profileMainSection
+{
+	border-radius: 0;
+	border: 2px solid #C8C8C8;
+}
