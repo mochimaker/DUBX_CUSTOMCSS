@@ -54,8 +54,6 @@
 	font-family: foundation-icons;
 	*/
 	content: url("img/unlink-icon.png");
-	position: relative;
-    	top: 8px;
 	margin-right: 0.5rem;
 }
 /*リンクしているアイコン*/
@@ -66,7 +64,5 @@
 	color: #00FF00;
 	*/
 	content: url("img/link-icon.png");
-	position: relative;
-    	top: 8px;
 	margin-right: 0.5rem;
 }
