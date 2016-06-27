@@ -118,10 +118,10 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*マイキューでキューを止めていると出てくる帯*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
 	background:
-	linear-gradient(45deg,  transparent 10px, #0099ff 10px),
-	linear-gradient(135deg, transparent 10px, #0099ff 10px),
-	linear-gradient(225deg, transparent 10px, #0099ff 10px),
-	linear-gradient(315deg, transparent 10px, #0099ff 10px);
+	linear-gradient(bottom left 45deg,  transparent 10px, #0099ff 10px),
+	linear-gradient(bottom right 135deg, transparent 10px, #0099ff 10px),
+	linear-gradient(top right 225deg, transparent 10px, #0099ff 10px),
+	linear-gradient(top left 315deg, transparent 10px, #0099ff 10px);
 	background-position: bottom left, bottom right, top right, top left;
 	background-size: 50% 50%;
 	background-repeat: no-repeat
