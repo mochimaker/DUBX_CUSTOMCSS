@@ -67,15 +67,18 @@
 	border: 2px solid #C8C8C8;
 }
 #chat .chat_tools {
-	background-color: rgba(0, 0, 0, 0.5);
+	background: rgba(0,0,0,.5);
 	border-bottom: 1px dashed #878c8e;
 }
 
-#chat .chat_tools span.display-chat.icon-chat.active,
+#main-room.display-chat #chat .display-chat,
 #main-room.display-users-rooms #chat .display-room-users,
 #main-room.display-chat-settings #chat .display-chat-settings
 {
-	background-color: rgba(0, 0, 0, 0.7);
+	background: rgba(0,0,0,.7);
+}
+#chat .chat_tools span:after {
+    border: 2px solid #fff;
 }
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
