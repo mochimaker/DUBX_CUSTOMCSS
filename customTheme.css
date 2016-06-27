@@ -48,28 +48,34 @@
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
 }
-/*リンクが切れているアイコン*/
+/*リンクが切れているアイコンを表示*/
 #main_player .play-song-link-container .play-song-link.active-queue-display:before {
-	/*content: "\f209";
-	font-family: foundation-icons;
-	*/
 	content: url("img/unlink-icon.png");
 	margin-right: 0.5rem;
 }
-/*リンクしているアイコン*/
+/*リンクしているアイコン表示*/
 #main_player .play-song-link-container .play-song-link.active-queue-display.leave-button:before {
-	/*content: "\f165";
-	font-family: foundation-icons;
-	font-size: 1.2em;
-	color: #00FF00;
-	*/
 	content: url("img/link-icon.png");
 	margin-right: 0.5rem;
 }
+/*動画枠下のボタン*/
 #main_player .play-song-link-container .play-song-link, 
 #main_player .play-song-link-container .play-song-link-browser,
-#main-room .right_section, #profileMainSection
+#main-room .right_section
 {
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
+}
+#chat .chat_tools {
+	background-color: rgba(26,26,26, 0.5);
+	border-bottom: 1px dashed #878c8e;
+}
+#chat .chat_tools span.display-chat,
+#main-room.display-users-rooms #chat .display-room-users,
+#main-room.display-chat-settings #chat .display-chat-settings
+{
+	background-color: rgba(26,26,26, 0.8);
+}
+#chat .pusher-chat-widget-input {
+    border-top: 1px dashed #878c8e;
 }
