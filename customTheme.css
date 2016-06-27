@@ -108,3 +108,6 @@
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
 }
+#browser .browser-content {
+	border-radius: 2rem 2rem 0 0 / 1rem 1rem 0 0;
+}
