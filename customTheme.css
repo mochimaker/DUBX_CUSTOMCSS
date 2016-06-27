@@ -128,3 +128,6 @@
 	background-size: 50% 50%;
 	background-repeat: no-repeat
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue_info {
+		border-bottom: none;
+}
