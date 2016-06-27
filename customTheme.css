@@ -75,7 +75,7 @@
 #main-room.display-users-rooms #chat .display-room-users,
 #main-room.display-chat-settings #chat .display-chat-settings
 {
-	background: rgba(0,0,0,.7);
+	background: rgba(255,255,0,.7);
 }
 #chat .chat_tools span:after {
     border: 2px solid #fff;
