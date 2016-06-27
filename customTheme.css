@@ -67,18 +67,35 @@
 	border: 2px solid #C8C8C8;
 }
 #chat .chat_tools {
-	background: rgba(0,0,0,.5);
-	border-bottom: 1px dashed #878c8e;
+	border-bottom: none;
 }
 
-#main-room.display-chat #chat .display-chat,
-#main-room.display-users-rooms #chat .display-room-users,
-#main-room.display-chat-settings #chat .display-chat-settings
+#chat .chat_tools span.display-room-users,
 {
-	background: rgba(255,255,0,.7);
+	border-bottom: 1px dashed #878c8e;
+	border-left: 1px dashed #878c8e;
+}
+#chat .chat_tools span.display-chat-settings
+{
+	border-bottom: 1px dashed #878c8e;
+}
+#main-room.display-users-rooms #chat .display-room-users {
+	border-left: 1px dashed #878c8e;
+	border-right: 1px dashed #878c8e;
+}
+#main-room.display-users-rooms #chat .display-chat,
+#main-room.display-users-rooms #chat .display-chat-settings {
+	border-bottom: 1px dashed #878c8e;
+}
+#main-room.display-chat-settings #chat .display-chat {
+	border-bottom: 1px dashed #878c8e;
+}
+#main-room.display-chat-settings #chat .display-room-users {
+	border-right: 1px dashed #878c8e;
+	border-bottom: 1px dashed #878c8e;
 }
 #chat .chat_tools span:after {
-    border: 2px solid #fff;
+    display: none;
 }
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
