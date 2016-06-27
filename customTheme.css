@@ -67,14 +67,15 @@
 	border: 2px solid #C8C8C8;
 }
 #chat .chat_tools {
-	background-color: rgba(26,26,26, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	border-bottom: 1px dashed #878c8e;
 }
-#chat .chat_tools span.display-chat,
+
+#chat .chat_tools span.display-chat.icon-chat.active,
 #main-room.display-users-rooms #chat .display-room-users,
 #main-room.display-chat-settings #chat .display-chat-settings
 {
-	background-color: rgba(26,26,26, 0.8);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
