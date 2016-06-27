@@ -67,7 +67,7 @@
 	border: 2px solid #C8C8C8;
 }
 #chat .chat_tools {
-	border-bottom: none;
+	border: none;
 }
 
 #chat .chat_tools span.display-room-users
@@ -95,7 +95,7 @@
 	border-bottom: 1px dashed #878c8e;
 }
 #chat .chat_tools span:after {
-    border-bottom: none;
+    border: none;
 }
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
