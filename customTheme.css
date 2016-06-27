@@ -94,10 +94,14 @@
 	border-bottom: 1px dashed #878c8e;
 }
 #main-room.display-chat-settings #chat .display-room-users {
+	border-left: none;
 	border-right: 1px dashed #878c8e;
 	border-bottom: 1px dashed #878c8e;
+}
+#main-room.display-chat-settings #chat .display-chat-settings {
 	border-bottom: none;
 }
+/**/
 #chat .chat_tools span:after {
     border: none;
 }
