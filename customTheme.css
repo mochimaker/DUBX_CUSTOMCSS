@@ -66,6 +66,7 @@
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
 }
+/*チャット上のアイコン枠*/
 #chat .chat_tools {
 	border: none;
 }
@@ -101,16 +102,19 @@
 #main-room.display-chat-settings #chat .display-chat-settings {
 	border-bottom: none;
 }
-/**/
+/*チャットアイコンの下の線*/
 #chat .chat_tools span:after {
     border: none;
 }
+/*チャット入力枠*/
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
 }
+/*キューリストの枠*/
 #browser .browser-content {
 	border-radius: 3rem 3rem 0 0 / 1rem 1rem 0 0;
 }
+/*動画検索枠*/
 #browser .browser-content .browser-content-header .form input
 {
 	border-radius: 2.6875rem 0 0 0 / 0.6875rem 0 0 0;
