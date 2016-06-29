@@ -59,6 +59,9 @@
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
 }
+#main_player .player_container #room-main-player-container {
+	border: 2px solid #C8C8C8;
+}
 /*リンクが切れているアイコンを表示*/
 #main_player .play-song-link-container .play-song-link.active-queue-display:before {
 	content: url("img/unlink-icon.png");
