@@ -119,16 +119,17 @@
 }
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text {
-	border-left 1px dotted #888888;
-	border-top: 1px solid #888888;
-	border-right: 1px dotted #888888;
-	border-bottom: 1px solid #888888;
+	border-top: 1px double #888888;
+	border-bottom: 1px double #888888;
 	padding-left: 0.5em;
 	padding-top: 0.5em;
 	padding-right: 0.5em;
 	padding-bottom: 0.5em;
 }
-
+#chat .chat-container .chat-messages .chat-main li .chatDelete {
+	top: 0.125rem;
+	right: 0.125rem;
+}
 /*チャット文字入力枠*/
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
