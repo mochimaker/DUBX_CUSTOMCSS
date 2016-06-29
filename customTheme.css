@@ -162,13 +162,13 @@
 {
 	border-radius: 4.6875rem 0 0 0 / 0.6875rem 0 0 0;
 }
-/*選択しているプレイリストの装飾*/
+/*選択しているプレイリスト欄の装飾*/
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*左のキューリストを選択したいるとき*/
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background-color: rgb(47, 47, 47);
 	color: #FFF;
 	padding: .25em 0 .5em .75em;
-	border-left: 6px solid rgb(47, 47, 47);
+	border-left: 6px solid rgb(77, 77, 77);
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected::before,
 #import-playlist-container .import-playlist-youtube span::before {
@@ -188,7 +188,7 @@
 	content: '';
 	width: 100%;
 	height: 0;
-	border-bottom: 1px solid rgb(47, 47, 47);
+	border-bottom: 1px solid rgb(77, 77, 77);
 }
 
 /**/
@@ -209,5 +209,18 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
 {
-	border-radius: 100%;
+	border: 1px solid #C8C8C8;
+}
+/**動画のカードのプレビューの色を纏めて変更**/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .description .preview,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .description .preview 
+{
+ 	color: #EF454A;
+}
+
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
+{
+	color: #C8C8C8;
 }
