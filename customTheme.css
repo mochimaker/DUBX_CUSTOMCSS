@@ -181,7 +181,7 @@
 #chat .chat-container .chat-messages .chat-main li.vip .username,*/
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role
+#main_avatar_room #main-user-list-room #avatar-list li .user-role
 {
 	color: #878C8E !important;
 }
