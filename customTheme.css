@@ -181,7 +181,7 @@
 #chat .chat-container .chat-messages .chat-main li.vip .username,*/
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.user-role
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role
 {
 	color: #878C8E !important;
 }
@@ -213,7 +213,7 @@
 
 /*ユーザーリストのユーザー名*/
 #main_avatar_room #main-user-list-room #avatar-list li p.username,
-#main_avatar_room #main-user-list-room #avatar-list li p.user-role
+#main_avatar_room #main-user-list-room #avatar-list li p.username .user-role
 {
 	color: #FFF !important;
 }
