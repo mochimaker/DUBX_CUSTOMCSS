@@ -73,6 +73,10 @@
 	margin-right: 0.5rem;
 }
 /*動画枠下のボタン*/
+#main_player .play-song-link-container {
+	margin-top: 0.5rem;
+}
+
 #main_player .play-song-link-container .play-song-link, 
 #main_player .play-song-link-container .play-song-link-browser,
 #main-room .right_section
@@ -122,12 +126,12 @@
 }
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text {
-	border-top: 4px double #888888;
-	border-bottom: 4px double #888888;
-	padding-left: 0.5em;
-	padding-top: 0.5em;
-	padding-right: 0.5em;
-	padding-bottom: 0.5em;
+	border-top: 2px double #888888;
+	border-bottom: 2px double #888888;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 #chat .chat-container .chat-messages .chat-main li .chatDelete {
 	margin-top: 0.125rem;
@@ -139,16 +143,16 @@
 }
 #main_avatar_room .avatar_tools .filter-toggle {
 	border 1px dotted #878c8e;
-	border-radius: 6.5px;
+	border-radius: 0.40625rem;
 }
 /*キューリストの枠*/
 #browser .browser-content {
-	border-radius: 3rem 3rem 0 0 / 1rem 1rem 0 0;
+	border-radius: 5rem 5rem 0 0 / 1rem 1rem 0 0;
 }
 /*動画検索枠*/
 #browser .browser-content .browser-content-header .form input
 {
-	border-radius: 2.6875rem 0 0 0 / 0.6875rem 0 0 0;
+	border-radius: 4.6875rem 0 0 0 / 0.6875rem 0 0 0;
 }
 /**/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*マイキューでキューを止めていると出てくる帯*/
