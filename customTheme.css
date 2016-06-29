@@ -152,18 +152,40 @@
 #chat .chat_tools span:after {
     border: none;
 }
-/**/
+/*チャットの偶数を装飾*/
 #chat .chat-container .chat-messages .chat-main li:nth-child(2n+1) {
 	background: linear-gradient(to right, rgba(155,157,160,0.10) 0%, rgba(0,0,0,0) 100%);
 	box-shadow: -16px 0px 0px 0px rgba(155,157,160,0.10);
 }
+/*チャットの3の倍数を装飾*/
 #chat .chat-container .chat-messages .chat-main li:nth-child(3n+1) {
 	background: linear-gradient(to right, rgba(55,57,60,0.10) 0%, rgba(0,0,0,0) 100%);
 	box-shadow: -16px 0px 0px 0px rgba(55,57,60,0.10);
 }
+/*
+#chat .chat-container .chat-messages .chat-main li.admin .user-role,
+#chat .chat-container .chat-messages .chat-main li.admin .username,
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#chat .chat-container .chat-messages .chat-main li.co-owner .username,
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#chat .chat-container .chat-messages .chat-main li.creator .username,
+#chat .chat-container .chat-messages .chat-main li.dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.dj .username,
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .username,
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#chat .chat-container .chat-messages .chat-main li.mod .username,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#chat .chat-container .chat-messages .chat-main li.vip .username,*/
 
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.user-role
+{
+	color: #878C8E !important;
+}
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
-	color: #DCDCDC;
 	border-bottom: 1px double #888888;
 	padding-bottom: 0.1rem;
 	margin-bottom: 0.25rem;
@@ -187,6 +209,13 @@
 #main_avatar_room .avatar_tools .filter-toggle {
 	border: 1px dotted #878c8e;
 	border-radius: 0.40625rem;
+}
+
+/*ユーザーリストのユーザー名*/
+#main_avatar_room #main-user-list-room #avatar-list li p.username,
+#main_avatar_room #main-user-list-room #avatar-list li p.user-role
+{
+	color: #FFF !important;
 }
 
 #chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
