@@ -203,7 +203,7 @@
 
 /*ユーザーリストのユーザー名*/
 #main_avatar_room #main-user-list-room #avatar-list li p.username,
-#main_avatar_room #main-user-list-room #avatar-list li p.username .user-role
+#main_avatar_room #main-user-list-room #avatar-list li p .user-role
 {
 	color: #FFF !important;
 }
