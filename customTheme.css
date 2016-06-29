@@ -125,17 +125,19 @@
 #chat .chat_tools span:after {
     border: none;
 }
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
-	border-bottom: 2px double #888888;
-	margin-bottom: 0.5rem;
-}
+
 #chat .chat-container .chat-messages .chat-main li .activity-row .text {
 	/*border-top: 2px double #888888;*/
 	border-bottom: 2px double #888888;
 	padding-left: 0.5rem;
 	/*padding-top: 0.5rem;*/
 	padding-right: 0.5rem;
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.25rem;
+}
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+	border-bottom: 2px double #888888;
+	padding-bottom: 0.1rem;
+	margin-bottom: 0.25rem;
 }
 #chat .chat-container .chat-messages .chat-main li .chatDelete {
 	margin-top: 0.125rem;
