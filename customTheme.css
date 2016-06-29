@@ -10,6 +10,31 @@
 {
 	border-radius: 0;
 }
+/**INFOの中とチャット内とプライベートメッセージのリンクの文字**/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:link,/*INFOの中のリンク*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:link,/*プライベートメッセージ内のリンク*/
+#chat .chat-container .chat-messages a.autolink:link/*チャットの中のリンク*/
+{
+	color: #D5EBE7 !important;
+}
+/*URL文字の色を纏めて指定*/
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:hover,/*INFOの中のリンクにマウスを乗せたとき*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:hover,/*プライベートメッセージ内のリンクにマウスを乗せたとき*/
+#chat .chat-container .chat-messages a.autolink:hover/*チャットの中のリンクにマウスを乗せたとき*/
+{
+	color: #00CCFF !important;
+}
+#room-info-display .room-info-display-wrapper .room-info-display-container .description a.autolink:visited,/*INFOの中の閲覧済みのリンク*/
+#private-messages .message-details ul.message-list li.message-item .message-content p a.autolink:visited,/*プライベートメッセージ内の閲覧済みのリンク*/
+#chat .chat-container .chat-messages a.autolink:visited/*チャットの中の閲覧済みのリンク*/
+{
+	color: #64758B !important;
+}
+/*プライベートメッセージの見えにくい文字を*/
+#private-messages .message-details ul.message-list li.message-item .message-content p,
+#private-messages .main-message-list ul.message-list li.message-item .message-content p{
+	color: #FFF;
+}
 
 /*動画枠上のQueueボタンを非表示*/
 #main_player .player_header span.display-queue {
@@ -80,6 +105,13 @@
 	border-radius: 0;
 	border: 2px solid #C8C8C8;
 }
+#chat .chat_tools span:hover/*チャットの上のアイコンにマウスを乗せた時*/,
+#main-room.display-users-rooms #chat .display-chat:hover, #main-room.display-users-rooms #chat .display-chat-settings:hover,/*ユーザーリストを表示しているときのチャットアイコンと設定アイコン*/
+#main-room.display-chat-settings #chat .display-chat:hover, #main-room.display-chat-settings #chat .display-room-users:hover/*設定を表示しているときのチャットアイコンとユーザーリストアイコン*/
+{
+	color:  #FFF;
+}
+
 /*チャット上のアイコン枠*/
 #chat .chat_tools {
 	border: none;
@@ -120,7 +152,7 @@
 #chat .chat_tools span:after {
     border: none;
 }
-
+/**/
 #chat .chat-container .chat-messages .chat-main li:nth-child(2n+1) {
 	background: linear-gradient(to right, rgba(155,157,160,0.10) 0%, rgba(0,0,0,0) 100%);
 	box-shadow: -16px 0px 0px 0px rgba(155,157,160,0.10);
@@ -131,6 +163,7 @@
 }
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+	color: #DCDCDC;
 	border-bottom: 1px double #888888;
 	padding-bottom: 0.1rem;
 	margin-bottom: 0.25rem;
@@ -141,6 +174,7 @@
 	padding-bottom: 0.25rem;
 }
 */
+/*チャット削除の×印*/
 #chat .chat-container .chat-messages .chat-main li .chatDelete {
 	margin-top: 0.125rem;
 	margin-right: 0.125rem;
@@ -149,10 +183,16 @@
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
 }
+/*ユーザーリストの並び替えのボタン*/
 #main_avatar_room .avatar_tools .filter-toggle {
-	border 1px dotted #878c8e;
+	border: 1px dotted #878c8e;
 	border-radius: 0.40625rem;
 }
+
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
+	color: #0FF;
+}
+
 /*キューリストの枠*/
 #browser .browser-content {
 	border-radius: 5rem 5rem 0 0 / 1rem 1rem 0 0;
@@ -205,6 +245,7 @@
 	background-size: 50% 50%;
 	background-repeat: no-repeat
 }
+/*
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .place,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .place, 
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .place,
@@ -212,7 +253,7 @@
 {
 	margin-left: 0.25em;
 	margin-right: 0.25em;
-}
+}*/
 /*動画のカードのサムネ*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
