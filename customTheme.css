@@ -73,7 +73,8 @@
 	margin-right: 0.5rem;
 }
 /*動画枠下のボタン*/
-#main_player .play-song-link-container {
+#main_player .play-song-link-container .play-song-link, 
+#main_player .play-song-link-container .play-song-link-browser {
 	margin-top: 0.5rem;
 }
 
@@ -124,12 +125,15 @@
 #chat .chat_tools span:after {
     border: none;
 }
-
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+	border-bottom: 2px double #888888;
+	margin-bottom: 0.5rem;
+}
 #chat .chat-container .chat-messages .chat-main li .activity-row .text {
-	border-top: 2px double #888888;
+	/*border-top: 2px double #888888;*/
 	border-bottom: 2px double #888888;
 	padding-left: 0.5rem;
-	padding-top: 0.5rem;
+	/*padding-top: 0.5rem;*/
 	padding-right: 0.5rem;
 	padding-bottom: 0.5rem;
 }
