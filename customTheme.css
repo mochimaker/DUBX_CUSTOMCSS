@@ -117,10 +117,18 @@
 #chat .chat_tools span:after {
     border: none;
 }
+
 #chat .chat-container .chat-messages .chat-main li .activity-row .text {
-	border-top: 1px solid #C8C8C8;
-	border-bottom: 1px solid #C8C8C8;
+	border-left 1px dotted #888888;
+	border-top: 1px solid #888888;
+	border-right: 1px dotted #888888;
+	border-bottom: 1px solid #888888;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
 }
+
 /*チャット文字入力枠*/
 #chat .pusher-chat-widget-input {
     border-top: 1px dashed #878c8e;
