@@ -67,10 +67,10 @@
 {
 	padding: 0.5rem 1.5rem;
 }
-
+/*スキップのボタン*/
 #main_player .player_header span.skip-el {
 	border-radius: 0;
-	border: 2px double #C8C8C8;
+	border: 2px outset #C8C8C8;
 }
 /*動画枠上のアクティブなボタン*/
 #main_player .player_header span.active {
