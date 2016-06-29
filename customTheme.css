@@ -167,8 +167,9 @@
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background-color: rgb(47, 47, 47);
 	color: #FFF;
+	
 	padding: .25em 0 .5em .75em;
-	border-left: 6px solid rgb(77, 77, 77);
+	border-left: 6px solid rgb(107, 107, 107);
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected::before,
 #import-playlist-container .import-playlist-youtube span::before {
@@ -204,6 +205,15 @@
 	background-size: 50% 50%;
 	background-repeat: no-repeat
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .place,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .place, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .place,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .place
+{
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+/*動画のカードのサムネ*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
