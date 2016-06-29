@@ -162,12 +162,13 @@
 {
 	border-radius: 4.6875rem 0 0 0 / 0.6875rem 0 0 0;
 }
+/*選択しているプレイリストの装飾*/
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected,/*左のキューリストを選択したいるとき*/
 #import-playlist-container .import-playlist-youtube span/*左の今選択しているプレイリスト？*/ {
 	background-color: rgb(47, 47, 47);
 	color: #FFF;
 	padding: .25em 0 .5em .75em;
-	border-left: 6px solid #DDD;
+	border-left: 6px solid rgb(47, 47, 47);
 }
 #browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected::before,
 #import-playlist-container .import-playlist-youtube span::before {
@@ -187,8 +188,9 @@
 	content: '';
 	width: 100%;
 	height: 0;
-	border-bottom: 1px solid #DDD;
+	border-bottom: 1px solid rgb(47, 47, 47);
 }
+
 /**/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-join-info, /*マイキューでキューを止めていると出てくる帯*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-locked-info/*マイキューでキューがロックされているときに出てくる帯？*/ {
@@ -201,4 +203,11 @@
 	background-position: bottom left, top left, top right, bottom right;
 	background-size: 50% 50%;
 	background-repeat: no-repeat
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item figure, 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item figure 
+{
+	border-radius: 100%;
 }
