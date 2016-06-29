@@ -169,26 +169,9 @@
 	background: linear-gradient(to right, rgba(55,57,60,0.10) 0%, rgba(0,0,0,0) 100%);
 	box-shadow: -16px 0px 0px 0px rgba(55,57,60,0.10);
 }
-/*
-#chat .chat-container .chat-messages .chat-main li.admin .user-role,
-#chat .chat-container .chat-messages .chat-main li.admin .username,
-#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
-#chat .chat-container .chat-messages .chat-main li.co-owner .username,
-#chat .chat-container .chat-messages .chat-main li.creator .user-role,
-#chat .chat-container .chat-messages .chat-main li.creator .username,
-#chat .chat-container .chat-messages .chat-main li.dj .user-role,
-#chat .chat-container .chat-messages .chat-main li.dj .username,
-#chat .chat-container .chat-messages .chat-main li.manager .user-role,
-#chat .chat-container .chat-messages .chat-main li.manager .username,
-#chat .chat-container .chat-messages .chat-main li.mod .user-role,
-#chat .chat-container .chat-messages .chat-main li.mod .username,
-#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
-#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
-#chat .chat-container .chat-messages .chat-main li.vip .user-role,
-#chat .chat-container .chat-messages .chat-main li.vip .username,*/
 
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
-#main_avatar_room #main-user-list-room #avatar-list li .user-role
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role
 {
 	color: #878C8E !important;
 }
