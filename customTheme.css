@@ -208,11 +208,11 @@
 {
 	color: #FFF !important;
 }
-
-#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
+/*
+#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover {
 	color: #0FF;
 }
-
+*/
 /*キューリストの枠*/
 #browser .browser-content {
 	border-radius: 5rem 5rem 0 0 / 1rem 1rem 0 0;
