@@ -274,6 +274,9 @@
 	margin-left: 0.25em;
 	margin-right: 0.25em;
 }*/
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems li:nth-child(2n+1) {
+	background-color: rgb(58, 58, 58);
+}
 /*動画のカードのサムネ*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item figure,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item figure,
@@ -294,4 +297,14 @@
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
 	color: #C8C8C8;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .set_song_to_top_queue,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .pause_dj_all,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj_all,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions a,
+{
+	border-radius: 1.0rem;
 }
