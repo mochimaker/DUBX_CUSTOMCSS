@@ -230,7 +230,7 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 }
 /*プレイリスト一覧*/
 #addToPlaylistFloatContainer .playlist-list-action li {
-	border-bottom 1px solid #000;
+	border-bottom: 1px solid #FFF;
 }
 
 /* Lobby *ロビーの画面？*/
