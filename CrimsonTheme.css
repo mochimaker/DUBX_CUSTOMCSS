@@ -230,7 +230,7 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 }
 /*プレイリスト一覧*/
 #addToPlaylistFloatContainer .playlist-list-action li {
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #555;
 }
 
 /* Lobby *ロビーの画面？*/
@@ -500,16 +500,10 @@ span.name,
 }
 /*ユーザー名の後の権利名の色*/
 
-#main_avatar_room #main-user-list-room #avatar-list li p.username {
-	color: #FFF !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list li p.username:after {
-	display:none;
-}
 /*管理者の役職名*/
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
 #chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role
+#chat .chat-container .chat-messages .chat-main li .activity-row .username .user-role
 {
 	color: #878C8E !important;
 }
