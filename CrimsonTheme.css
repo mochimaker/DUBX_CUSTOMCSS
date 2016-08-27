@@ -502,7 +502,7 @@ span.name,
 
 /*管理者の役職名*/
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
+#chat .chat-container .chat-messages .chat-main li .activity-row .username,
 #chat .chat-container .chat-messages .chat-main li .activity-row .username .user-role
 {
 	color: #878C8E !important;
@@ -890,10 +890,15 @@ span.usernameContainer, .followers-counter,/*プロフィール画面のフォ�
 	background: #FFF;
 	opacity: .95;
 }
-#user_popover .global-actions a, #user_popover .usercontent header .dubs, #user_popover .usercontent header h3/*小さいプロフィール画面の文字とアイコン*/ {
+
+#user_popover .global-actions a, #user_popover .usercontent header .dubs,
+#user_popover .usercontent header h3/*小さいプロフィール画面の文字とアイコン*/ {
 	color: #393A39;
 }
-#user_popover .global-actions a/*小さいプロフィール画面を区切る線*/ {
+/*小さいプロフィール画面のボタン*/
+#user_popover .global-actions a {
+	border-radius: none;
+	background-color: #FFF;
 	outline: 1px solid #393A39;
 }
 #user_popover .actions a/*わからん*/ {
