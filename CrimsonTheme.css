@@ -217,12 +217,20 @@ a:not(.username):active, a:not(.username):focus, a:not(.username):hover,/*リン
 {
 	color: #FFF;
 }
-
 #addToPlaylistFloatContainer .playlist-list-action li:hover/*マイリス名にマウスを乗せたとき*/ {
 	color: #FF3300;
 }
 #addToPlaylistFloatContainer .create-playlist-input .icon-add/*新しくリストを作るアイコン*/ {
 	background: #CD3740;
+}
+/*プレイリストの名前を入力する欄*/
+#addToPlaylistFloatContainer .create-playlist-input {
+    border-top: 1px solid #F00;
+    border-bottom: 1px solid #F00;
+}
+/*プレイリスト一覧*/
+#addToPlaylistFloatContainer .playlist-list-action li {
+	border-bottom 1px solid #000;
 }
 
 /* Lobby *ロビーの画面？*/
@@ -290,7 +298,16 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 1.0rem;
 }
-
+/*リンクが切れているアイコンを表示*/
+#main_player .play-song-link-container .play-song-link.active-queue-display:before {
+	content: url("img/unlink-icon.png");
+	margin-right: 0.5rem;
+}
+/*リンクしているアイコン表示*/
+#main_player .play-song-link-container .play-song-link.active-queue-display.leave-button:before {
+	content: url("img/link-icon.png");
+	margin-right: 0.5rem;
+}
 #main_player .play-song-link-container .play-song-link-browser i,
 #main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ 
 {
@@ -491,6 +508,17 @@ span.name,
 }
 /*管理者の役職名*/
 /*チャットとユーザーリストの役職名をそれぞれまとめて指定*/
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username,
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username .user-role
+{
+	color: #878C8E !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li p.username,
+#main_avatar_room #main-user-list-room #avatar-list li span.user-role
+{
+	color: #FFF !important;
+}
+/*
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role {
 	color: #fff;
@@ -563,7 +591,7 @@ span.name,
 		0 0 11px #DC143C,
 		0 0 14px #DC143C;
 }
-
+*/
 /* 古くなったのでコメントアウト
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner p.username:after {
 	color: #2595C7;
@@ -657,7 +685,8 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 
 /* Settings */
 
-#chat .chat-options .chat-option-buttons span.active i, #chat .chat-options .chat-option-buttons span:hover/*設定にあるボタンにマウスを乗せた時の*/ {
+#chat .chat-options .chat-option-buttons span.active i,
+#chat .chat-options .chat-option-buttons span.active:hover/*設定にあるボタンにマウスを乗せた時の*/ {
 	color: #FF3300;
 }
 
