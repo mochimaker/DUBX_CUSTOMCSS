@@ -833,6 +833,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
  	color: #EF454A;
 }
 /*動画のカードのボタン*/
+/*
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions,
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions,
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions,
@@ -849,6 +850,7 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 	background: none;
 	margin-right: 0;
 }
+*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
 	color: #C8C8C8;
