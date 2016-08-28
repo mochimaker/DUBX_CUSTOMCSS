@@ -51,7 +51,7 @@
 }
 /*設定のミュートのアイコン*/
 .icon-volume-mute:before {
-	content: "\f211";
+	content: "\f210";
 	font-family: foundation-icons;
 }
 /*再生のアイコン*/
