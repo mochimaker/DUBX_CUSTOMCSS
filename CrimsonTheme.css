@@ -852,10 +852,13 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .buffering,/*プレビューのバッファリング表示*/
 .playerPreview .player-preview-container-wrapper .error,/*プレビューのエラー表示*/
 .playerPreview .player-preview-container-wrapper .loading,/*プレビューのロード表示*/
-.playerPreview .player-preview-container-wrapper .replay/*プレビューのリプレイ表示*/
+/*.playerPreview .player-preview-container-wrapper .replayプレビューのリプレイ表示*/
 {
 	background: #C41A41;
 	color: #FFF;
+}
+.playerPreview .player-preview-container-wrapper .replay{
+	background: rgba(196, 26, 65, 0.6);
 }
 /*恐らく古いプレビューの設定なのでコメントアウト
 .playerPreview .controlContainer .progressContainer .loaded, .playerPreview .controlContainer .progressContainer .progress,
