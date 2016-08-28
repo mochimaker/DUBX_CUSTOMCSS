@@ -261,7 +261,6 @@ span.name,
 	background: rgba(100,8,8,0.50);
 	border-radius: 1.0rem;
 }
-
 #main_player #custom_iframe_embed_error, #main_player .playbtn-el/*わからん*/ {
 	background: #AA74FE;
 }
@@ -309,7 +308,8 @@ span.name,
 	margin-right: 0.5rem;
 }
 #main_player .play-song-link-container .play-song-link-browser i,
-#main_player .play-song-link-container .play-song-link i/*Queue a songの左の再生アイコン*/ 
+#main_player .play-song-link-container .play-song-link i,/*Queue a songの左の再生アイコン*/ 
+#main_player .placeholder h5 .icon-play/*動画が再生されていないときの動画枠内の再生アイコン*/
 {
 	color: #F0F0F0;
 }
@@ -691,8 +691,9 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 /*設定にあるボタンにマウスを乗せた時の*/
 #chat .chat-options .chat-option-buttons span.active i,
 #chat .chat-options .chat-option-buttons span:hover,
-#chat .chat-options .chat-option-buttons span.active:hover {
-	color: #FF3300;
+#chat .chat-options .chat-option-buttons span.active:hover
+ {
+	color: #FF3300 !important;
 }
 
 #chat .chat-options .chat-option-header/*設定の文字*/ {
