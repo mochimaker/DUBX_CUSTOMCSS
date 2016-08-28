@@ -838,8 +838,16 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions,
  #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions
  {
-    right: 0;
-    border-radius: 0.8rem;
+	background: rgb(28, 28, 28);
+	border-radius: 0.8rem;
+}
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions a,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions a
+{
+	background: none;
+	margin-right: 0;
 }
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
