@@ -832,7 +832,15 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 {
  	color: #EF454A;
 }
- 
+/*動画のカードのボタン*/
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions,
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions,
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions,
+ #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions
+ {
+    right: 0;
+    border-radius: 0.8rem;
+}
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .description .dubs-display/*履歴のupdusとdowndubとgrabの数*/
 {
 	color: #C8C8C8;
@@ -848,10 +856,10 @@ ul.avatar-list li.currentDJ .user-kris:after, ul.avatar-list li.currentDJ .user-
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,/*プレビューのロードしたバー*/ /*一色で指定すれば自動でロード時間のバーの色を調整してくれる*/
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress,/*プレビューの再生時間のバー*/
 .playerPreview .player-preview-container-wrapper .ui-slider-range,/*プレビューの音量のバー*/
-.playerPreview .player-preview-container-wrapper .ui-slider-handle,/*プレビューの音量をつかむところ*/
+/*.playerPreview .player-preview-container-wrapper .ui-slider-handle,プレビューの音量をつかむところ*/
 .playerPreview .player-preview-container-wrapper .buffering,/*プレビューのバッファリング表示*/
 .playerPreview .player-preview-container-wrapper .error,/*プレビューのエラー表示*/
-.playerPreview .player-preview-container-wrapper .loading,/*プレビューのロード表示*/
+.playerPreview .player-preview-container-wrapper .loading/*プレビューのロード表示*/
 /*.playerPreview .player-preview-container-wrapper .replayプレビューのリプレイ表示*/
 {
 	background: #C41A41;
